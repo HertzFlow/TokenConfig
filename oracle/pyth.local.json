@@ -1,0 +1,44 @@
+{
+    "symbols": [
+        {
+            "symbol": "WETH/USD",
+            "feed_id": "9d4294bbcd1174d6f2003ec365831e64cc31d9f6f15a2b85399db8d5000960f6",
+            "kp": 0
+        },
+        {
+            "symbol": "CRV/USD",
+            "feed_id": "a19d04ac696c7a6616d291c7e5d1377cc8be437c327b75adb5dc1bad745fcae8",
+            "kp": 0
+        },
+        {
+            "symbol": "ETH/USD",
+            "feed_id": "ff61491a931112ddf1bd8147cd1b641375f79f5825126d665480874634fd0ace",
+            "kp": 1
+        },
+        {
+            "symbol": "USDC/USD",
+            "feed_id": "eaa020c61cc479712813461ce153894a96a6c00b21ed0cfc2798d1f9a9e9c94a",
+            "kp": 2
+        },
+        {
+            "symbol": "BNB/USD",
+            "feed_id": "2f95862b045670cd22bee3114c39763a4a08beeb663b145d283c31d7d1101c4f",
+            "kp": 3
+        },
+        {
+            "symbol": "DOGE/USD",
+            "feed_id": "dcef50dd0a4cd2dcc17e45df1676dcb336a11a61c69df7a0299b0150c672d25c",
+            "kp": 4
+        },
+        {
+            "symbol": "BTC/USD",
+            "feed_id": "e62df6c8b4a85fe1a67db44dc12de5db330f7ac66b72dc658afedf0f4a415b43",
+            "kp": 5
+        },
+        {
+            "symbol": "USDT/USD",
+            "feed_id": "2b89b9dc8fdf9f34709a5b106b472f0f39bb6ca9ce04b0fd7f2e971688e2e53b",
+            "kp": 6
+        }
+    ]
+}
