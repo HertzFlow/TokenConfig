@@ -1,16 +1,6 @@
 {
     "symbols": [
         {
-            "symbol": "WETH/USD",
-            "feed_id": "9d4294bbcd1174d6f2003ec365831e64cc31d9f6f15a2b85399db8d5000960f6",
-            "kp": 0
-        },
-        {
-            "symbol": "CRV/USD",
-            "feed_id": "a19d04ac696c7a6616d291c7e5d1377cc8be437c327b75adb5dc1bad745fcae8",
-            "kp": 0
-        },
-        {
             "symbol": "ETH/USD",
             "feed_id": "ff61491a931112ddf1bd8147cd1b641375f79f5825126d665480874634fd0ace",
             "kp": 1
