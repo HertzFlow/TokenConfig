@@ -47,6 +47,14 @@
                 "enabled": true
             },
             "kp": 5
+        },
+        {
+            "symbol": "XRP/USD",
+            "binance": {
+                "symbol": "XRPUSDT",
+                "enabled": true
+            },
+            "kp": 2
         }
     ]
 }

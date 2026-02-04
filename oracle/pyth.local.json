@@ -39,6 +39,136 @@
             "symbol": "USDT/USD",
             "feed_id": "2b89b9dc8fdf9f34709a5b106b472f0f39bb6ca9ce04b0fd7f2e971688e2e53b",
             "kp": 6
+        },
+        {
+            "symbol": "USD/JPY",
+            "feed_id": "ef2c98c804ba503c6a707e38be4dfbb16683775f195b091252bf24693042fd52",
+            "kp": 1
+        },
+        {
+            "symbol": "EUR/USD",
+            "feed_id": "a995d00bb36a63cef7fd2c287dc105fc8f3d93779f062f09551b0af3e81ec30b",
+            "kp": 2
+        },
+        {
+            "symbol": "GBP/USD",
+            "feed_id": "84c2dde9633d93d1bcad84e7dc41c9d56578b7ec52fabedc1f335d673df0a7c1",
+            "kp": 3
+        },
+        {
+            "symbol": "USD/CAD",
+            "feed_id": "3112b03a41c910ed446852aacf67118cb1bec67b2cd0b9a214c58cc0eaa2ecca",
+            "kp": 4
+        },
+        {
+            "symbol": "USD/TRY",
+            "feed_id": "032a2eba1c2635bf973e95fb62b2c0705c1be2603b9572cc8d5edeaf8744e058",
+            "kp": 5
+        },
+        {
+            "symbol": "USD/IDR",
+            "feed_id": "6693afcd49878bbd622e46bd805e7177932cf6ab0b1c91b135d71151b9207433",
+            "kp": 6
+        },
+        {
+            "symbol": "USD/CHF",
+            "feed_id": "0b1e3297e69f162877b577b0d6a47a0d63b2392bc8499e6540da4187a63e28f8",
+            "kp": 1
+        },
+        {
+            "symbol": "AUD/USD",
+            "feed_id": "67a6f93030420c1c9e3fe37c1ab6b77966af82f995944a9fefce357a22854a80",
+            "kp": 2
+        },
+        {
+            "symbol": "USD/BRL",
+            "feed_id": "d2db4dbf1aea74e0f666b0e8f73b9580d407f5e5cf931940b06dc633d7a95906",
+            "kp": 3
+        },
+        {
+            "symbol": "USD/SGD",
+            "feed_id": "396a969a9c1480fa15ed50bc59149e2c0075a72fe8f458ed941ddec48bdb4918",
+            "kp": 4
+        },
+        {
+            "symbol": "TSLA/USD",
+            "feed_id": "16dad506d7db8da01c87581c87ca897a012a153557d4d578c3b9c9e1bc0632f1",
+            "kp": 5
+        },
+        {
+            "symbol": "NVDA/USD",
+            "feed_id": "b1073854ed24cbc755dc527418f52b7d271f6cc967bbf8d8129112b18860a593",
+            "kp": 6
+        },
+        {
+            "symbol": "AAPL/USD",
+            "feed_id": "49f6b65cb1de6b10eaf75e7c03ca029c306d0357e91b5311b175084a5ad55688",
+            "kp": 1
+        },
+        {
+            "symbol": "GOOG/USD",
+            "feed_id": "e65ff435be42630439c96396653a342829e877e2aafaeaf1a10d0ee5fd2cf3f2",
+            "kp": 2
+        },
+        {
+            "symbol": "QQQ/USD",
+            "feed_id": "9695e2b96ea7b3859da9ed25b7a46a920a776e2fdae19a7bcfdf2b219230452d",
+            "kp": 3
+        },
+        {
+            "symbol": "SPY/USD",
+            "feed_id": "19e09bb805456ada3979a7d1cbb4b6d63babc3a0f8e8a9509f68afa5c4c11cd5",
+            "kp": 4
+        },
+        {
+            "symbol": "SOL/USD",
+            "feed_id": "ef0d8b6fda2ceba41da15d4095d1da392a0d2f8ed0c6c7bc0f4cfac8c280b56d",
+            "kp": 5
+        },
+        {
+            "symbol": "XRP/USD",
+            "feed_id": "ec5d399846a9209f3fe5881d70aae9268c94339ff9817e8d18ff19fa05eea1c8",
+            "kp": 6
+        },
+        {
+            "symbol": "HYPE/USD",
+            "feed_id": "4279e31cc369bbcc2faf022b382b080e32a8e689ff20fbc530d2a603eb6cd98b",
+            "kp": 1
+        },
+        {
+            "symbol": "XAU/USD",
+            "feed_id": "765d2ba906dbc32ca17cc11f5310a89e9ee1f6420508c63861f2f8ba4ee34bb2",
+            "kp": 2
+        },
+        {
+            "symbol": "XAG/USD",
+            "feed_id": "f2fb02c32b055c805e7238d628e5e9dadef274376114eb1f012337cabe93871e",
+            "kp": 3
+        },
+        {
+            "symbol": "FARTCOIN/USD",
+            "feed_id": "58cd29ef0e714c5affc44f269b2c1899a52da4169d7acc147b9da692e6953608",
+            "kp": 4
+        },
+        {
+            "symbol": "BONK/USD",
+            "feed_id": "72b021217ca3fe68922a19aaf990109cb9d84e9ad004b4d2025ad6f529314419",
+            "kp": 5
+        },
+        {
+            "symbol": "PEPE/USD",
+            "feed_id": "d69731a2e74ac1ce884fc3890f7ee324b6deb66147055249568869ed700882e4",
+            "kp": 6
+        },
+        {
+            "symbol": "SHIB/USD",
+            "feed_id": "f0d57deca57b3da2fe63a493f4c25925fdfd8edf834b20f93e1f84dbd1504d4a",
+            "kp": 1
+        },
+        {
+            "symbol": "WIF/USD",
+            "feed_id": "4ca4beeca86f0d164160323817a4e42b10010a724c2217c6ee41b54cd4cc61fc",
+            "kp": 2
         }
     ]
 }
