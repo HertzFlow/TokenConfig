@@ -1,5 +1,5 @@
 {
-    "symbols": [
+    "symbol_configs": [
         {
             "symbol": "WETH/USD",
             "kp": 0,
@@ -11,6 +11,20 @@
             "bsc_token_oracle_type": "one-percent-per-minute",
             "pyth_only": true,
             "feed_id": "9d4294bbcd1174d6f2003ec365831e64cc31d9f6f15a2b85399db8d5000960f6",
+            "cex_symbol_map": {},
+            "need_sign": true
+        },
+        {
+            "symbol": "CRV/USD",
+            "kp": 0,
+            "bsc_precision": 18,
+            "bsc_token_addr": "0x548199cAD822fb417136D2538eD1fEccA906b0Fa",
+            "bsc_token_addr_env_map": {
+                "hz_test": "0x548199cAD822fb417136D2538eD1fEccA906b0Fa"
+            },
+            "bsc_token_oracle_type": "one-percent-per-minute",
+            "pyth_only": true,
+            "feed_id": "a19d04ac696c7a6616d291c7e5d1377cc8be437c327b75adb5dc1bad745fcae8",
             "cex_symbol_map": {},
             "need_sign": true
         },
