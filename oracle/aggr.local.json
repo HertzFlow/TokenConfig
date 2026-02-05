@@ -28,7 +28,6 @@
             "cex_symbol_map": {},
             "need_sign": true
         },
-
         {
             "symbol": "ETH/USD",
             "kp": 1,
