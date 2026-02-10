@@ -7,7 +7,7 @@ Use Github API to get latest configurations to avoid CDN caching issues. See the
 For example:
 
 ```
-https://api.github.com/repos/HertzFlow/TokenConfig/contents/oracle/cex.local.json?ref=kayce/test
+https://api.github.com/repos/HertzFlow/TokenConfig/contents/oracle/aggr.local.json?ref=main
 ```
 
 Note that the public api has a strict rate limit (60 times per hour), you need to configure your own `GithubAccessToken` to increase the limit to 5000 times per hour.
@@ -16,7 +16,7 @@ See [here](https://docs.github.com/en/rest/using-the-rest-api/rate-limits-for-th
 ## Go Demo
 
 ```go
-const URL = "https://api.github.com/repos/HertzFlow/TokenConfig/contents/oracle/cex.local.json?ref=kayce/test"
+const URL = "https://api.github.com/repos/HertzFlow/TokenConfig/contents/oracle/aggr.local.json?ref=main"
 const GITHUB_ACCESS_TOKEN = "Your access token"
 
 func fetch() (*model.RemoteTokenConfig, error) {
