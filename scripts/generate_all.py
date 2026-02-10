@@ -1,8 +1,8 @@
 #!/usr/bin/env python3
 """
 Generate all.xxx.json from aggr.xxx.json
-Usage: generate_all.py [--version-major MAJOR] [--version-minor MINOR] [--version-patch PATCH]
-Example: generate_all.py --version-major 1 --version-minor 0 --version-patch 0 --input oracle/aggr.testnet.json --output all.testnet.json
+Usage: generate_all.py [--version-major MAJOR] [--version-minor MINOR] [--version-patch PATCH] [--input INPUT_FILE] [--output OUTPUT_FILE] [--testnet]
+Example: generate_all.py --version-major 1 --version-minor 0 --version-patch 0 --input oracle/aggr.testnet.json --output all.testnet.json --testnet
 """
 
 import json
@@ -31,7 +31,9 @@ def read_version_from_file(file_path):
         return None
 
 
-def convert_aggr_to_all(aggr_data, version_major=1, version_minor=0, version_patch=0):
+def convert_aggr_to_all(
+    aggr_data, chainId=56, version_major=1, version_minor=0, version_patch=0
+):
     """Convert aggr.testnet.json format to all.testnet.json format"""
 
     # Get current timestamp in ISO format
@@ -42,7 +44,7 @@ def convert_aggr_to_all(aggr_data, version_major=1, version_minor=0, version_pat
     for symbol_data in aggr_data.get("symbols", []):
         token = {
             "address": symbol_data["bsc_token_addr"],
-            "chainId": 97,  # BSC Testnet
+            "chainId": chainId,  # BSC Testnet
             "decimals": symbol_data["bsc_precision"],
             "symbol": symbol_data["symbol"],
             "name": generate_token_name(symbol_data["symbol"]),
@@ -88,6 +90,11 @@ def main():
     parser.add_argument(
         "--output", type=str, default="all.testnet.json", help="Output file path"
     )
+    parser.add_argument(
+        "--testnet",
+        action="store_true",
+        help="Flag to indicate testnet (default: mainnet)",
+    )
 
     args = parser.parse_args()
 
@@ -96,6 +103,7 @@ def main():
         version_major = args.version_major
         version_minor = args.version_minor
         version_patch = args.version_patch
+        chainId = 97 if args.testnet else 56
 
         # If any version argument is not provided (using default values), try to read from existing file
         if version_major == 1 and version_minor == 0 and version_patch == 0:
@@ -125,7 +133,7 @@ def main():
 
         # Convert to all.testnet.json format
         output_data = convert_aggr_to_all(
-            aggr_data, version_major, version_minor, version_patch
+            aggr_data, chainId, version_major, version_minor, version_patch
         )
 
         # Write to all.testnet.json
