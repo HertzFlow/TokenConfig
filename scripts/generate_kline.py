@@ -71,7 +71,7 @@ def main():
     args = parser.parse_args()
 
     try:
-        # Read aggr.testnet.json
+        # Read aggr.xxx.json
         aggr_file = Path(args.input)
         if not aggr_file.exists():
             print(f"Error: {aggr_file} not found")
@@ -89,10 +89,10 @@ def main():
             with open(kline_file, "r", encoding="utf-8") as f:
                 kline_data = json.load(f)
 
-        # Convert to all.testnet.json format
+        # Convert to kline.xxx.json format
         output_data = convert_aggr_to_kline(aggr_data, kline_data)
 
-        # Write to all.testnet.json
+        # Write to kline.xxx.json
         output_file = Path(args.output)
         with open(output_file, "w", encoding="utf-8") as f:
             json.dump(output_data, f, indent=4, ensure_ascii=False)
