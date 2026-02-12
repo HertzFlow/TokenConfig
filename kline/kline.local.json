@@ -80,10 +80,7 @@
             "symbol": "SPY/USD",
             "kp": 1
         },
-        {
-            "symbol": "SOL/USD",
-            "kp": 2
-        },
+
         {
             "symbol": "XRP/USD",
             "kp": 0
@@ -122,3 +119,4 @@
         }
     ]
 }
+
