@@ -1,0 +1,124 @@
+{
+    "symbols": [
+        {
+            "symbol": "ETH/USD",
+            "kp": 1
+        },
+        {
+            "symbol": "BNB/USD",
+            "kp": 2
+        },
+        {
+            "symbol": "DOGE/USD",
+            "kp": 1
+        },
+        {
+            "symbol": "BTC/USD",
+            "kp": 1
+        },
+        {
+            "symbol": "USD/JPY",
+            "kp": 0
+        },
+        {
+            "symbol": "EUR/USD",
+            "kp": 1
+        },
+        {
+            "symbol": "GBP/USD",
+            "kp": 2
+        },
+        {
+            "symbol": "USD/CAD",
+            "kp": 0
+        },
+        {
+            "symbol": "USD/TRY",
+            "kp": 1
+        },
+        {
+            "symbol": "USD/IDR",
+            "kp": 2
+        },
+        {
+            "symbol": "USD/CHF",
+            "kp": 0
+        },
+        {
+            "symbol": "AUD/USD",
+            "kp": 1
+        },
+        {
+            "symbol": "USD/BRL",
+            "kp": 0
+        },
+        {
+            "symbol": "USD/SGD",
+            "kp": 1
+        },
+        {
+            "symbol": "TSLA/USD",
+            "kp": 2
+        },
+        {
+            "symbol": "NVDA/USD",
+            "kp": 0
+        },
+        {
+            "symbol": "AAPL/USD",
+            "kp": 1
+        },
+        {
+            "symbol": "GOOG/USD",
+            "kp": 2
+        },
+        {
+            "symbol": "QQQ/USD",
+            "kp": 0
+        },
+        {
+            "symbol": "SPY/USD",
+            "kp": 1
+        },
+        {
+            "symbol": "SOL/USD",
+            "kp": 2
+        },
+        {
+            "symbol": "XRP/USD",
+            "kp": 0
+        },
+        {
+            "symbol": "HYPE/USD",
+            "kp": 1
+        },
+        {
+            "symbol": "XAU/USD",
+            "kp": 2
+        },
+        {
+            "symbol": "XAG/USD",
+            "kp": 0
+        },
+        {
+            "symbol": "FARTCOIN/USD",
+            "kp": 1
+        },
+        {
+            "symbol": "BONK/USD",
+            "kp": 2
+        },
+        {
+            "symbol": "PEPE/USD",
+            "kp": 0
+        },
+        {
+            "symbol": "SHIB/USD",
+            "kp": 1
+        },
+        {
+            "symbol": "WIF/USD",
+            "kp": 2
+        }
+    ]
+}
