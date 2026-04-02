@@ -1,0 +1,8 @@
+*
+!.gitignore
+!kline/
+!oracle/
+!scripts/
+!Makefile
+!README.md
+!all.*.json
