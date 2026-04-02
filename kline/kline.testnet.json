@@ -119,6 +119,15 @@
         {
             "symbol": "WIF/USD",
             "kp": 2
+        },
+        {
+            "symbol": "UKOILSPOT/USD",
+            "kp": 0
+        },
+        {
+            "symbol": "USOILSPOT/USD",
+            "kp": 1
         }
     ]
 }
+

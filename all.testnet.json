@@ -1,12 +1,16 @@
 {
     "name": "HertzFlow",
-    "timestamp": "2026-02-10T09:36:25.617418+00:00",
+    "timestamp": "2026-04-02T16:20:33.590122+00:00",
     "version": {
         "major": 1,
-        "minor": 0,
+        "minor": 1,
         "patch": 0
     },
-    "keywords": ["HertzFlow", "default", "list"],
+    "keywords": [
+        "HertzFlow",
+        "default",
+        "list"
+    ],
     "tokens": [
         {
             "address": "0x748199cAD822fb417136D2538eD1fEccA906b0Fa",
@@ -245,6 +249,20 @@
             "decimals": 18,
             "symbol": "WIF/USD",
             "name": "WIF/USD synthetic market"
+        },
+        {
+            "address": "0x0686877cc60526b8cfe78b6fc1924c5a2f2c8bbc",
+            "chainId": 97,
+            "decimals": 18,
+            "symbol": "UKOILSPOT/USD",
+            "name": "UKOILSPOT/USD synthetic market"
+        },
+        {
+            "address": "0xc96b746f27a8a327af689784fc854c3917c165ae",
+            "chainId": 97,
+            "decimals": 18,
+            "symbol": "USOILSPOT/USD",
+            "name": "USOILSPOT/USD synthetic market"
         }
     ]
 }
