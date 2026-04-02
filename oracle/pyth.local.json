@@ -169,6 +169,16 @@
             "symbol": "WIF/USD",
             "feed_id": "4ca4beeca86f0d164160323817a4e42b10010a724c2217c6ee41b54cd4cc61fc",
             "kp": 2
+        },
+        {
+            "symbol": "UKOILSPOT/USD",
+            "feed_id": "27f0d5e09a830083e5491795cac9ca521399c8f7fd56240d09484b14e614d57a",
+            "kp": 3
+        },
+        {
+            "symbol": "USOILSPOT/USD",
+            "feed_id": "925ca92ff005ae943c158e3563f59698ce7e75c5a8c8dd43303a0a154887b3e6",
+            "kp": 4
         }
     ]
 }

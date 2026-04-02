@@ -441,6 +441,30 @@
             "feed_id": "4ca4beeca86f0d164160323817a4e42b10010a724c2217c6ee41b54cd4cc61fc",
             "cex_symbol_map": {},
             "need_sign": true
+        },
+        {
+            "symbol": "UKOILSPOT/USD",
+            "kp": 3,
+            "bsc_precision": 18,
+            "bsc_token_addr": "0x0686877cc60526b8cfe78b6fc1924c5a2f2c8bbc",
+            "bsc_token_addr_env_map": {},
+            "bsc_token_oracle_type": "one-percent-per-minute",
+            "pyth_only": true,
+            "feed_id": "27f0d5e09a830083e5491795cac9ca521399c8f7fd56240d09484b14e614d57a",
+            "cex_symbol_map": {},
+            "need_sign": true
+        },
+        {
+            "symbol": "USOILSPOT/USD",
+            "kp": 4,
+            "bsc_precision": 18,
+            "bsc_token_addr": "0xc96b746f27a8a327af689784fc854c3917c165ae",
+            "bsc_token_addr_env_map": {},
+            "bsc_token_oracle_type": "one-percent-per-minute",
+            "pyth_only": true,
+            "feed_id": "925ca92ff005ae943c158e3563f59698ce7e75c5a8c8dd43303a0a154887b3e6",
+            "cex_symbol_map": {},
+            "need_sign": true
         }
     ]
 }
