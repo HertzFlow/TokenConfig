@@ -19,6 +19,13 @@ SYMBOL_BLACK_LIST = set(
     ]
 )
 
+KP_RANGE = 3
+
+
+def next_kp(last_kp):
+    """Return the next kp value continuing the 0→1→…→(K-1) cycle."""
+    return (last_kp + 1) % KP_RANGE
+
 
 def convert_aggr_to_kline(
     aggr_data,
@@ -34,16 +41,23 @@ def convert_aggr_to_kline(
 
     # Convert symbols to tokens
     symbol_cfgs = []
+    last_new_kp = KP_RANGE - 1  # so first new symbol gets 0
     for symbol_data in aggr_data.get("symbols", []):
         symbol = symbol_data["symbol"]
 
-        if SYMBOL_BLACK_LIST.__contains__(symbol):
+        if symbol in SYMBOL_BLACK_LIST:
             print(f"Skipping blacklisted symbol: {symbol}")
             continue
 
+        if symbol in kline_kp_map:
+            kp = kline_kp_map[symbol]
+        else:
+            kp = next_kp(last_new_kp)
+            last_new_kp = kp
+
         symbol_cfg = {
             "symbol": symbol,
-            "kp": kline_kp_map.get(symbol, 0),  # Use kp from kline data if available
+            "kp": kp,
         }
 
         symbol_cfgs.append(symbol_cfg)
