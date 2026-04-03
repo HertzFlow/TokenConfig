@@ -954,7 +954,7 @@
             "bsc_token_addr_env_map": {},
             "bsc_token_oracle_type": "one-percent-per-minute",
             "pyth_only": true,
-            "feed_id": "34626d18bc711c55c71e27319f8851f483bc08a7f97be2dee9ea8f7ccd59248",
+            "feed_id": "034626d18bc711c55c71e27319f8851f483bc08a7f97be2dee9ea8f7ccd59248",
             "cex_symbol_map": {},
             "need_sign": true
         },
@@ -996,3 +996,4 @@
         }
     ]
 }
+
