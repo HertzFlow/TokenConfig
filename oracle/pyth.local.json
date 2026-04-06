@@ -179,6 +179,227 @@
             "symbol": "USOILSPOT/USD",
             "feed_id": "925ca92ff005ae943c158e3563f59698ce7e75c5a8c8dd43303a0a154887b3e6",
             "kp": 4
+        },
+        {
+            "symbol": "XPT/USD",
+            "feed_id": "398e4bbc7cbf89d6648c21e08019d878967677753b3096799595c78f805a34e5",
+            "kp": 5
+        },
+        {
+            "symbol": "XPD/USD",
+            "feed_id": "80367e9664197f37d89a07a804dffd2101c479c7c4e8490501bc9d9e1e7f9021",
+            "kp": 6
+        },
+        {
+            "symbol": "NLR/USD",
+            "feed_id": "7c95b744797b88e94ddfc81e1f6833c18c78b9e086285b7bc778b4ef840f372e",
+            "kp": 1
+        },
+        {
+            "symbol": "USD/KRW",
+            "feed_id": "e539120487c29b4defdf9a53d337316ea022a2688978a468f9efd847201be7e3",
+            "kp": 2
+        },
+        {
+            "symbol": "INTC/USD",
+            "feed_id": "c1751e085ee292b8b3b9dd122a135614485a201c35dfc653553f0e28c1baf3ff",
+            "kp": 3
+        },
+        {
+            "symbol": "MU/USD",
+            "feed_id": "152244dc24665ca7dd3f257b8f442dc449b6346f48235b7b229268cb770dda2d",
+            "kp": 4
+        },
+        {
+            "symbol": "AMD/USD",
+            "feed_id": "3622e381dbca2efd1859253763b1adc63f7f9abb8e76da1aa8e638a57ccde93e",
+            "kp": 5
+        },
+        {
+            "symbol": "MSFT/USD",
+            "feed_id": "d0ca23c1cc005e004ccf1db5bf76aeb6a49218f43dac3d4b275e92de12ded4d1",
+            "kp": 6
+        },
+        {
+            "symbol": "ORCL/USD",
+            "feed_id": "e47ff732eaeb6b4163902bdee61572659ddf326511917b1423bae93fcdf3153c",
+            "kp": 1
+        },
+        {
+            "symbol": "META/USD",
+            "feed_id": "78a3e3b8e676a8f73c439f5d749737034b139bbbe899ba5775216fba596607fe",
+            "kp": 2
+        },
+        {
+            "symbol": "AMZN/USD",
+            "feed_id": "b5d0e0fa58a1f8b81498ae670ce93c872d14434b72c364885d4fa1b257cbb07a",
+            "kp": 3
+        },
+        {
+            "symbol": "NFLX/USD",
+            "feed_id": "8376cfd7ca8bcdf372ced05307b24dced1f15b1afafdeff715664598f15a3dd2",
+            "kp": 4
+        },
+        {
+            "symbol": "PLTR/USD",
+            "feed_id": "11a70634863ddffb71f2b11f2cff29f73f3db8f6d0b78c49f2b5f4ad36e885f0",
+            "kp": 5
+        },
+        {
+            "symbol": "COIN/USD",
+            "feed_id": "fee33f2a978bf32dd6b662b65ba8083c6773b494f8401194ec1870c640860245",
+            "kp": 6
+        },
+        {
+            "symbol": "HOOD/USD",
+            "feed_id": "306736a4035846ba15a3496eed57225b64cc19230a50d14f3ed20fd7219b7849",
+            "kp": 1
+        },
+        {
+            "symbol": "CRCL/USD",
+            "feed_id": "92b8527aabe59ea2b12230f7b532769b133ffb118dfbd48ff676f14b273f1365",
+            "kp": 2
+        },
+        {
+            "symbol": "MSTR/USD",
+            "feed_id": "e1e80251e5f5184f2195008382538e847fafc36f751896889dd3d1b1f6111f09",
+            "kp": 3
+        },
+        {
+            "symbol": "SNDK/USD",
+            "feed_id": "c86a1f20cd7d5d07932baea30bcd8e479b775c4f51f82526bf1de6dc79fa3f76",
+            "kp": 4
+        },
+        {
+            "symbol": "RIVN/USD",
+            "feed_id": "1e59e3164331ce560683eae0c69efe9650ff1bc834225772ddb330aa808f72f0",
+            "kp": 5
+        },
+        {
+            "symbol": "TSM/USD",
+            "feed_id": "e722560a66e4ab00522ef20a38fa2ba5d1b41f1c5404723ed895d202a7af7cc4",
+            "kp": 6
+        },
+        {
+            "symbol": "BABA/USD",
+            "feed_id": "72bc23b1d0afb1f8edef20b7fb60982298993161bc0fd749587d6f60cd1ee9a3",
+            "kp": 1
+        },
+        {
+            "symbol": "CRWV/USD",
+            "feed_id": "2a78b78189d6d6eff30a825e4698fd14a0b1ca659bb0079bb7e80521c0e8c75d",
+            "kp": 2
+        },
+        {
+            "symbol": "HIMS/USD",
+            "feed_id": "2132cbc333161e94b91da745ed73b1450410fdc870f2235bf628c28da358b652",
+            "kp": 3
+        },
+        {
+            "symbol": "COST/USD",
+            "feed_id": "163f6a6406d65305e8e27965b9081ac79b0cf9529f0fcdc14fe37e65e3b6b5cb",
+            "kp": 4
+        },
+        {
+            "symbol": "LLY/USD",
+            "feed_id": "70dcf5fd56553d0023693e4b590336a8c9bcfd0d98dd9f093b1f697820d98325",
+            "kp": 5
+        },
+        {
+            "symbol": "LMT/USD",
+            "feed_id": "880d96a272d5ccbb3cd6f6aacb881a996cb4976b3f252b58c595cd2a418b6ea9",
+            "kp": 6
+        },
+        {
+            "symbol": "RTX/USD",
+            "feed_id": "97c483cc4172de7ac1a3cc0814f442e4747e64008723f2705d6e9fdff3ba4d3d",
+            "kp": 1
+        },
+        {
+            "symbol": "NOC/USD",
+            "feed_id": "5f848f61c44e1c9b21ddac0fcac5536344e80ad21df3271c2f069f57229fab81",
+            "kp": 2
+        },
+        {
+            "symbol": "GD/USD",
+            "feed_id": "894e9c429f83fe4f35fda679568348418bafe5a0a68e1cccc8e51a137e879ce9",
+            "kp": 3
+        },
+        {
+            "symbol": "ITA/USD",
+            "feed_id": "79f7f0b79a6b7fdc0d7d9e8b6337fd709b8eea9dc6f57b6174c84816cae88bfd",
+            "kp": 4
+        },
+        {
+            "symbol": "LHX/USD",
+            "feed_id": "87039ec0fdfba15a4cfc68d257f509182baa1281bf9e79cbb6eca09dbe694e7a",
+            "kp": 5
+        },
+        {
+            "symbol": "BA/USD",
+            "feed_id": "8419416ba640c8bbbcf2d464561ed7dd860db1e38e51cec9baf1e34c4be839ae",
+            "kp": 6
+        },
+        {
+            "symbol": "SHLD/USD",
+            "feed_id": "6b971ce35cfc0f144200bf5aa184863af1522312fad078fc6d5b7743501eae51",
+            "kp": 1
+        },
+        {
+            "symbol": "XOM/USD",
+            "feed_id": "4a1a12070192e8db9a89ac235bb032342a390dde39389b4ee1ba8e41e7eae5d8",
+            "kp": 2
+        },
+        {
+            "symbol": "CVX/USD",
+            "feed_id": "f464e36fd4ef2f1c3dc30801a9ab470dcdaaa0af14dd3cf6ae17a7fca9e051c5",
+            "kp": 3
+        },
+        {
+            "symbol": "HAL/USD",
+            "feed_id": "8ecca7012d5cd82620c1222acd6296cb4a34fea7dae4bf93bc51ddc471830a53",
+            "kp": 4
+        },
+        {
+            "symbol": "XLE/USD",
+            "feed_id": "8bf649e08e5a86129c57990556c8eec30e296069b524f4639549282bc5c07bb4",
+            "kp": 5
+        },
+        {
+            "symbol": "USO/USD",
+            "feed_id": "d00bd77d97dc5769de77f96d0e1a79cbf1364e14d0dbf046e221bce2e89710dd",
+            "kp": 6
+        },
+        {
+            "symbol": "TLT/USD",
+            "feed_id": "9f383d612ac09c7e6ffda24deca1502fce72e0ba58ff473fea411d9727401cc1",
+            "kp": 1
+        },
+        {
+            "symbol": "SHY/USD",
+            "feed_id": "a48b0216da455c8f33edc75d5c82290f63180a41646df873b393450bb3218c0c",
+            "kp": 2
+        },
+        {
+            "symbol": "IEF/USD",
+            "feed_id": "034626d18bc711c55c71e27319f8851f483bc08a7f97be2dee9ea8f7ccd59248",
+            "kp": 3
+        },
+        {
+            "symbol": "VXX/USD",
+            "feed_id": "ae2603642690e2eab388e4c91edbf4eb248012b878a177d0b2c9ec8c7d891487",
+            "kp": 4
+        },
+        {
+            "symbol": "USDXY/USD",
+            "feed_id": "710afe0041a07156bfd71971160c78a326bf8121403e0d4e140d06bea0353b7f",
+            "kp": 5
+        },
+        {
+            "symbol": "USD/CNH",
+            "feed_id": "eef52e09c878ad41f6a81803e3640fe04dceea727de894edd4ea117e2e332e66",
+            "kp": 6
         }
     ]
 }
+
