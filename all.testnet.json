@@ -1,9 +1,9 @@
 {
     "name": "HertzFlow",
-    "timestamp": "2026-04-03T07:09:38.442779+00:00",
+    "timestamp": "2026-04-09T10:23:55.223668+00:00",
     "version": {
         "major": 1,
-        "minor": 2,
+        "minor": 3,
         "patch": 0
     },
     "keywords": [
@@ -571,6 +571,132 @@
             "decimals": 18,
             "symbol": "USD/CNH",
             "name": "USD/CNH synthetic market"
+        },
+        {
+            "address": "0x8efb4bfa9a3a760884f56d4ad57bc6ade4d0b33c",
+            "chainId": 97,
+            "decimals": 18,
+            "symbol": "0G/USD",
+            "name": "0G/USD synthetic market"
+        },
+        {
+            "address": "0x16c4a39496953d9aa74d15214eaffa5c7170d98e",
+            "chainId": 97,
+            "decimals": 18,
+            "symbol": "AKT/USD",
+            "name": "AKT/USD synthetic market"
+        },
+        {
+            "address": "0xa3ac35993e1794aecc7fbcd10581da42541c692b",
+            "chainId": 97,
+            "decimals": 18,
+            "symbol": "ARC/USD",
+            "name": "ARC/USD synthetic market"
+        },
+        {
+            "address": "0x19bb29e6a6b04cb0c841f98157dd1bec07ef04f6",
+            "chainId": 97,
+            "decimals": 18,
+            "symbol": "F/USD",
+            "name": "F/USD synthetic market"
+        },
+        {
+            "address": "0x9571d752bd90caf086768f939bfcf52a02213a57",
+            "chainId": 97,
+            "decimals": 18,
+            "symbol": "H/USD",
+            "name": "H/USD synthetic market"
+        },
+        {
+            "address": "0xca5b8bd9300f885cb3f6c019753299974c0d40ff",
+            "chainId": 97,
+            "decimals": 18,
+            "symbol": "HEMI/USD",
+            "name": "HEMI/USD synthetic market"
+        },
+        {
+            "address": "0xf8b73d606cbf280eb4ee2971056c025b4656e25c",
+            "chainId": 97,
+            "decimals": 18,
+            "symbol": "HYPER/USD",
+            "name": "HYPER/USD synthetic market"
+        },
+        {
+            "address": "0xf97a83a0c6888bc7c53ddda5b2765ffb3e97e79c",
+            "chainId": 97,
+            "decimals": 18,
+            "symbol": "MMT/USD",
+            "name": "MMT/USD synthetic market"
+        },
+        {
+            "address": "0xff2ffc2b201ad36046c1c2b7510dddc71058257b",
+            "chainId": 97,
+            "decimals": 18,
+            "symbol": "MOODENG/USD",
+            "name": "MOODENG/USD synthetic market"
+        },
+        {
+            "address": "0xdd008a74564d06b0b89602e6305606a646b38d5a",
+            "chainId": 97,
+            "decimals": 18,
+            "symbol": "PARTI/USD",
+            "name": "PARTI/USD synthetic market"
+        },
+        {
+            "address": "0xf1640754c6680c57fadc3877e593f6ac9e4e550a",
+            "chainId": 97,
+            "decimals": 18,
+            "symbol": "PROMPT/USD",
+            "name": "PROMPT/USD synthetic market"
+        },
+        {
+            "address": "0xfc8e0550f8d692ffc4f66d60b05a1104e39e2353",
+            "chainId": 97,
+            "decimals": 18,
+            "symbol": "SIGN/USD",
+            "name": "SIGN/USD synthetic market"
+        },
+        {
+            "address": "0x2c4c8dc5b0d85c3b5deaaa057d8e35b178d24f62",
+            "chainId": 97,
+            "decimals": 18,
+            "symbol": "SOON/USD",
+            "name": "SOON/USD synthetic market"
+        },
+        {
+            "address": "0x50da94eee4d0f500effe729c4938e97b77ba787a",
+            "chainId": 97,
+            "decimals": 18,
+            "symbol": "STBL/USD",
+            "name": "STBL/USD synthetic market"
+        },
+        {
+            "address": "0xad60a313357d2e861f4490422ce3ab68e49f7350",
+            "chainId": 97,
+            "decimals": 18,
+            "symbol": "SWARMS/USD",
+            "name": "SWARMS/USD synthetic market"
+        },
+        {
+            "address": "0xe83e3476cf737d4b5a34ae017c39406d2ca60971",
+            "chainId": 97,
+            "decimals": 18,
+            "symbol": "TAC/USD",
+            "name": "TAC/USD synthetic market"
+        },
+        {
+            "address": "0x33c0cfff25bef877eb23f72146b0b581b1cf9461",
+            "chainId": 97,
+            "decimals": 18,
+            "symbol": "VINE/USD",
+            "name": "VINE/USD synthetic market"
+        },
+        {
+            "address": "0x118bdf01862fff91ea153ecd98c5c0df940cf5b6",
+            "chainId": 97,
+            "decimals": 18,
+            "symbol": "ZEREBRO/USD",
+            "name": "ZEREBRO/USD synthetic market"
         }
     ]
 }
