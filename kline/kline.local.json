@@ -303,6 +303,78 @@
         {
             "symbol": "USD/CNH",
             "kp": 1
+        },
+        {
+            "symbol": "0G/USD",
+            "kp": 0
+        },
+        {
+            "symbol": "AKT/USD",
+            "kp": 1
+        },
+        {
+            "symbol": "ARC/USD",
+            "kp": 2
+        },
+        {
+            "symbol": "F/USD",
+            "kp": 0
+        },
+        {
+            "symbol": "H/USD",
+            "kp": 1
+        },
+        {
+            "symbol": "HEMI/USD",
+            "kp": 2
+        },
+        {
+            "symbol": "HYPER/USD",
+            "kp": 0
+        },
+        {
+            "symbol": "MMT/USD",
+            "kp": 1
+        },
+        {
+            "symbol": "MOODENG/USD",
+            "kp": 2
+        },
+        {
+            "symbol": "PARTI/USD",
+            "kp": 0
+        },
+        {
+            "symbol": "PROMPT/USD",
+            "kp": 1
+        },
+        {
+            "symbol": "SIGN/USD",
+            "kp": 2
+        },
+        {
+            "symbol": "SOON/USD",
+            "kp": 0
+        },
+        {
+            "symbol": "STBL/USD",
+            "kp": 1
+        },
+        {
+            "symbol": "SWARMS/USD",
+            "kp": 2
+        },
+        {
+            "symbol": "TAC/USD",
+            "kp": 0
+        },
+        {
+            "symbol": "VINE/USD",
+            "kp": 1
+        },
+        {
+            "symbol": "ZEREBRO/USD",
+            "kp": 2
         }
     ]
 }

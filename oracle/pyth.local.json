@@ -399,7 +399,96 @@
             "symbol": "USD/CNH",
             "feed_id": "eef52e09c878ad41f6a81803e3640fe04dceea727de894edd4ea117e2e332e66",
             "kp": 6
+        },
+        {
+            "symbol": "0G/USD",
+            "feed_id": "fa9e8d4591613476ad0961732475dc08969d248faca270cc6c47efe009ea3070",
+            "kp": 1
+        },
+        {
+            "symbol": "AKT/USD",
+            "feed_id": "4ea5bb4d2f5900cc2e97ba534240950740b4d3b89fe712a94a7304fd2fd92702",
+            "kp": 2
+        },
+        {
+            "symbol": "ARC/USD",
+            "feed_id": "ac3d02825eef9c311197bcdd3ef789b2c7db97739af8f6aeca8374c55b022572",
+            "kp": 3
+        },
+        {
+            "symbol": "F/USD",
+            "feed_id": "e5b8a1be5220a1e044b987a0adbbd68ed8f5347af0c2c8295bebc3e0ce9b71cc",
+            "kp": 4
+        },
+        {
+            "symbol": "H/USD",
+            "feed_id": "807df1ed343907c4d97790334338c5df6e360036b3c95f880450d078569b5481",
+            "kp": 5
+        },
+        {
+            "symbol": "HEMI/USD",
+            "feed_id": "25a9be2a62a2269ce401b0ec5d5ae4a7e567a536cefb3153faae949316cbb7e6",
+            "kp": 6
+        },
+        {
+            "symbol": "HYPER/USD",
+            "feed_id": "752f22bbcdd24a1c5e0b0149e0196c076b8e1f088cdb60b6d7d7cd41787e7631",
+            "kp": 1
+        },
+        {
+            "symbol": "MMT/USD",
+            "feed_id": "1fc9127232d059b415f7b11989d06aa11a3563619e5b7a8e44ae440f0b95e4e1",
+            "kp": 2
+        },
+        {
+            "symbol": "MOODENG/USD",
+            "feed_id": "ffff73128917a90950cd0473fd2551d7cd274fd5a6cc45641881bbcc6ee73417",
+            "kp": 3
+        },
+        {
+            "symbol": "PARTI/USD",
+            "feed_id": "f0ae06bfdd7cdb39cda6630e74c318bde1f4767506bb525d35b1e071b985a7a7",
+            "kp": 4
+        },
+        {
+            "symbol": "PROMPT/USD",
+            "feed_id": "3512f8f7c90859bde36c063f455a6f62a042019bd94187972c0cccaa0425d25d",
+            "kp": 5
+        },
+        {
+            "symbol": "SIGN/USD",
+            "feed_id": "64762254a3b5c7598b6b721dda6881991ba2cdf6c9a87f8d2ee7a40bb693f2ec",
+            "kp": 6
+        },
+        {
+            "symbol": "SOON/USD",
+            "feed_id": "55da0cd5ed2e1fc64b2a06ff2e67eaae8e98ee0f3ddeaea9d15a1879a2efa5de",
+            "kp": 1
+        },
+        {
+            "symbol": "STBL/USD",
+            "feed_id": "4506392652c427efd9e68f6c6b41fda5ff6d359fc0e32bc41f3a779b163a54ff",
+            "kp": 2
+        },
+        {
+            "symbol": "SWARMS/USD",
+            "feed_id": "26e8215286b4aa8d4aa77dff2d5feb1d83dc874c9aeb5a7d6d5fc4b83a005da4",
+            "kp": 3
+        },
+        {
+            "symbol": "TAC/USD",
+            "feed_id": "f3d1e3fbe7944d9008cbc4e6390677d60ba1ea118f230570369355dc3780c7b4",
+            "kp": 4
+        },
+        {
+            "symbol": "VINE/USD",
+            "feed_id": "22a54087e443d4d1db5bd018923337c72c818a99ca521ead71f72fa058f1ccf1",
+            "kp": 5
+        },
+        {
+            "symbol": "ZEREBRO/USD",
+            "feed_id": "3dd13bf483f196da0429b354db1fa4802ff6a5c19c559a6abdd9a92707f426dc",
+            "kp": 6
         }
     ]
 }
-
