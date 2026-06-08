@@ -2,6 +2,7 @@
 """
 Check an oracle pyth config for problems:
   - symbols missing feed_id or pyth_lazer_id
+  - duplicate symbol across symbols
   - duplicate feed_id across symbols
   - duplicate pyth_lazer_id across symbols
 
@@ -41,6 +42,7 @@ def main():
 
     missing_feed = []
     missing_lazer = []
+    symbol_to_indices = defaultdict(list)
     feed_to_symbols = defaultdict(list)
     lazer_to_symbols = defaultdict(list)
 
@@ -48,6 +50,9 @@ def main():
         label = entry.get("symbol") or f"<index {i}>"
         feed_id = entry.get("feed_id")
         lazer_id = entry.get("pyth_lazer_id")
+
+        if not is_empty(entry.get("symbol")):
+            symbol_to_indices[entry.get("symbol")].append(i)
 
         if is_empty(feed_id):
             missing_feed.append(label)
@@ -59,6 +64,7 @@ def main():
         else:
             lazer_to_symbols[str(lazer_id)].append(label)
 
+    dup_symbol = {k: v for k, v in symbol_to_indices.items() if len(v) > 1}
     dup_feed = {k: v for k, v in feed_to_symbols.items() if len(v) > 1}
     dup_lazer = {k: v for k, v in lazer_to_symbols.items() if len(v) > 1}
 
@@ -81,6 +87,14 @@ def main():
             print(f"  - {label}")
     else:
         print("pyth_lazer_id: all present.")
+
+    if dup_symbol:
+        ok = False
+        print(f"\nDuplicate symbol ({len(dup_symbol)}):")
+        for symbol, indices in dup_symbol.items():
+            print(f"  - {symbol}: indices {', '.join(str(i) for i in indices)}")
+    else:
+        print("\nsymbol: no duplicates.")
 
     if dup_feed:
         ok = False
