@@ -375,6 +375,334 @@
         {
             "symbol": "ZEREBRO/USD",
             "kp": 2
+        },
+        {
+            "symbol": "ARM/USD",
+            "kp": 0
+        },
+        {
+            "symbol": "AVGO/USD",
+            "kp": 1
+        },
+        {
+            "symbol": "CBRS/USD",
+            "kp": 2
+        },
+        {
+            "symbol": "CRDO/USD",
+            "kp": 0
+        },
+        {
+            "symbol": "MPWR/USD",
+            "kp": 1
+        },
+        {
+            "symbol": "MRVL/USD",
+            "kp": 2
+        },
+        {
+            "symbol": "QCOM/USD",
+            "kp": 0
+        },
+        {
+            "symbol": "AMAT/USD",
+            "kp": 1
+        },
+        {
+            "symbol": "ASML/USD",
+            "kp": 2
+        },
+        {
+            "symbol": "KLAC/USD",
+            "kp": 0
+        },
+        {
+            "symbol": "LRCX/USD",
+            "kp": 1
+        },
+        {
+            "symbol": "ALB/USD",
+            "kp": 2
+        },
+        {
+            "symbol": "APD/USD",
+            "kp": 0
+        },
+        {
+            "symbol": "LIN/USD",
+            "kp": 1
+        },
+        {
+            "symbol": "NTAP/USD",
+            "kp": 2
+        },
+        {
+            "symbol": "SOXL/USD",
+            "kp": 0
+        },
+        {
+            "symbol": "STX/USD",
+            "kp": 1
+        },
+        {
+            "symbol": "WDC/USD",
+            "kp": 2
+        },
+        {
+            "symbol": "ANET/USD",
+            "kp": 0
+        },
+        {
+            "symbol": "COHR/USD",
+            "kp": 1
+        },
+        {
+            "symbol": "CSCO/USD",
+            "kp": 2
+        },
+        {
+            "symbol": "IBM/USD",
+            "kp": 0
+        },
+        {
+            "symbol": "ADBE/USD",
+            "kp": 1
+        },
+        {
+            "symbol": "CRM/USD",
+            "kp": 2
+        },
+        {
+            "symbol": "CRWD/USD",
+            "kp": 0
+        },
+        {
+            "symbol": "DDOG/USD",
+            "kp": 1
+        },
+        {
+            "symbol": "MDB/USD",
+            "kp": 2
+        },
+        {
+            "symbol": "NOW/USD",
+            "kp": 0
+        },
+        {
+            "symbol": "PANW/USD",
+            "kp": 1
+        },
+        {
+            "symbol": "SNOW/USD",
+            "kp": 2
+        },
+        {
+            "symbol": "DELL/USD",
+            "kp": 0
+        },
+        {
+            "symbol": "IREN/USD",
+            "kp": 1
+        },
+        {
+            "symbol": "NBIS/USD",
+            "kp": 2
+        },
+        {
+            "symbol": "AEP/USD",
+            "kp": 0
+        },
+        {
+            "symbol": "AMT/USD",
+            "kp": 1
+        },
+        {
+            "symbol": "BE/USD",
+            "kp": 2
+        },
+        {
+            "symbol": "CCI/USD",
+            "kp": 0
+        },
+        {
+            "symbol": "CCJ/USD",
+            "kp": 1
+        },
+        {
+            "symbol": "CEG/USD",
+            "kp": 2
+        },
+        {
+            "symbol": "D/USD",
+            "kp": 0
+        },
+        {
+            "symbol": "DIS/USD",
+            "kp": 1
+        },
+        {
+            "symbol": "DLR/USD",
+            "kp": 2
+        },
+        {
+            "symbol": "DUK/USD",
+            "kp": 0
+        },
+        {
+            "symbol": "EMR/USD",
+            "kp": 1
+        },
+        {
+            "symbol": "ENPH/USD",
+            "kp": 2
+        },
+        {
+            "symbol": "EQIX/USD",
+            "kp": 0
+        },
+        {
+            "symbol": "ETN/USD",
+            "kp": 1
+        },
+        {
+            "symbol": "ETR/USD",
+            "kp": 2
+        },
+        {
+            "symbol": "EWJ/USD",
+            "kp": 0
+        },
+        {
+            "symbol": "EWY/USD",
+            "kp": 1
+        },
+        {
+            "symbol": "EXC/USD",
+            "kp": 2
+        },
+        {
+            "symbol": "FSLR/USD",
+            "kp": 0
+        },
+        {
+            "symbol": "GE/USD",
+            "kp": 1
+        },
+        {
+            "symbol": "GEV/USD",
+            "kp": 2
+        },
+        {
+            "symbol": "HD/USD",
+            "kp": 0
+        },
+        {
+            "symbol": "HUBB/USD",
+            "kp": 1
+        },
+        {
+            "symbol": "IRM/USD",
+            "kp": 2
+        },
+        {
+            "symbol": "JPM/USD",
+            "kp": 0
+        },
+        {
+            "symbol": "NEE/USD",
+            "kp": 1
+        },
+        {
+            "symbol": "NVO/USD",
+            "kp": 2
+        },
+        {
+            "symbol": "OKLO/USD",
+            "kp": 0
+        },
+        {
+            "symbol": "PCG/USD",
+            "kp": 1
+        },
+        {
+            "symbol": "PH/USD",
+            "kp": 2
+        },
+        {
+            "symbol": "PWR/USD",
+            "kp": 0
+        },
+        {
+            "symbol": "RKLB/USD",
+            "kp": 1
+        },
+        {
+            "symbol": "SMR/USD",
+            "kp": 2
+        },
+        {
+            "symbol": "SO/USD",
+            "kp": 0
+        },
+        {
+            "symbol": "UBER/USD",
+            "kp": 1
+        },
+        {
+            "symbol": "V/USD",
+            "kp": 2
+        },
+        {
+            "symbol": "VRT/USD",
+            "kp": 0
+        },
+        {
+            "symbol": "VST/USD",
+            "kp": 1
+        },
+        {
+            "symbol": "WMT/USD",
+            "kp": 2
+        },
+        {
+            "symbol": "DRAM/USD",
+            "kp": 0
+        },
+        {
+            "symbol": "LITE/USD",
+            "kp": 1
+        },
+        {
+            "symbol": "ASTS/USD",
+            "kp": 2
+        },
+        {
+            "symbol": "EWT/USD",
+            "kp": 0
+        },
+        {
+            "symbol": "FLNC/USD",
+            "kp": 1
+        },
+        {
+            "symbol": "NOK/USD",
+            "kp": 2
+        },
+        {
+            "symbol": "ONDS/USD",
+            "kp": 0
+        },
+        {
+            "symbol": "PAYP/USD",
+            "kp": 1
+        },
+        {
+            "symbol": "URA/USD",
+            "kp": 2
+        },
+        {
+            "symbol": "URNM/USD",
+            "kp": 0
         }
     ]
 }

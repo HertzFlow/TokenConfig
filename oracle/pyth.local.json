@@ -3,492 +3,1082 @@
         {
             "symbol": "WETH/USD",
             "feed_id": "9d4294bbcd1174d6f2003ec365831e64cc31d9f6f15a2b85399db8d5000960f6",
-            "kp": 0
+            "kp": 0,
+            "pyth_lazer_id": 631
         },
         {
             "symbol": "CRV/USD",
             "feed_id": "a19d04ac696c7a6616d291c7e5d1377cc8be437c327b75adb5dc1bad745fcae8",
-            "kp": 0
+            "kp": 0,
+            "pyth_lazer_id": 82
         },
         {
             "symbol": "ETH/USD",
             "feed_id": "ff61491a931112ddf1bd8147cd1b641375f79f5825126d665480874634fd0ace",
-            "kp": 1
+            "kp": 1,
+            "pyth_lazer_id": 2
         },
         {
             "symbol": "USDC/USD",
             "feed_id": "eaa020c61cc479712813461ce153894a96a6c00b21ed0cfc2798d1f9a9e9c94a",
-            "kp": 2
+            "kp": 2,
+            "pyth_lazer_id": 7
         },
         {
             "symbol": "BNB/USD",
             "feed_id": "2f95862b045670cd22bee3114c39763a4a08beeb663b145d283c31d7d1101c4f",
-            "kp": 3
+            "kp": 3,
+            "pyth_lazer_id": 15
         },
         {
             "symbol": "DOGE/USD",
             "feed_id": "dcef50dd0a4cd2dcc17e45df1676dcb336a11a61c69df7a0299b0150c672d25c",
-            "kp": 4
+            "kp": 4,
+            "pyth_lazer_id": 13
         },
         {
             "symbol": "BTC/USD",
             "feed_id": "e62df6c8b4a85fe1a67db44dc12de5db330f7ac66b72dc658afedf0f4a415b43",
-            "kp": 5
+            "kp": 5,
+            "pyth_lazer_id": 1
         },
         {
             "symbol": "USDT/USD",
             "feed_id": "2b89b9dc8fdf9f34709a5b106b472f0f39bb6ca9ce04b0fd7f2e971688e2e53b",
-            "kp": 6
+            "kp": 6,
+            "pyth_lazer_id": 8
         },
         {
             "symbol": "USD/JPY",
             "feed_id": "ef2c98c804ba503c6a707e38be4dfbb16683775f195b091252bf24693042fd52",
-            "kp": 1
+            "kp": 1,
+            "pyth_lazer_id": 340
         },
         {
             "symbol": "EUR/USD",
             "feed_id": "a995d00bb36a63cef7fd2c287dc105fc8f3d93779f062f09551b0af3e81ec30b",
-            "kp": 2
+            "kp": 2,
+            "pyth_lazer_id": 327
         },
         {
             "symbol": "GBP/USD",
             "feed_id": "84c2dde9633d93d1bcad84e7dc41c9d56578b7ec52fabedc1f335d673df0a7c1",
-            "kp": 3
+            "kp": 3,
+            "pyth_lazer_id": 333
         },
         {
             "symbol": "USD/CAD",
             "feed_id": "3112b03a41c910ed446852aacf67118cb1bec67b2cd0b9a214c58cc0eaa2ecca",
-            "kp": 4
+            "kp": 4,
+            "pyth_lazer_id": 338
         },
         {
             "symbol": "USD/TRY",
             "feed_id": "032a2eba1c2635bf973e95fb62b2c0705c1be2603b9572cc8d5edeaf8744e058",
-            "kp": 5
+            "kp": 5,
+            "pyth_lazer_id": 1518
         },
         {
             "symbol": "USD/IDR",
             "feed_id": "6693afcd49878bbd622e46bd805e7177932cf6ab0b1c91b135d71151b9207433",
-            "kp": 6
+            "kp": 6,
+            "pyth_lazer_id": 1511
         },
         {
             "symbol": "USD/CHF",
             "feed_id": "0b1e3297e69f162877b577b0d6a47a0d63b2392bc8499e6540da4187a63e28f8",
-            "kp": 1
+            "kp": 1,
+            "pyth_lazer_id": 339
         },
         {
             "symbol": "AUD/USD",
             "feed_id": "67a6f93030420c1c9e3fe37c1ab6b77966af82f995944a9fefce357a22854a80",
-            "kp": 2
+            "kp": 2,
+            "pyth_lazer_id": 315
         },
         {
             "symbol": "USD/BRL",
             "feed_id": "d2db4dbf1aea74e0f666b0e8f73b9580d407f5e5cf931940b06dc633d7a95906",
-            "kp": 3
+            "kp": 3,
+            "pyth_lazer_id": 1506
         },
         {
             "symbol": "USD/SGD",
             "feed_id": "396a969a9c1480fa15ed50bc59149e2c0075a72fe8f458ed941ddec48bdb4918",
-            "kp": 4
+            "kp": 4,
+            "pyth_lazer_id": 342
         },
         {
             "symbol": "TSLA/USD",
             "feed_id": "16dad506d7db8da01c87581c87ca897a012a153557d4d578c3b9c9e1bc0632f1",
-            "kp": 5
+            "kp": 5,
+            "pyth_lazer_id": 1435
         },
         {
             "symbol": "NVDA/USD",
             "feed_id": "b1073854ed24cbc755dc527418f52b7d271f6cc967bbf8d8129112b18860a593",
-            "kp": 6
+            "kp": 6,
+            "pyth_lazer_id": 1314
         },
         {
             "symbol": "AAPL/USD",
             "feed_id": "49f6b65cb1de6b10eaf75e7c03ca029c306d0357e91b5311b175084a5ad55688",
-            "kp": 1
+            "kp": 1,
+            "pyth_lazer_id": 922
         },
         {
             "symbol": "GOOG/USD",
             "feed_id": "e65ff435be42630439c96396653a342829e877e2aafaeaf1a10d0ee5fd2cf3f2",
-            "kp": 2
+            "kp": 2,
+            "pyth_lazer_id": 1162
         },
         {
             "symbol": "QQQ/USD",
             "feed_id": "9695e2b96ea7b3859da9ed25b7a46a920a776e2fdae19a7bcfdf2b219230452d",
-            "kp": 3
+            "kp": 3,
+            "pyth_lazer_id": 1363
         },
         {
             "symbol": "SPY/USD",
             "feed_id": "19e09bb805456ada3979a7d1cbb4b6d63babc3a0f8e8a9509f68afa5c4c11cd5",
-            "kp": 4
+            "kp": 4,
+            "pyth_lazer_id": 1398
         },
         {
             "symbol": "SOL/USD",
             "feed_id": "ef0d8b6fda2ceba41da15d4095d1da392a0d2f8ed0c6c7bc0f4cfac8c280b56d",
-            "kp": 5
+            "kp": 5,
+            "pyth_lazer_id": 6
         },
         {
             "symbol": "XRP/USD",
             "feed_id": "ec5d399846a9209f3fe5881d70aae9268c94339ff9817e8d18ff19fa05eea1c8",
-            "kp": 6
+            "kp": 6,
+            "pyth_lazer_id": 14
         },
         {
             "symbol": "HYPE/USD",
             "feed_id": "4279e31cc369bbcc2faf022b382b080e32a8e689ff20fbc530d2a603eb6cd98b",
-            "kp": 1
+            "kp": 1,
+            "pyth_lazer_id": 110
         },
         {
             "symbol": "XAU/USD",
             "feed_id": "765d2ba906dbc32ca17cc11f5310a89e9ee1f6420508c63861f2f8ba4ee34bb2",
-            "kp": 2
+            "kp": 2,
+            "pyth_lazer_id": 346
         },
         {
             "symbol": "XAG/USD",
             "feed_id": "f2fb02c32b055c805e7238d628e5e9dadef274376114eb1f012337cabe93871e",
-            "kp": 3
+            "kp": 3,
+            "pyth_lazer_id": 345
         },
         {
             "symbol": "FARTCOIN/USD",
             "feed_id": "58cd29ef0e714c5affc44f269b2c1899a52da4169d7acc147b9da692e6953608",
-            "kp": 4
+            "kp": 4,
+            "pyth_lazer_id": 182
         },
         {
             "symbol": "BONK/USD",
             "feed_id": "72b021217ca3fe68922a19aaf990109cb9d84e9ad004b4d2025ad6f529314419",
-            "kp": 5
+            "kp": 5,
+            "pyth_lazer_id": 9
         },
         {
             "symbol": "PEPE/USD",
             "feed_id": "d69731a2e74ac1ce884fc3890f7ee324b6deb66147055249568869ed700882e4",
-            "kp": 6
+            "kp": 6,
+            "pyth_lazer_id": 4
         },
         {
             "symbol": "SHIB/USD",
             "feed_id": "f0d57deca57b3da2fe63a493f4c25925fdfd8edf834b20f93e1f84dbd1504d4a",
-            "kp": 1
+            "kp": 1,
+            "pyth_lazer_id": 20
         },
         {
             "symbol": "WIF/USD",
             "feed_id": "4ca4beeca86f0d164160323817a4e42b10010a724c2217c6ee41b54cd4cc61fc",
-            "kp": 2
+            "kp": 2,
+            "pyth_lazer_id": 10
         },
         {
             "symbol": "UKOILSPOT/USD",
             "feed_id": "27f0d5e09a830083e5491795cac9ca521399c8f7fd56240d09484b14e614d57a",
-            "kp": 3
+            "kp": 3,
+            "pyth_lazer_id": 656
         },
         {
             "symbol": "USOILSPOT/USD",
             "feed_id": "925ca92ff005ae943c158e3563f59698ce7e75c5a8c8dd43303a0a154887b3e6",
-            "kp": 4
+            "kp": 4,
+            "pyth_lazer_id": 657
         },
         {
             "symbol": "XPT/USD",
             "feed_id": "398e4bbc7cbf89d6648c21e08019d878967677753b3096799595c78f805a34e5",
-            "kp": 5
+            "kp": 5,
+            "pyth_lazer_id": 1781
         },
         {
             "symbol": "XPD/USD",
             "feed_id": "80367e9664197f37d89a07a804dffd2101c479c7c4e8490501bc9d9e1e7f9021",
-            "kp": 6
+            "kp": 6,
+            "pyth_lazer_id": 1780
         },
         {
             "symbol": "NLR/USD",
             "feed_id": "7c95b744797b88e94ddfc81e1f6833c18c78b9e086285b7bc778b4ef840f372e",
-            "kp": 1
+            "kp": 1,
+            "pyth_lazer_id": 2928
         },
         {
             "symbol": "USD/KRW",
             "feed_id": "e539120487c29b4defdf9a53d337316ea022a2688978a468f9efd847201be7e3",
-            "kp": 2
+            "kp": 2,
+            "pyth_lazer_id": 1513
         },
         {
             "symbol": "INTC/USD",
             "feed_id": "c1751e085ee292b8b3b9dd122a135614485a201c35dfc653553f0e28c1baf3ff",
-            "kp": 3
+            "kp": 3,
+            "pyth_lazer_id": 1201
         },
         {
             "symbol": "MU/USD",
             "feed_id": "152244dc24665ca7dd3f257b8f442dc449b6346f48235b7b229268cb770dda2d",
-            "kp": 4
+            "kp": 4,
+            "pyth_lazer_id": 1298
         },
         {
             "symbol": "AMD/USD",
             "feed_id": "3622e381dbca2efd1859253763b1adc63f7f9abb8e76da1aa8e638a57ccde93e",
-            "kp": 5
+            "kp": 5,
+            "pyth_lazer_id": 949
         },
         {
             "symbol": "MSFT/USD",
             "feed_id": "d0ca23c1cc005e004ccf1db5bf76aeb6a49218f43dac3d4b275e92de12ded4d1",
-            "kp": 6
+            "kp": 6,
+            "pyth_lazer_id": 1292
         },
         {
             "symbol": "ORCL/USD",
             "feed_id": "e47ff732eaeb6b4163902bdee61572659ddf326511917b1423bae93fcdf3153c",
-            "kp": 1
+            "kp": 1,
+            "pyth_lazer_id": 1324
         },
         {
             "symbol": "META/USD",
             "feed_id": "78a3e3b8e676a8f73c439f5d749737034b139bbbe899ba5775216fba596607fe",
-            "kp": 2
+            "kp": 2,
+            "pyth_lazer_id": 2395
         },
         {
             "symbol": "AMZN/USD",
             "feed_id": "b5d0e0fa58a1f8b81498ae670ce93c872d14434b72c364885d4fa1b257cbb07a",
-            "kp": 3
+            "kp": 3,
+            "pyth_lazer_id": 954
         },
         {
             "symbol": "NFLX/USD",
             "feed_id": "8376cfd7ca8bcdf372ced05307b24dced1f15b1afafdeff715664598f15a3dd2",
-            "kp": 4
+            "kp": 4,
+            "pyth_lazer_id": 1304
         },
         {
             "symbol": "PLTR/USD",
             "feed_id": "11a70634863ddffb71f2b11f2cff29f73f3db8f6d0b78c49f2b5f4ad36e885f0",
-            "kp": 5
+            "kp": 5,
+            "pyth_lazer_id": 1346
         },
         {
             "symbol": "COIN/USD",
             "feed_id": "fee33f2a978bf32dd6b662b65ba8083c6773b494f8401194ec1870c640860245",
-            "kp": 6
+            "kp": 6,
+            "pyth_lazer_id": 1042
         },
         {
             "symbol": "HOOD/USD",
             "feed_id": "306736a4035846ba15a3496eed57225b64cc19230a50d14f3ed20fd7219b7849",
-            "kp": 1
+            "kp": 1,
+            "pyth_lazer_id": 1182
         },
         {
             "symbol": "CRCL/USD",
             "feed_id": "92b8527aabe59ea2b12230f7b532769b133ffb118dfbd48ff676f14b273f1365",
-            "kp": 2
+            "kp": 2,
+            "pyth_lazer_id": 1683
         },
         {
             "symbol": "MSTR/USD",
             "feed_id": "e1e80251e5f5184f2195008382538e847fafc36f751896889dd3d1b1f6111f09",
-            "kp": 3
+            "kp": 3,
+            "pyth_lazer_id": 1294
         },
         {
             "symbol": "SNDK/USD",
             "feed_id": "c86a1f20cd7d5d07932baea30bcd8e479b775c4f51f82526bf1de6dc79fa3f76",
-            "kp": 4
+            "kp": 4,
+            "pyth_lazer_id": 2858
         },
         {
             "symbol": "RIVN/USD",
             "feed_id": "1e59e3164331ce560683eae0c69efe9650ff1bc834225772ddb330aa808f72f0",
-            "kp": 5
+            "kp": 5,
+            "pyth_lazer_id": 2371
         },
         {
             "symbol": "TSM/USD",
             "feed_id": "e722560a66e4ab00522ef20a38fa2ba5d1b41f1c5404723ed895d202a7af7cc4",
-            "kp": 6
+            "kp": 6,
+            "pyth_lazer_id": 1436
         },
         {
             "symbol": "BABA/USD",
             "feed_id": "72bc23b1d0afb1f8edef20b7fb60982298993161bc0fd749587d6f60cd1ee9a3",
-            "kp": 1
+            "kp": 1,
+            "pyth_lazer_id": 2271
         },
         {
             "symbol": "CRWV/USD",
             "feed_id": "2a78b78189d6d6eff30a825e4698fd14a0b1ca659bb0079bb7e80521c0e8c75d",
-            "kp": 2
+            "kp": 2,
+            "pyth_lazer_id": 2737
         },
         {
             "symbol": "HIMS/USD",
             "feed_id": "2132cbc333161e94b91da745ed73b1450410fdc870f2235bf628c28da358b652",
-            "kp": 3
+            "kp": 3,
+            "pyth_lazer_id": 2289
         },
         {
             "symbol": "COST/USD",
             "feed_id": "163f6a6406d65305e8e27965b9081ac79b0cf9529f0fcdc14fe37e65e3b6b5cb",
-            "kp": 4
+            "kp": 4,
+            "pyth_lazer_id": 1046
         },
         {
             "symbol": "LLY/USD",
             "feed_id": "70dcf5fd56553d0023693e4b590336a8c9bcfd0d98dd9f093b1f697820d98325",
-            "kp": 5
+            "kp": 5,
+            "pyth_lazer_id": 1246
         },
         {
             "symbol": "LMT/USD",
             "feed_id": "880d96a272d5ccbb3cd6f6aacb881a996cb4976b3f252b58c595cd2a418b6ea9",
-            "kp": 6
+            "kp": 6,
+            "pyth_lazer_id": 1247
         },
         {
             "symbol": "RTX/USD",
             "feed_id": "97c483cc4172de7ac1a3cc0814f442e4747e64008723f2705d6e9fdff3ba4d3d",
-            "kp": 1
+            "kp": 1,
+            "pyth_lazer_id": 1381
         },
         {
             "symbol": "NOC/USD",
             "feed_id": "5f848f61c44e1c9b21ddac0fcac5536344e80ad21df3271c2f069f57229fab81",
-            "kp": 2
+            "kp": 2,
+            "pyth_lazer_id": 1307
         },
         {
             "symbol": "GD/USD",
             "feed_id": "894e9c429f83fe4f35fda679568348418bafe5a0a68e1cccc8e51a137e879ce9",
-            "kp": 3
+            "kp": 3,
+            "pyth_lazer_id": 1147
         },
         {
             "symbol": "ITA/USD",
             "feed_id": "79f7f0b79a6b7fdc0d7d9e8b6337fd709b8eea9dc6f57b6174c84816cae88bfd",
-            "kp": 4
+            "kp": 4,
+            "pyth_lazer_id": 1211
         },
         {
             "symbol": "LHX/USD",
             "feed_id": "87039ec0fdfba15a4cfc68d257f509182baa1281bf9e79cbb6eca09dbe694e7a",
-            "kp": 5
+            "kp": 5,
+            "pyth_lazer_id": 1242
         },
         {
             "symbol": "BA/USD",
             "feed_id": "8419416ba640c8bbbcf2d464561ed7dd860db1e38e51cec9baf1e34c4be839ae",
-            "kp": 6
+            "kp": 6,
+            "pyth_lazer_id": 979
         },
         {
             "symbol": "SHLD/USD",
             "feed_id": "6b971ce35cfc0f144200bf5aa184863af1522312fad078fc6d5b7743501eae51",
-            "kp": 1
+            "kp": 1,
+            "pyth_lazer_id": 2930
         },
         {
             "symbol": "XOM/USD",
             "feed_id": "4a1a12070192e8db9a89ac235bb032342a390dde39389b4ee1ba8e41e7eae5d8",
-            "kp": 2
+            "kp": 2,
+            "pyth_lazer_id": 1499
         },
         {
             "symbol": "CVX/USD",
             "feed_id": "f464e36fd4ef2f1c3dc30801a9ab470dcdaaa0af14dd3cf6ae17a7fca9e051c5",
-            "kp": 3
+            "kp": 3,
+            "pyth_lazer_id": 1063
         },
         {
             "symbol": "HAL/USD",
             "feed_id": "8ecca7012d5cd82620c1222acd6296cb4a34fea7dae4bf93bc51ddc471830a53",
-            "kp": 4
+            "kp": 4,
+            "pyth_lazer_id": 1170
         },
         {
             "symbol": "XLE/USD",
             "feed_id": "8bf649e08e5a86129c57990556c8eec30e296069b524f4639549282bc5c07bb4",
-            "kp": 5
+            "kp": 5,
+            "pyth_lazer_id": 1498
         },
         {
             "symbol": "USO/USD",
             "feed_id": "d00bd77d97dc5769de77f96d0e1a79cbf1364e14d0dbf046e221bce2e89710dd",
-            "kp": 6
+            "kp": 6,
+            "pyth_lazer_id": 1466
         },
         {
             "symbol": "TLT/USD",
             "feed_id": "9f383d612ac09c7e6ffda24deca1502fce72e0ba58ff473fea411d9727401cc1",
-            "kp": 1
+            "kp": 1,
+            "pyth_lazer_id": 1425
         },
         {
             "symbol": "SHY/USD",
             "feed_id": "a48b0216da455c8f33edc75d5c82290f63180a41646df873b393450bb3218c0c",
-            "kp": 2
+            "kp": 2,
+            "pyth_lazer_id": 1736
         },
         {
             "symbol": "IEF/USD",
             "feed_id": "034626d18bc711c55c71e27319f8851f483bc08a7f97be2dee9ea8f7ccd59248",
-            "kp": 3
+            "kp": 3,
+            "pyth_lazer_id": 1692
         },
         {
             "symbol": "VXX/USD",
             "feed_id": "ae2603642690e2eab388e4c91edbf4eb248012b878a177d0b2c9ec8c7d891487",
-            "kp": 4
+            "kp": 4,
+            "pyth_lazer_id": 1772
         },
         {
             "symbol": "USDXY/USD",
             "feed_id": "710afe0041a07156bfd71971160c78a326bf8121403e0d4e140d06bea0353b7f",
-            "kp": 5
+            "kp": 5,
+            "pyth_lazer_id": 2307
         },
         {
             "symbol": "USD/CNH",
             "feed_id": "eef52e09c878ad41f6a81803e3640fe04dceea727de894edd4ea117e2e332e66",
-            "kp": 6
+            "kp": 6,
+            "pyth_lazer_id": 1508
         },
         {
             "symbol": "0G/USD",
             "feed_id": "fa9e8d4591613476ad0961732475dc08969d248faca270cc6c47efe009ea3070",
-            "kp": 1
+            "kp": 1,
+            "pyth_lazer_id": 2311
         },
         {
             "symbol": "AKT/USD",
             "feed_id": "4ea5bb4d2f5900cc2e97ba534240950740b4d3b89fe712a94a7304fd2fd92702",
-            "kp": 2
+            "kp": 2,
+            "pyth_lazer_id": 166
         },
         {
             "symbol": "ARC/USD",
             "feed_id": "ac3d02825eef9c311197bcdd3ef789b2c7db97739af8f6aeca8374c55b022572",
-            "kp": 3
+            "kp": 3,
+            "pyth_lazer_id": 215
         },
         {
             "symbol": "F/USD",
             "feed_id": "e5b8a1be5220a1e044b987a0adbbd68ed8f5347af0c2c8295bebc3e0ce9b71cc",
-            "kp": 4
+            "kp": 4,
+            "pyth_lazer_id": 424
         },
         {
             "symbol": "H/USD",
             "feed_id": "807df1ed343907c4d97790334338c5df6e360036b3c95f880450d078569b5481",
-            "kp": 5
+            "kp": 5,
+            "pyth_lazer_id": 1811
         },
         {
             "symbol": "HEMI/USD",
             "feed_id": "25a9be2a62a2269ce401b0ec5d5ae4a7e567a536cefb3153faae949316cbb7e6",
-            "kp": 6
+            "kp": 6,
+            "pyth_lazer_id": 2332
         },
         {
             "symbol": "HYPER/USD",
             "feed_id": "752f22bbcdd24a1c5e0b0149e0196c076b8e1f088cdb60b6d7d7cd41787e7631",
-            "kp": 1
+            "kp": 1,
+            "pyth_lazer_id": 450
         },
         {
             "symbol": "MMT/USD",
             "feed_id": "1fc9127232d059b415f7b11989d06aa11a3563619e5b7a8e44ae440f0b95e4e1",
-            "kp": 2
+            "kp": 2,
+            "pyth_lazer_id": 2700
         },
         {
             "symbol": "MOODENG/USD",
             "feed_id": "ffff73128917a90950cd0473fd2551d7cd274fd5a6cc45641881bbcc6ee73417",
-            "kp": 3
+            "kp": 3,
+            "pyth_lazer_id": 500
         },
         {
             "symbol": "PARTI/USD",
             "feed_id": "f0ae06bfdd7cdb39cda6630e74c318bde1f4767506bb525d35b1e071b985a7a7",
-            "kp": 4
+            "kp": 4,
+            "pyth_lazer_id": 525
         },
         {
             "symbol": "PROMPT/USD",
             "feed_id": "3512f8f7c90859bde36c063f455a6f62a042019bd94187972c0cccaa0425d25d",
-            "kp": 5
+            "kp": 5,
+            "pyth_lazer_id": 531
         },
         {
             "symbol": "SIGN/USD",
             "feed_id": "64762254a3b5c7598b6b721dda6881991ba2cdf6c9a87f8d2ee7a40bb693f2ec",
-            "kp": 6
+            "kp": 6,
+            "pyth_lazer_id": 649
         },
         {
             "symbol": "SOON/USD",
             "feed_id": "55da0cd5ed2e1fc64b2a06ff2e67eaae8e98ee0f3ddeaea9d15a1879a2efa5de",
-            "kp": 1
+            "kp": 1,
+            "pyth_lazer_id": 1581
         },
         {
             "symbol": "STBL/USD",
             "feed_id": "4506392652c427efd9e68f6c6b41fda5ff6d359fc0e32bc41f3a779b163a54ff",
-            "kp": 2
+            "kp": 2,
+            "pyth_lazer_id": 2341
         },
         {
             "symbol": "SWARMS/USD",
             "feed_id": "26e8215286b4aa8d4aa77dff2d5feb1d83dc874c9aeb5a7d6d5fc4b83a005da4",
-            "kp": 3
+            "kp": 3,
+            "pyth_lazer_id": 583
         },
         {
             "symbol": "TAC/USD",
             "feed_id": "f3d1e3fbe7944d9008cbc4e6390677d60ba1ea118f230570369355dc3780c7b4",
-            "kp": 4
+            "kp": 4,
+            "pyth_lazer_id": 1844
         },
         {
             "symbol": "VINE/USD",
             "feed_id": "22a54087e443d4d1db5bd018923337c72c818a99ca521ead71f72fa058f1ccf1",
-            "kp": 5
+            "kp": 5,
+            "pyth_lazer_id": 621
         },
         {
             "symbol": "ZEREBRO/USD",
             "feed_id": "3dd13bf483f196da0429b354db1fa4802ff6a5c19c559a6abdd9a92707f426dc",
-            "kp": 6
+            "kp": 6,
+            "pyth_lazer_id": 641
+        },
+        {
+            "symbol": "ARM/USD",
+            "feed_id": "957bf692b35cc62f222dbf4dc6929130df42fe17c9f03373f44c01f78b05391e",
+            "kp": 1,
+            "pyth_lazer_id": 968
+        },
+        {
+            "symbol": "AVGO/USD",
+            "feed_id": "4aca602c84fa6f1578f39f9f80c210cddf55e03c7850bf54b190b28c16a4c9bc",
+            "kp": 2,
+            "pyth_lazer_id": 972
+        },
+        {
+            "symbol": "CBRS/USD",
+            "feed_id": "7b6809a00a53228f74622e4909750c0d86a2081032955e02c8e3503b1b93829a",
+            "kp": 3,
+            "pyth_lazer_id": 3246
+        },
+        {
+            "symbol": "CRDO/USD",
+            "feed_id": "70223a069575a95493bd4a473c47554ac8b333af557e2264eb0d0236e2838fc2",
+            "kp": 4,
+            "pyth_lazer_id": 2735
+        },
+        {
+            "symbol": "MPWR/USD",
+            "feed_id": "e51d5a490b7ff684e72104f092096d33ad8f6d0bbc617fbe893e23358f8e1c72",
+            "kp": 5,
+            "pyth_lazer_id": 1286
+        },
+        {
+            "symbol": "MRVL/USD",
+            "feed_id": "7aef4e90557add5289266340ccd1e1aa7a225f1220206b07aaf98e53101ce116",
+            "kp": 6,
+            "pyth_lazer_id": 1289
+        },
+        {
+            "symbol": "QCOM/USD",
+            "feed_id": "54350ebf587c3f14857efcfec50e5c4f6e10220770c2266e9fe85bd5e42e4022",
+            "kp": 1,
+            "pyth_lazer_id": 1362
+        },
+        {
+            "symbol": "AMAT/USD",
+            "feed_id": "b9bc74cc1243b706efacf664ed206d08ab1dda79e8b87752c7c44b3bdf1b9e08",
+            "kp": 2,
+            "pyth_lazer_id": 946
+        },
+        {
+            "symbol": "ASML/USD",
+            "feed_id": "1a2205a8926d5d48ab165f25a58fb758c2422d0d3bcb9b381df3a1afa619e6bd",
+            "kp": 3,
+            "pyth_lazer_id": 969
+        },
+        {
+            "symbol": "KLAC/USD",
+            "feed_id": "9c27675f282bfe54b5d0a7b187b29b09184d32d4462de7e3060629c7b8895aad",
+            "kp": 4,
+            "pyth_lazer_id": 1231
+        },
+        {
+            "symbol": "LRCX/USD",
+            "feed_id": "01a67883f58bd0f0e9cf8f52f21d7cf78c144d7e7ae32ce9256420834b33fb75",
+            "kp": 5,
+            "pyth_lazer_id": 1250
+        },
+        {
+            "symbol": "ALB/USD",
+            "feed_id": "4db91e379e36addcdb1cc75dcb03022bd95d5d95148c41d268348d12cbd27c18",
+            "kp": 6,
+            "pyth_lazer_id": 942
+        },
+        {
+            "symbol": "APD/USD",
+            "feed_id": "3a4d69933f6e8e251a730e1d04ae7fdd53a2b20a1d111bbccf263209375646a0",
+            "kp": 1,
+            "pyth_lazer_id": 960
+        },
+        {
+            "symbol": "LIN/USD",
+            "feed_id": "9146c5c900d9aea9579819cf50d1ae18b54dea58eea3c9a198102e4e458e652b",
+            "kp": 2,
+            "pyth_lazer_id": 1244
+        },
+        {
+            "symbol": "NTAP/USD",
+            "feed_id": "5d929fdc829ffa55be5b1fd8b4d140ab555b1c71ec098c3ed5bce70d5911d753",
+            "kp": 3,
+            "pyth_lazer_id": 1311
+        },
+        {
+            "symbol": "SOXL/USD",
+            "feed_id": "53008e9cb71db278f91d7ee0011434af626548018b5f9d4c11000c387eac46fb",
+            "kp": 4,
+            "pyth_lazer_id": 2863
+        },
+        {
+            "symbol": "STX/USD",
+            "feed_id": "0b7fc35cea4acfa65e49a718292e0b31b453072e3af39afbfd2925da5c3ab65d",
+            "kp": 5,
+            "pyth_lazer_id": 1404
+        },
+        {
+            "symbol": "WDC/USD",
+            "feed_id": "37a782cf9bb6061d4cca34a419fb1ae5a8edf71ae8843206ea88b4ba696d4706",
+            "kp": 6,
+            "pyth_lazer_id": 1485
+        },
+        {
+            "symbol": "ANET/USD",
+            "feed_id": "31cc7558642dc348a3e2894146a998031438de8ccc56b7af2171bcd5e5d83eda",
+            "kp": 1,
+            "pyth_lazer_id": 955
+        },
+        {
+            "symbol": "COHR/USD",
+            "feed_id": "fae9f16801d1249999bf7a9e6e57ae7b512f88cce663251da2dee9fadddfc31a",
+            "kp": 2,
+            "pyth_lazer_id": 3288
+        },
+        {
+            "symbol": "CSCO/USD",
+            "feed_id": "3f4b77dd904e849f70e1e812b7811de57202b49bc47c56391275c0f45f2ec481",
+            "kp": 3,
+            "pyth_lazer_id": 1055
+        },
+        {
+            "symbol": "IBM/USD",
+            "feed_id": "cfd44471407f4da89d469242546bb56f5c626d5bef9bd8b9327783065b43c3ef",
+            "kp": 4,
+            "pyth_lazer_id": 1195
+        },
+        {
+            "symbol": "ADBE/USD",
+            "feed_id": "df82dc88ea742bb42bdb845e5fc3ca4eef2354c67357d338221e8a696891b4ca",
+            "kp": 5,
+            "pyth_lazer_id": 928
+        },
+        {
+            "symbol": "CRM/USD",
+            "feed_id": "feff234600320f4d6bb5a01d02570a9725c1e424977f2b823f7231e6857bdae8",
+            "kp": 6,
+            "pyth_lazer_id": 1053
+        },
+        {
+            "symbol": "CRWD/USD",
+            "feed_id": "baed936d3c6c2e34104e92c6b015b97ce96adc5ab4f04230c1270e1162e7a270",
+            "kp": 1,
+            "pyth_lazer_id": 1054
+        },
+        {
+            "symbol": "DDOG/USD",
+            "feed_id": "5c49964b5e5420d84e445a2f5e9e3965cf3a82a275d83f8efc30cdeeaf2d062f",
+            "kp": 2,
+            "pyth_lazer_id": 1070
+        },
+        {
+            "symbol": "MDB/USD",
+            "feed_id": "91fc07facc1b1ec2e8336dfa66e2b5f0892af06f491c606f67690bf4c55aaee6",
+            "kp": 3,
+            "pyth_lazer_id": 1267
+        },
+        {
+            "symbol": "NOW/USD",
+            "feed_id": "69d2eebcc3c62889f1c0105ff347f296eb435cba8d2e4705a486fd47a8fe1a1b",
+            "kp": 4,
+            "pyth_lazer_id": 1308
+        },
+        {
+            "symbol": "PANW/USD",
+            "feed_id": "3b00df0661ccb3109d11ff301c1aa4e88b8d647cb477b089ba225149e6e1b7bb",
+            "kp": 5,
+            "pyth_lazer_id": 1329
+        },
+        {
+            "symbol": "SNOW/USD",
+            "feed_id": "14291d2651ecf1f9105729bdc59553c1ce73fb3d6c931dd98a9d2adddc37e00f",
+            "kp": 6,
+            "pyth_lazer_id": 2860
+        },
+        {
+            "symbol": "DELL/USD",
+            "feed_id": "a2950270a22ce39a22cb3488ba91e60474cd93c6d01da2ecc5a97c1dd40f4995",
+            "kp": 1,
+            "pyth_lazer_id": 1074
+        },
+        {
+            "symbol": "IREN/USD",
+            "feed_id": "7573b8ee3533fe3fda9807996c02977e9b0e33c1518c64c1c0e79625566261a0",
+            "kp": 2,
+            "pyth_lazer_id": 2363
+        },
+        {
+            "symbol": "NBIS/USD",
+            "feed_id": "691630d65fbbc8d987717df10453c01907bee8caa60a4aaba4dafca64ea16dc4",
+            "kp": 3,
+            "pyth_lazer_id": 2826
+        },
+        {
+            "symbol": "AEP/USD",
+            "feed_id": "ef333b80d26fb3630c870da74de7a52b4c5f40ead3cfd841a9d0fa6bb4186b5b",
+            "kp": 4,
+            "pyth_lazer_id": 934
+        },
+        {
+            "symbol": "AMT/USD",
+            "feed_id": "8a80397a6e962b6e260d620e3c68d08ab94bdc82fd27d2c506d41b8a52280364",
+            "kp": 5,
+            "pyth_lazer_id": 953
+        },
+        {
+            "symbol": "BE/USD",
+            "feed_id": "a955f59cec6006d55ac21ab009c92662f2d9250bc22b86fcce16e7962c129c4f",
+            "kp": 6,
+            "pyth_lazer_id": 2721
+        },
+        {
+            "symbol": "CCI/USD",
+            "feed_id": "d346bf2b5a30cbcb8092c1eed6afe9e747bb5a6a63ed7c008164cb280c64754c",
+            "kp": 2,
+            "pyth_lazer_id": 1019
+        },
+        {
+            "symbol": "CCJ/USD",
+            "feed_id": "8c92b96bf7ec66766d7400f91eee36370df38ec751ec48933396760f8c73cc78",
+            "kp": 3,
+            "pyth_lazer_id": 2355
+        },
+        {
+            "symbol": "CEG/USD",
+            "feed_id": "a541bc5c4b69961442e45e9198c7cce151ff9c2a1003f620c6d4a9785c77a4d9",
+            "kp": 4,
+            "pyth_lazer_id": 1024
+        },
+        {
+            "symbol": "D/USD",
+            "feed_id": "a4102a6d0a6a6e5bf66fa3599411d688f8b253d38db982a266c5eec6ba042c8a",
+            "kp": 5,
+            "pyth_lazer_id": 1065
+        },
+        {
+            "symbol": "DIS/USD",
+            "feed_id": "703e36203020ae6761e6298975764e266fb869210db9b35dd4e4225fa68217d0",
+            "kp": 6,
+            "pyth_lazer_id": 1081
+        },
+        {
+            "symbol": "DLR/USD",
+            "feed_id": "5af7f961ea231d5f4bd19dc99d1fd43f6de67ab57b73779f9ebe65a6a4ab64d5",
+            "kp": 1,
+            "pyth_lazer_id": 1082
+        },
+        {
+            "symbol": "DUK/USD",
+            "feed_id": "914c7f24178681e916139175ca651271ea14c340c4ba5e0c7787162020a9e79b",
+            "kp": 2,
+            "pyth_lazer_id": 1090
+        },
+        {
+            "symbol": "EMR/USD",
+            "feed_id": "e1c0e5aaf1842d3efb806d14a7cd21160d4b7c0f96746e0fa1227ae961bf3929",
+            "kp": 3,
+            "pyth_lazer_id": 1106
+        },
+        {
+            "symbol": "ENPH/USD",
+            "feed_id": "5ec583659f690a921cd7a5be9dd2730d67b2541528ca5b1ff99df3e5d44bbedb",
+            "kp": 4,
+            "pyth_lazer_id": 1107
+        },
+        {
+            "symbol": "EQIX/USD",
+            "feed_id": "66eb6cfa3a28e8e7cad538a55872ac0e41a2741ca66a29c1dc5540f2b1fb6fb6",
+            "kp": 5,
+            "pyth_lazer_id": 1110
+        },
+        {
+            "symbol": "ETN/USD",
+            "feed_id": "b1cf984febc32fbd98f0c5d31fed29d050d56a272406bae9de64dd94ba7e5e1e",
+            "kp": 6,
+            "pyth_lazer_id": 1116
+        },
+        {
+            "symbol": "ETR/USD",
+            "feed_id": "dd3baa1ebafa53b0a8b1e208f2e8df9dfed597f8b93d0fead0e84d8f4a0336d9",
+            "kp": 1,
+            "pyth_lazer_id": 1117
+        },
+        {
+            "symbol": "EWJ/USD",
+            "feed_id": "73560d1ee6daf7f322314d58dd8d0eed720fffcab390c1c1d54b5088d92497a2",
+            "kp": 2,
+            "pyth_lazer_id": 2971
+        },
+        {
+            "symbol": "EWY/USD",
+            "feed_id": "7be2b3f9f9d02b1ffcf61fc26ad5cc6aff4dd02044f9abc22ee57f37b3b5d2e5",
+            "kp": 3,
+            "pyth_lazer_id": 2944
+        },
+        {
+            "symbol": "EXC/USD",
+            "feed_id": "9beecfa17137405edde62ca98241e24c86d217282f8e193ee6c8fc40aae01092",
+            "kp": 4,
+            "pyth_lazer_id": 1121
+        },
+        {
+            "symbol": "FSLR/USD",
+            "feed_id": "787a166618ea8831a100371b51be91328b0171d0ac57265007b30f10e03de4e6",
+            "kp": 5,
+            "pyth_lazer_id": 1143
+        },
+        {
+            "symbol": "GE/USD",
+            "feed_id": "e1d3115c6e7ac649faca875b3102f1000ab5e06b03f6903e0d699f0f5315ba86",
+            "kp": 6,
+            "pyth_lazer_id": 1149
+        },
+        {
+            "symbol": "GEV/USD",
+            "feed_id": "57e28b0f0ab18923f5c987629c0c714b9b46c87e729ed95ed6e23e466e8d1e0c",
+            "kp": 1,
+            "pyth_lazer_id": 1152
+        },
+        {
+            "symbol": "HD/USD",
+            "feed_id": "b3a83dbe70b62241b0f916212e097465a1b31085fa30da3342dd35468ca17ca5",
+            "kp": 2,
+            "pyth_lazer_id": 1174
+        },
+        {
+            "symbol": "HUBB/USD",
+            "feed_id": "492f2b794efb3721b4243406d73cf68f34097b103ba690d0dbcafddb5a10cb7e",
+            "kp": 3,
+            "pyth_lazer_id": 1189
+        },
+        {
+            "symbol": "IRM/USD",
+            "feed_id": "dcc697370beafb46fade6467328cd2f268b4b4e41c23b2189e649e21d120d76d",
+            "kp": 4,
+            "pyth_lazer_id": 1208
+        },
+        {
+            "symbol": "JPM/USD",
+            "feed_id": "5f451bbe32545c6a157f547182878c4f3e00abd6a785db921761309180606f5a",
+            "kp": 5,
+            "pyth_lazer_id": 1223
+        },
+        {
+            "symbol": "NEE/USD",
+            "feed_id": "b058f7874b57f820aa7ff6034a8515add8095b5831e83fc8d02c1dccd4ac099c",
+            "kp": 6,
+            "pyth_lazer_id": 1302
+        },
+        {
+            "symbol": "NVO/USD",
+            "feed_id": "8dde322496e031d942b9eee8ca769d618cd2e69b18196644369379f5a1e7c23d",
+            "kp": 1,
+            "pyth_lazer_id": 1721
+        },
+        {
+            "symbol": "OKLO/USD",
+            "feed_id": "0d283a095e94dff4d4e607614ed686eb53e548238fb3af231148c276ecefe83e",
+            "kp": 2,
+            "pyth_lazer_id": 2418
+        },
+        {
+            "symbol": "PCG/USD",
+            "feed_id": "026e4a35b33c438e4c75b2bf8f5f8298b26165eff133b1da2b4559985ecab11e",
+            "kp": 3,
+            "pyth_lazer_id": 1334
+        },
+        {
+            "symbol": "PH/USD",
+            "feed_id": "9c86a3b6d84699fcc4c0f2e76f34d4b70c6c8230803cb35ae89278de9c6932a9",
+            "kp": 4,
+            "pyth_lazer_id": 1342
+        },
+        {
+            "symbol": "PWR/USD",
+            "feed_id": "a189b9eee6d023e3b79a726804aeb748d54e52cf6ebcebe0f7d5c8dae4988357",
+            "kp": 5,
+            "pyth_lazer_id": 1360
+        },
+        {
+            "symbol": "RKLB/USD",
+            "feed_id": "40589e289317e4fbd997b1a267606e20a1cc7c3e4689f9e5a5992957917816c8",
+            "kp": 6,
+            "pyth_lazer_id": 1373
+        },
+        {
+            "symbol": "SMR/USD",
+            "feed_id": "69155365daba71df19c2c0416467b64581052cfa75f44b77f352a92698b81639",
+            "kp": 1,
+            "pyth_lazer_id": 2855
+        },
+        {
+            "symbol": "SO/USD",
+            "feed_id": "650293cd51d63cac28ecb03823af05d8192dad724156af6ed4a90b1708057bf2",
+            "kp": 2,
+            "pyth_lazer_id": 1394
+        },
+        {
+            "symbol": "UBER/USD",
+            "feed_id": "c04665f62a0eabf427a834bb5da5f27773ef7422e462d40c7468ef3e4d39d8f1",
+            "kp": 3,
+            "pyth_lazer_id": 1445
+        },
+        {
+            "symbol": "V/USD",
+            "feed_id": "c719eb7bab9b2bc060167f1d1680eb34a29c490919072513b545b9785b73ee90",
+            "kp": 4,
+            "pyth_lazer_id": 1467
+        },
+        {
+            "symbol": "VRT/USD",
+            "feed_id": "84dad6b760396a7904d04a3d83039a3fc18f10819fd97d023ac5535997d70108",
+            "kp": 5,
+            "pyth_lazer_id": 2887
+        },
+        {
+            "symbol": "VST/USD",
+            "feed_id": "665d46c8142ca4486ebcdcfc0bbb913dee5255e0be63b6f971933620a7f69045",
+            "kp": 6,
+            "pyth_lazer_id": 1476
+        },
+        {
+            "symbol": "WMT/USD",
+            "feed_id": "327ae981719058e6fb44e132fb4adbf1bd5978b43db0661bfdaefd9bea0c82dc",
+            "kp": 1,
+            "pyth_lazer_id": 1491
+        },
+        {
+            "symbol": "DRAM/USD",
+            "feed_id": null,
+            "kp": 2,
+            "pyth_lazer_id": 3240
+        },
+        {
+            "symbol": "LITE/USD",
+            "feed_id": null,
+            "kp": 3,
+            "pyth_lazer_id": 3237
+        },
+        {
+            "symbol": "ASTS/USD",
+            "feed_id": null,
+            "kp": 4,
+            "pyth_lazer_id": 3141
+        },
+        {
+            "symbol": "EWT/USD",
+            "feed_id": null,
+            "kp": 5,
+            "pyth_lazer_id": 3055
+        },
+        {
+            "symbol": "FLNC/USD",
+            "feed_id": null,
+            "kp": 6,
+            "pyth_lazer_id": 3303
+        },
+        {
+            "symbol": "NOK/USD",
+            "feed_id": null,
+            "kp": 1,
+            "pyth_lazer_id": 3302
+        },
+        {
+            "symbol": "ONDS/USD",
+            "feed_id": null,
+            "kp": 2,
+            "pyth_lazer_id": 3048
+        },
+        {
+            "symbol": "PAYP/USD",
+            "feed_id": null,
+            "kp": 3,
+            "pyth_lazer_id": 3066
+        },
+        {
+            "symbol": "URA/USD",
+            "feed_id": null,
+            "kp": 4,
+            "pyth_lazer_id": 3223
+        },
+        {
+            "symbol": "URNM/USD",
+            "feed_id": null,
+            "kp": 5,
+            "pyth_lazer_id": 3163
         }
     ]
 }
