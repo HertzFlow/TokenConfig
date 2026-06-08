@@ -805,12 +805,6 @@
             "pyth_lazer_id": 2721
         },
         {
-            "symbol": "BRKB/USD",
-            "feed_id": "e21c688b7fc65b4606a50f3635f466f6986db129bf16979875d160f9c508e8c7",
-            "kp": 1,
-            "pyth_lazer_id": 999
-        },
-        {
             "symbol": "CCI/USD",
             "feed_id": "d346bf2b5a30cbcb8092c1eed6afe9e747bb5a6a63ed7c008164cb280c64754c",
             "kp": 2,
