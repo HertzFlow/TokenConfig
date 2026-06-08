@@ -1,8 +1,17 @@
 *
+
 !.gitignore
+
 !kline/
+!kline/**
+
 !oracle/
+!oracle/**
+
 !scripts/
+!scripts/**
+scripts/__pycache__/
+
 !Makefile
 !README.md
 !all.*.json
