@@ -55,6 +55,22 @@
                 "enabled": true
             },
             "kp": 2
+        },
+        {
+            "symbol": "USOILSPOT/USD",
+            "binance": {
+                "symbol": "CLUSDT",
+                "enabled": true
+            },
+            "kp": 3
+        },
+        {
+            "symbol": "UKOILSPOT/USD",
+            "binance": {
+                "symbol": "BZUSDT",
+                "enabled": true
+            },
+            "kp": 3
         }
     ]
 }
