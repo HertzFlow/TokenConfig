@@ -1,0 +1,11 @@
+# Python dependencies for the new-market SOP (sop/sop.py).
+# Installed automatically into ./.venv on first run; pin here if reproducibility matters.
+
+# ABI encoding + keccak256 for deriving the synthetic BSC token address
+# (must match scripts/get_synthetic_token_addr.ts: keccak256(abi.encode(uint256,string))).
+eth-abi>=5,<6
+eth-utils>=4
+eth-hash[pycryptodome]>=0.7
+
+# Interactive TUI (select / checkbox / confirm prompts).
+questionary>=2,<3

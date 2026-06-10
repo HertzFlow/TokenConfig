@@ -1,0 +1,24 @@
+# index,asset_type,symbol,pyth_lazer_id,binance_symbol
+# ---------------------------------------------------------------------------
+# New-market request CSV. The requester fills one row per market.
+#
+# Columns (order matters; a header row starting with '#' or 'index' is skipped):
+#   index          required  Row number / ordering hint. Not written to configs.
+#   asset_type     required  Free-text class, e.g. Crypto / Equities / Forex.
+#                            Recorded in the SOP summary; not written to configs.
+#   symbol         required  Market symbol, e.g. ARM/USD. This is the key used
+#                            across pyth / cex / aggr / kline / all.
+#   pyth_lazer_id  required  Pyth Lazer id (decimal). The SOP looks up the hermes
+#                            feed_id from the Pyth Pro API by this id.
+#   binance_symbol optional  Binance pair, e.g. ARMUSDT. Leave EMPTY for a
+#                            pyth-only market (no CEX price source). When set, the
+#                            market is added to cex.*.json and gets pyth_only=false
+#                            with cex_symbol_map={"binance": "<symbol>"} in aggr.
+#
+# Whether a market gets a kline is decided downstream by scripts/generate_kline.py
+# (every non-blacklisted aggr symbol gets one) — it is not a per-row choice here.
+# ---------------------------------------------------------------------------
+# Example rows (delete before submitting real data):
+1,Equities,ARM/USD,968,
+2,Crypto,SOL/USD,32,SOLUSDT
+3,Equities,AVGO/USD,972,

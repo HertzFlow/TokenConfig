@@ -18,3 +18,9 @@ check-pyth-config-local:
 
 check-pyth-config-testnet:
 	@./scripts/check_pyth_config.py --file oracle/pyth.testnet.json
+
+# New-market SOP: interactive TUI that fills pyth/cex/aggr from a request CSV
+# and regenerates kline/all. Bootstraps its own ./.venv on first run.
+.PHONY: sop
+sop:
+	@./sop/sop.py
