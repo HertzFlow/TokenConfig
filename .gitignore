@@ -12,6 +12,10 @@
 !scripts/**
 scripts/__pycache__/
 
+!sop/
+!sop/**
+sop/__pycache__/
+
 !Makefile
 !README.md
 !all.*.json
