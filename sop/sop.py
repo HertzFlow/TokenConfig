@@ -20,7 +20,9 @@ Everything is previewed and confirmed before any file is written (dry-run first)
 
 from __future__ import annotations
 
+import json
 import os
+import shutil
 import subprocess
 import sys
 from pathlib import Path
@@ -198,6 +200,43 @@ def process_env(env: str, rows, lazer_to_feed, apply: bool) -> bool:
     return bool(res_aggr.added or res_cex.added or res_pyth.added)
 
 
+def copy_to_clipboard(text: str) -> bool:
+    """Copy text to the macOS clipboard via pbcopy. Returns True on success."""
+    pbcopy = shutil.which("pbcopy")
+    if pbcopy is None:
+        return False
+    try:
+        subprocess.run([pbcopy], input=text.encode("utf-8"), check=True)
+        return True
+    except subprocess.CalledProcessError:
+        return False
+
+
+def extract_symbols(csv_path: str, csv_choice: str) -> None:
+    """Print the CSV's symbols as a JSON array; offer to copy it to the clipboard.
+
+    Read-only: touches no config files. Output is e.g. ["AERO/USD", "BILL/USD"].
+    """
+    try:
+        rows = parse_csv(csv_path)
+    except ValueError as e:
+        print(f"CSV error: {e}")
+        sys.exit(1)
+    if not rows:
+        print("CSV has no data rows.")
+        sys.exit(1)
+
+    payload = json.dumps([row.symbol for row in rows], ensure_ascii=False)
+    print(f"\n{len(rows)} symbol(s) from {csv_choice}:\n")
+    print(payload)
+
+    if shutil.which("pbcopy") is None:
+        print("\n(pbcopy not found — skipping clipboard copy.)")
+        return
+    if questionary.confirm("Copy to clipboard (pbcopy)?", default=True).ask():
+        print("✓ Copied to clipboard." if copy_to_clipboard(payload) else "Failed to copy to clipboard.")
+
+
 def main() -> None:
     print("HertzFlow — New Market SOP\n")
 
@@ -210,6 +249,19 @@ def main() -> None:
     if csv_choice is None:
         sys.exit(0)
     csv_path = str(REPO_ROOT / csv_choice)
+
+    action = questionary.select(
+        "Action:",
+        choices=[
+            questionary.Choice("Fill configs + regenerate (full SOP)", value="fill"),
+            questionary.Choice("Extract symbols → JSON array (no config changes)", value="symbols"),
+        ],
+    ).ask()
+    if action is None:
+        sys.exit(0)
+    if action == "symbols":
+        extract_symbols(csv_path, csv_choice)
+        return
 
     env_choice = questionary.checkbox(
         "Target environment(s):",
