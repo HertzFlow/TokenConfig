@@ -703,6 +703,110 @@
         {
             "symbol": "URNM/USD",
             "kp": 0
+        },
+        {
+            "symbol": "AERO/USD",
+            "kp": 0
+        },
+        {
+            "symbol": "BILL/USD",
+            "kp": 1
+        },
+        {
+            "symbol": "CLANKER/USD",
+            "kp": 2
+        },
+        {
+            "symbol": "DEGEN/USD",
+            "kp": 0
+        },
+        {
+            "symbol": "DRIFT/USD",
+            "kp": 1
+        },
+        {
+            "symbol": "EDGE/USD",
+            "kp": 2
+        },
+        {
+            "symbol": "ELIZAOS/USD",
+            "kp": 0
+        },
+        {
+            "symbol": "GOAT/USD",
+            "kp": 1
+        },
+        {
+            "symbol": "GRASS/USD",
+            "kp": 2
+        },
+        {
+            "symbol": "INX/USD",
+            "kp": 0
+        },
+        {
+            "symbol": "IP/USD",
+            "kp": 1
+        },
+        {
+            "symbol": "MEW/USD",
+            "kp": 2
+        },
+        {
+            "symbol": "MOG/USD",
+            "kp": 0
+        },
+        {
+            "symbol": "PIPPIN/USD",
+            "kp": 1
+        },
+        {
+            "symbol": "POPCAT/USD",
+            "kp": 2
+        },
+        {
+            "symbol": "PRL/USD",
+            "kp": 0
+        },
+        {
+            "symbol": "RIVER/USD",
+            "kp": 1
+        },
+        {
+            "symbol": "SAFE/USD",
+            "kp": 2
+        },
+        {
+            "symbol": "SIREN/USD",
+            "kp": 0
+        },
+        {
+            "symbol": "SKR/USD",
+            "kp": 1
+        },
+        {
+            "symbol": "TOSHI/USD",
+            "kp": 2
+        },
+        {
+            "symbol": "VVV/USD",
+            "kp": 0
+        },
+        {
+            "symbol": "ZETA/USD",
+            "kp": 1
+        },
+        {
+            "symbol": "ZEUS/USD",
+            "kp": 2
+        },
+        {
+            "symbol": "ZORA/USD",
+            "kp": 0
+        },
+        {
+            "symbol": "SPCX/USD",
+            "kp": 1
         }
     ]
 }

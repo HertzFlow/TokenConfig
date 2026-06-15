@@ -2357,6 +2357,390 @@
             "pyth_lazer_id": 3163,
             "cex_symbol_map": {},
             "need_sign": true
+        },
+        {
+            "symbol": "AERO/USD",
+            "kp": 5,
+            "bsc_precision": 18,
+            "bsc_token_addr": "0xb925add974ff578c86ab1077777d381690469d24",
+            "bsc_token_addr_env_map": {},
+            "bsc_token_oracle_type": "one-percent-per-minute",
+            "pyth_only": false,
+            "feed_id": "9db37f4d5654aad3e37e2e14ffd8d53265fb3026d1d8f91146539eebaa2ef45f",
+            "cex_symbol_map": {
+                "binance": "AERO/USD"
+            },
+            "need_sign": true,
+            "pyth_lazer_id": 179
+        },
+        {
+            "symbol": "BILL/USD",
+            "kp": 6,
+            "bsc_precision": 18,
+            "bsc_token_addr": "0x9d9490cba18ddd90288522a5751c0acd543bcd61",
+            "bsc_token_addr_env_map": {},
+            "bsc_token_oracle_type": "one-percent-per-minute",
+            "pyth_only": false,
+            "feed_id": null,
+            "cex_symbol_map": {
+                "binance": "BILL/USD"
+            },
+            "need_sign": true,
+            "pyth_lazer_id": 3203
+        },
+        {
+            "symbol": "CLANKER/USD",
+            "kp": 1,
+            "bsc_precision": 18,
+            "bsc_token_addr": "0x8bf6060eebfb4a2f6e05bf6f606cfaccff8de644",
+            "bsc_token_addr_env_map": {},
+            "bsc_token_oracle_type": "one-percent-per-minute",
+            "pyth_only": false,
+            "feed_id": "17392e15ef0b746ae7cfe25a97b0d66f4bb2792a39ebeb46bbffab8b1d2544d5",
+            "cex_symbol_map": {
+                "binance": "CLANKER/USD"
+            },
+            "need_sign": true,
+            "pyth_lazer_id": 219
+        },
+        {
+            "symbol": "DEGEN/USD",
+            "kp": 2,
+            "bsc_precision": 18,
+            "bsc_token_addr": "0xb1e8c15baf35ae79142a50db65ac8d3a35dd1a74",
+            "bsc_token_addr_env_map": {},
+            "bsc_token_oracle_type": "one-percent-per-minute",
+            "pyth_only": false,
+            "feed_id": "9c93e4a22c56885af427ac4277437e756e7ec403fbc892f975d497383bb33560",
+            "cex_symbol_map": {
+                "binance": "DEGEN/USD"
+            },
+            "need_sign": true,
+            "pyth_lazer_id": 412
+        },
+        {
+            "symbol": "DRIFT/USD",
+            "kp": 3,
+            "bsc_precision": 18,
+            "bsc_token_addr": "0x933c831265efbc5b58d445647f758bd8d802d949",
+            "bsc_token_addr_env_map": {},
+            "bsc_token_oracle_type": "one-percent-per-minute",
+            "pyth_only": false,
+            "feed_id": "5c1690b27bb02446db17cdda13ccc2c1d609ad6d2ef5bf4983a85ea8b6f19d07",
+            "cex_symbol_map": {
+                "binance": "DRIFT/USD"
+            },
+            "need_sign": true,
+            "pyth_lazer_id": 249
+        },
+        {
+            "symbol": "EDGE/USD",
+            "kp": 4,
+            "bsc_precision": 18,
+            "bsc_token_addr": "0x1cf88de92d7e8be9ba60e265f825f7632eecabab",
+            "bsc_token_addr_env_map": {},
+            "bsc_token_oracle_type": "one-percent-per-minute",
+            "pyth_only": false,
+            "feed_id": null,
+            "cex_symbol_map": {
+                "binance": "EDGE/USD"
+            },
+            "need_sign": true,
+            "pyth_lazer_id": 3095
+        },
+        {
+            "symbol": "ELIZAOS/USD",
+            "kp": 5,
+            "bsc_precision": 18,
+            "bsc_token_addr": "0x2e101a20f58f874732d44d73d3c697e3fa1fe242",
+            "bsc_token_addr_env_map": {},
+            "bsc_token_oracle_type": "one-percent-per-minute",
+            "pyth_only": true,
+            "feed_id": "0e0fe74b2bc91e867d7f46757faf64c5a497c11515956d7016ae97493f5f6ff4",
+            "cex_symbol_map": {},
+            "need_sign": true,
+            "pyth_lazer_id": 2902
+        },
+        {
+            "symbol": "GOAT/USD",
+            "kp": 6,
+            "bsc_precision": 18,
+            "bsc_token_addr": "0xf2c334fa7cdb7087354ff20c1a8592bd6cbfef00",
+            "bsc_token_addr_env_map": {},
+            "bsc_token_oracle_type": "one-percent-per-minute",
+            "pyth_only": false,
+            "feed_id": "f7731dc812590214d3eb4343bfb13d1b4cfa9b1d4e020644b5d5d8e07d60c66c",
+            "cex_symbol_map": {
+                "binance": "GOAT/USD"
+            },
+            "need_sign": true,
+            "pyth_lazer_id": 437
+        },
+        {
+            "symbol": "GRASS/USD",
+            "kp": 1,
+            "bsc_precision": 18,
+            "bsc_token_addr": "0xc8aaac280edf0ba18d26a2386d50fc934c045b0b",
+            "bsc_token_addr_env_map": {},
+            "bsc_token_oracle_type": "one-percent-per-minute",
+            "pyth_only": false,
+            "feed_id": "299ac948742a799d27a1649c76035b26577ad0eb6585a5ae2a691d31f2ee90c4",
+            "cex_symbol_map": {
+                "binance": "GRASS/USD"
+            },
+            "need_sign": true,
+            "pyth_lazer_id": 151
+        },
+        {
+            "symbol": "INX/USD",
+            "kp": 2,
+            "bsc_precision": 18,
+            "bsc_token_addr": "0x6912e5c4830f642bf258bcde6e7448954e6439d6",
+            "bsc_token_addr_env_map": {},
+            "bsc_token_oracle_type": "one-percent-per-minute",
+            "pyth_only": false,
+            "feed_id": null,
+            "cex_symbol_map": {
+                "binance": "INX/USD"
+            },
+            "need_sign": true,
+            "pyth_lazer_id": 2972
+        },
+        {
+            "symbol": "IP/USD",
+            "kp": 3,
+            "bsc_precision": 18,
+            "bsc_token_addr": "0xb09bc8fa8de878936173212b3d7881aa5fbfd048",
+            "bsc_token_addr_env_map": {},
+            "bsc_token_oracle_type": "one-percent-per-minute",
+            "pyth_only": false,
+            "feed_id": "b620ba83044577029da7e4ded7a2abccf8e6afc2a0d4d26d89ccdd39ec109025",
+            "cex_symbol_map": {
+                "binance": "IP/USD"
+            },
+            "need_sign": true,
+            "pyth_lazer_id": 309
+        },
+        {
+            "symbol": "MEW/USD",
+            "kp": 4,
+            "bsc_precision": 18,
+            "bsc_token_addr": "0xfe3dd7edccd803a06a0b5087bcc6ce406402f8dd",
+            "bsc_token_addr_env_map": {},
+            "bsc_token_oracle_type": "one-percent-per-minute",
+            "pyth_only": false,
+            "feed_id": "514aed52ca5294177f20187ae883cec4a018619772ddce41efcc36a6448f5d5d",
+            "cex_symbol_map": {
+                "binance": "MEW/USD"
+            },
+            "need_sign": true,
+            "pyth_lazer_id": 137
+        },
+        {
+            "symbol": "MOG/USD",
+            "kp": 5,
+            "bsc_precision": 18,
+            "bsc_token_addr": "0x94b3746c5545b8c3ad8d9de164da79290c382e8e",
+            "bsc_token_addr_env_map": {},
+            "bsc_token_oracle_type": "one-percent-per-minute",
+            "pyth_only": true,
+            "feed_id": "17894b9fff49cd07efeab94a0d02db16f158efe04e0dee1db6af5f069082ce83",
+            "cex_symbol_map": {},
+            "need_sign": true,
+            "pyth_lazer_id": 152
+        },
+        {
+            "symbol": "PIPPIN/USD",
+            "kp": 6,
+            "bsc_precision": 18,
+            "bsc_token_addr": "0xbbf1e03a65d65aeb2bfdbc0614f38bcddbd11024",
+            "bsc_token_addr_env_map": {},
+            "bsc_token_oracle_type": "one-percent-per-minute",
+            "pyth_only": false,
+            "feed_id": null,
+            "cex_symbol_map": {
+                "binance": "PIPPIN/USD"
+            },
+            "need_sign": true,
+            "pyth_lazer_id": 3038
+        },
+        {
+            "symbol": "POPCAT/USD",
+            "kp": 1,
+            "bsc_precision": 18,
+            "bsc_token_addr": "0x5b913688886db19e01fc866c6b9fbced416bd4ed",
+            "bsc_token_addr_env_map": {},
+            "bsc_token_oracle_type": "one-percent-per-minute",
+            "pyth_only": false,
+            "feed_id": "b9312a7ee50e189ef045aa3c7842e099b061bd9bdc99ac645956c3b660dc8cce",
+            "cex_symbol_map": {
+                "binance": "POPCAT/USD"
+            },
+            "need_sign": true,
+            "pyth_lazer_id": 130
+        },
+        {
+            "symbol": "PRL/USD",
+            "kp": 2,
+            "bsc_precision": 18,
+            "bsc_token_addr": "0x37fdfd6f63d1de5056b1b42f7a145d2d6853d297",
+            "bsc_token_addr_env_map": {},
+            "bsc_token_oracle_type": "one-percent-per-minute",
+            "pyth_only": false,
+            "feed_id": null,
+            "cex_symbol_map": {
+                "binance": "PRL/USD"
+            },
+            "need_sign": true,
+            "pyth_lazer_id": 3096
+        },
+        {
+            "symbol": "RIVER/USD",
+            "kp": 3,
+            "bsc_precision": 18,
+            "bsc_token_addr": "0xb44637975b8c7ed1b6ae808734097607525b947e",
+            "bsc_token_addr_env_map": {},
+            "bsc_token_oracle_type": "one-percent-per-minute",
+            "pyth_only": false,
+            "feed_id": null,
+            "cex_symbol_map": {
+                "binance": "RIVER/USD"
+            },
+            "need_sign": true,
+            "pyth_lazer_id": 3037
+        },
+        {
+            "symbol": "SAFE/USD",
+            "kp": 4,
+            "bsc_precision": 18,
+            "bsc_token_addr": "0xff70661b9f0e210d6521aa84547804c5e23ecef3",
+            "bsc_token_addr_env_map": {},
+            "bsc_token_oracle_type": "one-percent-per-minute",
+            "pyth_only": false,
+            "feed_id": "7b3576858506a94fad3a9cc55e32934f0c3931150fe3a3c7b83558dbae5b8e38",
+            "cex_symbol_map": {
+                "binance": "SAFE/USD"
+            },
+            "need_sign": true,
+            "pyth_lazer_id": 147
+        },
+        {
+            "symbol": "SIREN/USD",
+            "kp": 5,
+            "bsc_precision": 18,
+            "bsc_token_addr": "0x714175c77b94fe74aad858e66c28ac23e02bbd4b",
+            "bsc_token_addr_env_map": {},
+            "bsc_token_oracle_type": "one-percent-per-minute",
+            "pyth_only": false,
+            "feed_id": null,
+            "cex_symbol_map": {
+                "binance": "SIREN/USD"
+            },
+            "need_sign": true,
+            "pyth_lazer_id": 3077
+        },
+        {
+            "symbol": "SKR/USD",
+            "kp": 6,
+            "bsc_precision": 18,
+            "bsc_token_addr": "0x46391c6bbc81160593f7b95c1e20a135dc639553",
+            "bsc_token_addr_env_map": {},
+            "bsc_token_oracle_type": "one-percent-per-minute",
+            "pyth_only": false,
+            "feed_id": null,
+            "cex_symbol_map": {
+                "binance": "SKR/USD"
+            },
+            "need_sign": true,
+            "pyth_lazer_id": 3023
+        },
+        {
+            "symbol": "TOSHI/USD",
+            "kp": 1,
+            "bsc_precision": 18,
+            "bsc_token_addr": "0x16713c529b40957b1a8f03c56fe9f13282de362c",
+            "bsc_token_addr_env_map": {},
+            "bsc_token_oracle_type": "one-percent-per-minute",
+            "pyth_only": false,
+            "feed_id": "3450d9fbb8c3cf749578315668e21fabb4cd78dcfda1c1cba698b804bae2db2a",
+            "cex_symbol_map": {
+                "binance": "TOSHI/USD"
+            },
+            "need_sign": true,
+            "pyth_lazer_id": 160
+        },
+        {
+            "symbol": "VVV/USD",
+            "kp": 2,
+            "bsc_precision": 18,
+            "bsc_token_addr": "0xba07f301cccae0ef303cb7ed9af739755e681e3f",
+            "bsc_token_addr_env_map": {},
+            "bsc_token_oracle_type": "one-percent-per-minute",
+            "pyth_only": false,
+            "feed_id": "5ece7483ae221e3645ec0f9b5c6671ac830cb85471744df5d8e7deae152e31a2",
+            "cex_symbol_map": {
+                "binance": "VVV/USD"
+            },
+            "need_sign": true,
+            "pyth_lazer_id": 271
+        },
+        {
+            "symbol": "ZETA/USD",
+            "kp": 3,
+            "bsc_precision": 18,
+            "bsc_token_addr": "0x3d98106f0911930a606ce5294f6a90f40964d989",
+            "bsc_token_addr_env_map": {},
+            "bsc_token_oracle_type": "one-percent-per-minute",
+            "pyth_only": false,
+            "feed_id": "b70656181007f487e392bf0d92e55358e9f0da5da6531c7c4ce7828aa11277fe",
+            "cex_symbol_map": {
+                "binance": "ZETA/USD"
+            },
+            "need_sign": true,
+            "pyth_lazer_id": 255
+        },
+        {
+            "symbol": "ZEUS/USD",
+            "kp": 4,
+            "bsc_precision": 18,
+            "bsc_token_addr": "0x64c4136f8a34331e36c0e51439f8e45ba7dfcd82",
+            "bsc_token_addr_env_map": {},
+            "bsc_token_oracle_type": "one-percent-per-minute",
+            "pyth_only": true,
+            "feed_id": "31558e9ccb18c151af6c52bf78afd03098a7aca1b9cf171a65b693b464c2f066",
+            "cex_symbol_map": {},
+            "need_sign": true,
+            "pyth_lazer_id": 643
+        },
+        {
+            "symbol": "ZORA/USD",
+            "kp": 5,
+            "bsc_precision": 18,
+            "bsc_token_addr": "0xdf1f95fb50a02d8e045461a282e68d4b1b966d25",
+            "bsc_token_addr_env_map": {},
+            "bsc_token_oracle_type": "one-percent-per-minute",
+            "pyth_only": false,
+            "feed_id": "93eacee7286be62044cd8dfbdfdf1bea8f52a3ca6e0f512f4a05bd383f5666b1",
+            "cex_symbol_map": {
+                "binance": "ZORA/USD"
+            },
+            "need_sign": true,
+            "pyth_lazer_id": 646
+        },
+        {
+            "symbol": "SPCX/USD",
+            "kp": 6,
+            "bsc_precision": 18,
+            "bsc_token_addr": "0x430a2d7ffc88060a927f45e31b8b569855a1de6e",
+            "bsc_token_addr_env_map": {},
+            "bsc_token_oracle_type": "one-percent-per-minute",
+            "pyth_only": false,
+            "feed_id": null,
+            "cex_symbol_map": {
+                "binance": "SPCX/USD"
+            },
+            "need_sign": true,
+            "pyth_lazer_id": 3314
         }
     ]
 }
