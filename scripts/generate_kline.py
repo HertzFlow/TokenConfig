@@ -16,6 +16,7 @@ SYMBOL_BLACK_LIST = set(
         "WETH/USD",
         "USDT/USD",
         "USDC/USD",
+        "USD1/USD",
     ]
 )
 

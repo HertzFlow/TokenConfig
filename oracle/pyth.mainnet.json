@@ -1,0 +1,40 @@
+{
+    "symbols": [
+        {
+            "symbol": "USD1/USD",
+            "feed_id": "0a2425d43486780990d8b63543029e20556be51fd756cca584212f4d539611d4",
+            "kp": 1,
+            "pyth_lazer_id": 604
+        },
+        {
+            "symbol": "USDT/USD",
+            "feed_id": "2b89b9dc8fdf9f34709a5b106b472f0f39bb6ca9ce04b0fd7f2e971688e2e53b",
+            "kp": 2,
+            "pyth_lazer_id": 8
+        },
+        {
+            "symbol": "BTC/USD",
+            "feed_id": "e62df6c8b4a85fe1a67db44dc12de5db330f7ac66b72dc658afedf0f4a415b43",
+            "kp": 3,
+            "pyth_lazer_id": 1
+        },
+        {
+            "symbol": "ETH/USD",
+            "feed_id": "ff61491a931112ddf1bd8147cd1b641375f79f5825126d665480874634fd0ace",
+            "kp": 4,
+            "pyth_lazer_id": 2
+        },
+        {
+            "symbol": "BNB/USD",
+            "feed_id": "2f95862b045670cd22bee3114c39763a4a08beeb663b145d283c31d7d1101c4f",
+            "kp": 5,
+            "pyth_lazer_id": 15
+        },
+        {
+            "symbol": "DOGE/USD",
+            "feed_id": "dcef50dd0a4cd2dcc17e45df1676dcb336a11a61c69df7a0299b0150c672d25c",
+            "kp": 6,
+            "pyth_lazer_id": 13
+        }
+    ]
+}

@@ -1,0 +1,94 @@
+{
+    "symbols": [
+        {
+            "symbol": "USD1/USD",
+            "kp": 1,
+            "bsc_precision": 18,
+            "bsc_token_addr": "0x8d0D000Ee44948FC98c9B98A4FA4921476f08B0d",
+            "bsc_token_addr_env_map": {},
+            "bsc_token_oracle_type": "one-percent-per-minute",
+            "pyth_only": false,
+            "feed_id": "0a2425d43486780990d8b63543029e20556be51fd756cca584212f4d539611d4",
+            "cex_symbol_map": {
+                "binance": "USD1/USD"
+            },
+            "need_sign": true,
+            "pyth_lazer_id": 604
+        },
+        {
+            "symbol": "USDT/USD",
+            "kp": 2,
+            "bsc_precision": 18,
+            "bsc_token_addr": "0x55d398326f99059fF775485246999027B3197955",
+            "bsc_token_addr_env_map": {},
+            "bsc_token_oracle_type": "one-percent-per-minute",
+            "pyth_only": false,
+            "feed_id": "2b89b9dc8fdf9f34709a5b106b472f0f39bb6ca9ce04b0fd7f2e971688e2e53b",
+            "cex_symbol_map": {
+                "binance": "USDT/USD"
+            },
+            "need_sign": true,
+            "pyth_lazer_id": 8
+        },
+        {
+            "symbol": "BTC/USD",
+            "kp": 3,
+            "bsc_precision": 18,
+            "bsc_token_addr": "0x26c52b0b6a890e95748253193ead9c676b58258f",
+            "bsc_token_addr_env_map": {},
+            "bsc_token_oracle_type": "one-percent-per-minute",
+            "pyth_only": false,
+            "feed_id": "e62df6c8b4a85fe1a67db44dc12de5db330f7ac66b72dc658afedf0f4a415b43",
+            "cex_symbol_map": {
+                "binance": "BTC/USD"
+            },
+            "need_sign": true,
+            "pyth_lazer_id": 1
+        },
+        {
+            "symbol": "ETH/USD",
+            "kp": 4,
+            "bsc_precision": 18,
+            "bsc_token_addr": "0x683083beef2cd42e05c4a6487a213a78797ab01a",
+            "bsc_token_addr_env_map": {},
+            "bsc_token_oracle_type": "one-percent-per-minute",
+            "pyth_only": false,
+            "feed_id": "ff61491a931112ddf1bd8147cd1b641375f79f5825126d665480874634fd0ace",
+            "cex_symbol_map": {
+                "binance": "ETH/USD"
+            },
+            "need_sign": true,
+            "pyth_lazer_id": 2
+        },
+        {
+            "symbol": "BNB/USD",
+            "kp": 5,
+            "bsc_precision": 18,
+            "bsc_token_addr": "0x3bc2b65604e18c4a9181c6fd97b1d3ccc8a89b18",
+            "bsc_token_addr_env_map": {},
+            "bsc_token_oracle_type": "one-percent-per-minute",
+            "pyth_only": false,
+            "feed_id": "2f95862b045670cd22bee3114c39763a4a08beeb663b145d283c31d7d1101c4f",
+            "cex_symbol_map": {
+                "binance": "BNB/USD"
+            },
+            "need_sign": true,
+            "pyth_lazer_id": 15
+        },
+        {
+            "symbol": "DOGE/USD",
+            "kp": 6,
+            "bsc_precision": 18,
+            "bsc_token_addr": "0x14b61d2e6065752d2039ebfc0081888e33496cc2",
+            "bsc_token_addr_env_map": {},
+            "bsc_token_oracle_type": "one-percent-per-minute",
+            "pyth_only": false,
+            "feed_id": "dcef50dd0a4cd2dcc17e45df1676dcb336a11a61c69df7a0299b0150c672d25c",
+            "cex_symbol_map": {
+                "binance": "DOGE/USD"
+            },
+            "need_sign": true,
+            "pyth_lazer_id": 13
+        }
+    ]
+}

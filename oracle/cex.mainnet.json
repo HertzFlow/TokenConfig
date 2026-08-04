@@ -1,0 +1,52 @@
+{
+    "symbols": [
+        {
+            "symbol": "USD1/USD",
+            "binance": {
+                "symbol": "USD1USDT",
+                "enabled": true
+            },
+            "kp": 1
+        },
+        {
+            "symbol": "USDT/USD",
+            "binance": {
+                "symbol": "USDTUSDT",
+                "enabled": true
+            },
+            "kp": 2
+        },
+        {
+            "symbol": "BTC/USD",
+            "binance": {
+                "symbol": "BTCUSDT",
+                "enabled": true
+            },
+            "kp": 3
+        },
+        {
+            "symbol": "ETH/USD",
+            "binance": {
+                "symbol": "ETHUSDT",
+                "enabled": true
+            },
+            "kp": 4
+        },
+        {
+            "symbol": "BNB/USD",
+            "binance": {
+                "symbol": "BNBUSDT",
+                "enabled": true
+            },
+            "kp": 5
+        },
+        {
+            "symbol": "DOGE/USD",
+            "binance": {
+                "symbol": "DOGEUSDT",
+                "enabled": true
+            },
+            "kp": 6
+        }
+    ]
+}

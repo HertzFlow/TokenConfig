@@ -1,0 +1,54 @@
+{
+    "name": "HertzFlow",
+    "timestamp": "2026-08-04T07:30:43.114996+00:00",
+    "version": {
+        "major": 1,
+        "minor": 1,
+        "patch": 0
+    },
+    "keywords": ["HertzFlow", "default", "list"],
+    "tokens": [
+        {
+            "address": "0x8d0D000Ee44948FC98c9B98A4FA4921476f08B0d",
+            "chainId": 56,
+            "decimals": 18,
+            "symbol": "USD1/USD",
+            "name": "USD1/USD synthetic market"
+        },
+        {
+            "address": "0x55d398326f99059fF775485246999027B3197955",
+            "chainId": 56,
+            "decimals": 18,
+            "symbol": "USDT/USD",
+            "name": "USDT/USD synthetic market"
+        },
+        {
+            "address": "0x26c52b0b6a890e95748253193ead9c676b58258f",
+            "chainId": 56,
+            "decimals": 18,
+            "symbol": "BTC/USD",
+            "name": "BTC/USD synthetic market"
+        },
+        {
+            "address": "0x683083beef2cd42e05c4a6487a213a78797ab01a",
+            "chainId": 56,
+            "decimals": 18,
+            "symbol": "ETH/USD",
+            "name": "ETH/USD synthetic market"
+        },
+        {
+            "address": "0x3bc2b65604e18c4a9181c6fd97b1d3ccc8a89b18",
+            "chainId": 56,
+            "decimals": 18,
+            "symbol": "BNB/USD",
+            "name": "BNB/USD synthetic market"
+        },
+        {
+            "address": "0x14b61d2e6065752d2039ebfc0081888e33496cc2",
+            "chainId": 56,
+            "decimals": 18,
+            "symbol": "DOGE/USD",
+            "name": "DOGE/USD synthetic market"
+        }
+    ]
+}

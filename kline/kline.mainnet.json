@@ -1,0 +1,20 @@
+{
+    "symbols": [
+        {
+            "symbol": "BTC/USD",
+            "kp": 0
+        },
+        {
+            "symbol": "ETH/USD",
+            "kp": 1
+        },
+        {
+            "symbol": "BNB/USD",
+            "kp": 2
+        },
+        {
+            "symbol": "DOGE/USD",
+            "kp": 0
+        }
+    ]
+}
