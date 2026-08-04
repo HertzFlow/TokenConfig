@@ -8,7 +8,7 @@ ever types `make sop` / `./sop/sop.py`.
 
 The flow, per the SOP:
   1. Pick a request CSV (sop/new_market_template.csv format).
-  2. Pick target environment(s): local, testnet, or both.
+  2. Pick target environment(s): any of local / testnet / mainnet.
   3. Fill the three source-of-truth oracle configs from the CSV:
         oracle/pyth.<env>.json, oracle/cex.<env>.json, oracle/aggr.<env>.json
   4. Regenerate the derived files with the existing, reused scripts:
@@ -97,6 +97,7 @@ import questionary  # noqa: E402
 from core import (  # noqa: E402
     KpAllocator,
     build_lazer_to_feed,
+    derive_synthetic_addr,
     dump_json,
     fetch_pyth_pro_feeds,
     fill_aggr,
@@ -104,9 +105,13 @@ from core import (  # noqa: E402
     fill_pyth,
     load_json,
     parse_csv,
+    synthetic_chain_id,
 )
 
-ENVS = ("local", "testnet")
+ENVS = ("local", "testnet", "mainnet")
+
+# Environments that are production and get an extra explicit confirmation.
+PROD_ENVS = frozenset({"mainnet"})
 
 
 def env_paths(env: str) -> dict[str, Path]:
@@ -145,6 +150,7 @@ def regenerate(env: str, paths: dict[str, Path]) -> None:
         "--output",
         str(paths["all"]),
     ]
+    # chainId: 97 for testnet, 56 otherwise (local and mainnet both use BSC mainnet id).
     if env == "testnet":
         all_cmd.append("--testnet")
     print(f"\n→ regenerating kline.{env}.json")
@@ -153,14 +159,38 @@ def regenerate(env: str, paths: dict[str, Path]) -> None:
     subprocess.run(all_cmd, check=True, cwd=REPO_ROOT)
 
 
+def load_or_empty(path: Path) -> dict:
+    """Load a config, treating a not-yet-existing file as an empty symbol list.
+
+    A brand-new environment (e.g. the first mainnet run) has no oracle configs yet;
+    the SOP creates them from scratch instead of failing.
+    """
+    if not path.exists():
+        return {"symbols": []}
+    return load_json(str(path))
+
+
+def missing_configs(env: str) -> list[str]:
+    """Names of the source-of-truth configs that don't exist yet for this env."""
+    paths = env_paths(env)
+    return [str(paths[k].relative_to(REPO_ROOT)) for k in ("pyth", "cex", "aggr") if not paths[k].exists()]
+
+
 def process_env(env: str, rows, lazer_to_feed, apply: bool) -> bool:
     """Fill the three configs for one env. Returns True if anything was added."""
     paths = env_paths(env)
     print(f"\n{'='*60}\n{env.upper()}\n{'='*60}")
 
-    pyth_cfg = load_json(str(paths["pyth"]))
-    cex_cfg = load_json(str(paths["cex"]))
-    aggr_cfg = load_json(str(paths["aggr"]))
+    absent = missing_configs(env)
+    if absent:
+        print(f"  ⚠ config(s) not present yet, will be created: {', '.join(absent)}")
+
+    chain_id = synthetic_chain_id(env)
+    print(f"  synthetic addr chainId: {chain_id}")
+
+    pyth_cfg = load_or_empty(paths["pyth"])
+    cex_cfg = load_or_empty(paths["cex"])
+    aggr_cfg = load_or_empty(paths["aggr"])
 
     # Single kp allocator seeded from the master (aggr) distribution; the same kp
     # is then written to pyth/cex/aggr for each symbol.
@@ -168,7 +198,7 @@ def process_env(env: str, rows, lazer_to_feed, apply: bool) -> bool:
 
     res_pyth = fill_pyth(pyth_cfg, rows, lazer_to_feed, kp_alloc)
     res_cex = fill_cex(cex_cfg, rows, kp_alloc)
-    res_aggr = fill_aggr(aggr_cfg, rows, lazer_to_feed, kp_alloc)
+    res_aggr = fill_aggr(aggr_cfg, rows, lazer_to_feed, kp_alloc, chain_id)
 
     for res in (res_pyth, res_cex, res_aggr):
         line = f"  {res.file:5s}  +{len(res.added)} added"
@@ -184,7 +214,9 @@ def process_env(env: str, rows, lazer_to_feed, apply: bool) -> bool:
                 kp = kp_alloc.symbol_kp[row.symbol]
                 src = f"binance:{row.binance_symbol}" if row.has_cex else "pyth-only"
                 feed = lazer_to_feed.get(row.pyth_lazer_id) or "NULL"
+                addr = derive_synthetic_addr(row.symbol, chain_id)
                 print(f"    {row.symbol:14s} kp={kp} {src:24s} feed_id={feed}")
+                print(f"    {'':14s} addr={addr}")
 
     if res_aggr.missing_feed:
         print(f"  ⚠ NULL feed_id (no hermes feed for lazer id): {', '.join(res_aggr.missing_feed)}")
@@ -263,11 +295,13 @@ def main() -> None:
         extract_symbols(csv_path, csv_choice)
         return
 
+    # mainnet is left unchecked by default — it is production, opt in explicitly.
     env_choice = questionary.checkbox(
         "Target environment(s):",
         choices=[
             questionary.Choice("local", checked=True),
             questionary.Choice("testnet", checked=True),
+            questionary.Choice("mainnet", checked=False),
         ],
     ).ask()
     if not env_choice:
@@ -291,10 +325,12 @@ def main() -> None:
         print(f"Failed to fetch Pyth Pro feeds: {e}")
         sys.exit(1)
 
+    selected = [e for e in ENVS if e in env_choice]
+
     # 1) Dry-run preview for all selected envs.
     print("\n── DRY RUN (no files written) ──")
     any_changes = False
-    for env in [e for e in ENVS if e in env_choice]:
+    for env in selected:
         if process_env(env, rows, lazer_to_feed, apply=False):
             any_changes = True
 
@@ -303,12 +339,22 @@ def main() -> None:
         sys.exit(0)
 
     # 2) Confirm, then apply + regenerate.
-    if not questionary.confirm("Apply these changes and regenerate kline/all?", default=False).ask():
+    if not questionary.confirm(
+        f"Apply these changes to {', '.join(selected)} and regenerate kline/all?", default=False
+    ).ask():
+        print("Aborted. No files changed.")
+        sys.exit(0)
+
+    # Production envs get a second, explicit confirmation.
+    prod = [e for e in selected if e in PROD_ENVS]
+    if prod and not questionary.confirm(
+        f"⚠ {', '.join(prod)} is PRODUCTION. Really write {', '.join(prod)} configs?", default=False
+    ).ask():
         print("Aborted. No files changed.")
         sys.exit(0)
 
     print("\n── APPLYING ──")
-    for env in [e for e in ENVS if e in env_choice]:
+    for env in selected:
         process_env(env, rows, lazer_to_feed, apply=True)
 
     print("\n✅ Done. Review `git diff` before committing.")

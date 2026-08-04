@@ -22,6 +22,9 @@ Design notes (intentionally a fresh implementation, not an import of scripts/*):
     (deterministic, keeps the existing balance). A symbol already in aggr reuses
     its current kp.
   - Every fill is idempotent: a symbol already present in a file is left untouched.
+  - The synthetic bsc_token_addr hashes the chainId, so it is env-dependent: local and
+    testnet derive with 97 (BSC testnet), mainnet with 56 (BSC mainnet). The same symbol
+    therefore has a DIFFERENT address on mainnet than on local/testnet — by design.
 """
 
 from __future__ import annotations
@@ -33,12 +36,31 @@ from urllib.request import Request, urlopen
 
 # Synthetic BSC token address derivation. Must match scripts/get_synthetic_token_addr.ts:
 #   "0x" + keccak256(abi.encode(["uint256","string"], [chainId, symbol]))[12:]
-# chainId is hard-coded to BSC testnet (97) there and the on-chain addresses in
-# aggr.*.json were derived with 97, so we use 97 for BOTH local and testnet.
+# The chainId is part of the preimage, so it must match the chain the market lives on:
+# BSC testnet (97) for local/testnet, BSC mainnet (56) for mainnet. The existing
+# local/testnet addresses in aggr.*.json were derived with 97, so those stay as they are.
 from eth_abi import encode as abi_encode
 from eth_utils import keccak
 
-SYNTHETIC_CHAIN_ID = 97
+BSC_TESTNET_CHAIN_ID = 97
+BSC_MAINNET_CHAIN_ID = 56
+
+# Default kept at 97 for backwards compatibility with existing local/testnet records.
+SYNTHETIC_CHAIN_ID = BSC_TESTNET_CHAIN_ID
+
+SYNTHETIC_CHAIN_ID_BY_ENV = {
+    "local": BSC_TESTNET_CHAIN_ID,
+    "testnet": BSC_TESTNET_CHAIN_ID,
+    "mainnet": BSC_MAINNET_CHAIN_ID,
+}
+
+
+def synthetic_chain_id(env: str) -> int:
+    """chainId used to derive synthetic token addresses for an environment."""
+    try:
+        return SYNTHETIC_CHAIN_ID_BY_ENV[env]
+    except KeyError:
+        raise ValueError(f"unknown env {env!r}; expected one of {sorted(SYNTHETIC_CHAIN_ID_BY_ENV)}") from None
 
 PYTH_PRO_PRICE_FEEDS_URL = "https://pyth.dourolabs.app/v1/symbols"
 
@@ -249,7 +271,14 @@ def fill_cex(cex_cfg: dict, rows: list[MarketRow], kp_alloc: KpAllocator) -> Fil
     return res
 
 
-def fill_aggr(aggr_cfg: dict, rows: list[MarketRow], lazer_to_feed: dict, kp_alloc: KpAllocator) -> FillResult:
+def fill_aggr(
+    aggr_cfg: dict,
+    rows: list[MarketRow],
+    lazer_to_feed: dict,
+    kp_alloc: KpAllocator,
+    chain_id: int = SYNTHETIC_CHAIN_ID,
+) -> FillResult:
+    """Fill aggr for one env. `chain_id` selects the synthetic-address chain (97 vs 56)."""
     symbols = aggr_cfg.setdefault("symbols", [])
     existing = {s.get("symbol") for s in symbols}
     res = FillResult(file="aggr")
@@ -266,7 +295,7 @@ def fill_aggr(aggr_cfg: dict, rows: list[MarketRow], lazer_to_feed: dict, kp_all
                 "symbol": row.symbol,
                 "kp": kp_alloc.kp_for(row.symbol),
                 "bsc_precision": AGGR_DEFAULT_PRECISION,
-                "bsc_token_addr": derive_synthetic_addr(row.symbol),
+                "bsc_token_addr": derive_synthetic_addr(row.symbol, chain_id),
                 "bsc_token_addr_env_map": {},
                 "bsc_token_oracle_type": AGGR_DEFAULT_ORACLE_TYPE,
                 "pyth_only": not row.has_cex,
