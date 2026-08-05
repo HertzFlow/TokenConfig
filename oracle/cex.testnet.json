@@ -255,6 +255,22 @@
                 "enabled": true
             },
             "kp": 6
+        },
+        {
+            "symbol": "XAU/USD",
+            "binance": {
+                "symbol": "XAUUSDT",
+                "enabled": true
+            },
+            "kp": 1
+        },
+        {
+            "symbol": "XAG/USD",
+            "binance": {
+                "symbol": "XAGUSDT",
+                "enabled": true
+            },
+            "kp": 2
         }
     ]
 }
