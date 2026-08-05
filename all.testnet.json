@@ -1,9 +1,9 @@
 {
     "name": "HertzFlow",
-    "timestamp": "2026-06-15T06:38:50.246092+00:00",
+    "timestamp": "2026-08-05T07:11:49.517316+00:00",
     "version": {
         "major": 1,
-        "minor": 5,
+        "minor": 6,
         "patch": 0
     },
     "keywords": [
@@ -97,20 +97,6 @@
             "name": "USD/CAD synthetic market"
         },
         {
-            "address": "0x991bf3357967649afacf8d1a550ad5cec2d00540",
-            "chainId": 97,
-            "decimals": 18,
-            "symbol": "USD/TRY",
-            "name": "USD/TRY synthetic market"
-        },
-        {
-            "address": "0xce3c1bde6e3d677a99244f80fd2b22b2f41e51cf",
-            "chainId": 97,
-            "decimals": 18,
-            "symbol": "USD/IDR",
-            "name": "USD/IDR synthetic market"
-        },
-        {
             "address": "0x59a9e6f73ce7adb0bb91ed64935670f1df14fa17",
             "chainId": 97,
             "decimals": 18,
@@ -123,20 +109,6 @@
             "decimals": 18,
             "symbol": "AUD/USD",
             "name": "AUD/USD synthetic market"
-        },
-        {
-            "address": "0x787ea3ad3884819cd75dd9012143d01f34f6f1ea",
-            "chainId": 97,
-            "decimals": 18,
-            "symbol": "USD/BRL",
-            "name": "USD/BRL synthetic market"
-        },
-        {
-            "address": "0xf7fb44780e725812ab7b5e2b7f0927c366ad36e3",
-            "chainId": 97,
-            "decimals": 18,
-            "symbol": "USD/SGD",
-            "name": "USD/SGD synthetic market"
         },
         {
             "address": "0x0bd2f9b566eadf4a7576e7e00c3e4f84c6cf06f7",
@@ -265,41 +237,6 @@
             "name": "USOILSPOT/USD synthetic market"
         },
         {
-            "address": "0x49551fa09433bf26f24eca517226f2b35b560c85",
-            "chainId": 97,
-            "decimals": 18,
-            "symbol": "XPT/USD",
-            "name": "XPT/USD synthetic market"
-        },
-        {
-            "address": "0x730f022f9e3888e07763ef210ee6f4dfd61792b6",
-            "chainId": 97,
-            "decimals": 18,
-            "symbol": "XPD/USD",
-            "name": "XPD/USD synthetic market"
-        },
-        {
-            "address": "0x728305df29cfc229140aeec6df599c6a7abd819b",
-            "chainId": 97,
-            "decimals": 18,
-            "symbol": "NLR/USD",
-            "name": "NLR/USD synthetic market"
-        },
-        {
-            "address": "0x6c381bf3a48ba62618d5cef0d5febc309435424e",
-            "chainId": 97,
-            "decimals": 18,
-            "symbol": "USD/KRW",
-            "name": "USD/KRW synthetic market"
-        },
-        {
-            "address": "0xd466320d9155457a4a7f2444c74201f3c0c07d55",
-            "chainId": 97,
-            "decimals": 18,
-            "symbol": "INTC/USD",
-            "name": "INTC/USD synthetic market"
-        },
-        {
             "address": "0x963c6ecf363fb9fa315acd7079e7720b34fd7c9c",
             "chainId": 97,
             "decimals": 18,
@@ -321,13 +258,6 @@
             "name": "MSFT/USD synthetic market"
         },
         {
-            "address": "0x8ad0f5525cae62962873260e09d6a8e7e1d12cdd",
-            "chainId": 97,
-            "decimals": 18,
-            "symbol": "ORCL/USD",
-            "name": "ORCL/USD synthetic market"
-        },
-        {
             "address": "0xc12a50d37590cca1c33907efe9e72c55981a6f71",
             "chainId": 97,
             "decimals": 18,
@@ -340,13 +270,6 @@
             "decimals": 18,
             "symbol": "AMZN/USD",
             "name": "AMZN/USD synthetic market"
-        },
-        {
-            "address": "0xb81ecbd93baa9726c762700c3344b3e5b6a98131",
-            "chainId": 97,
-            "decimals": 18,
-            "symbol": "NFLX/USD",
-            "name": "NFLX/USD synthetic market"
         },
         {
             "address": "0x23a045e3a048936805a803bb1e5297922c1be3c1",
@@ -384,13 +307,6 @@
             "name": "MSTR/USD synthetic market"
         },
         {
-            "address": "0xfd232e4a1661809eb305c5f06335f9e2006410b1",
-            "chainId": 97,
-            "decimals": 18,
-            "symbol": "SNDK/USD",
-            "name": "SNDK/USD synthetic market"
-        },
-        {
             "address": "0xbe1eec86253b64278363ec4d52f039964297e2bc",
             "chainId": 97,
             "decimals": 18,
@@ -403,13 +319,6 @@
             "decimals": 18,
             "symbol": "TSM/USD",
             "name": "TSM/USD synthetic market"
-        },
-        {
-            "address": "0x30e14b16140a13f1e5f566a7991d74a621efcaf5",
-            "chainId": 97,
-            "decimals": 18,
-            "symbol": "BABA/USD",
-            "name": "BABA/USD synthetic market"
         },
         {
             "address": "0x541b92fbe2370982d652f2140f18b99b1887afc0",
@@ -426,151 +335,11 @@
             "name": "HIMS/USD synthetic market"
         },
         {
-            "address": "0xeb0c2eb7b1f400e57205906c58360f1c6702a012",
-            "chainId": 97,
-            "decimals": 18,
-            "symbol": "COST/USD",
-            "name": "COST/USD synthetic market"
-        },
-        {
-            "address": "0x7a3b684cce38dbf297cd7f8b11ea556d6c67ab32",
-            "chainId": 97,
-            "decimals": 18,
-            "symbol": "LLY/USD",
-            "name": "LLY/USD synthetic market"
-        },
-        {
-            "address": "0x4b246121a4628e1f2b7916646150e6f5ebc2a83f",
-            "chainId": 97,
-            "decimals": 18,
-            "symbol": "LMT/USD",
-            "name": "LMT/USD synthetic market"
-        },
-        {
-            "address": "0x7a3aa979980dd3fdd1a8c0756ba4bb4ac3e255d3",
-            "chainId": 97,
-            "decimals": 18,
-            "symbol": "RTX/USD",
-            "name": "RTX/USD synthetic market"
-        },
-        {
-            "address": "0x11906ca56c07d73ed8b78e2bb9dfb575305b2f7d",
-            "chainId": 97,
-            "decimals": 18,
-            "symbol": "NOC/USD",
-            "name": "NOC/USD synthetic market"
-        },
-        {
-            "address": "0x4471b89374abc4e6baa828fe185dcfca188e415a",
-            "chainId": 97,
-            "decimals": 18,
-            "symbol": "GD/USD",
-            "name": "GD/USD synthetic market"
-        },
-        {
-            "address": "0x9ba5f66b36bd464a358134773d7762baa47b4781",
-            "chainId": 97,
-            "decimals": 18,
-            "symbol": "ITA/USD",
-            "name": "ITA/USD synthetic market"
-        },
-        {
-            "address": "0x18eb56c2aee17cff4bf65655a45fc6862703e3c3",
-            "chainId": 97,
-            "decimals": 18,
-            "symbol": "LHX/USD",
-            "name": "LHX/USD synthetic market"
-        },
-        {
-            "address": "0xf7f8a64dd8507637ef3fcb350cf5f7af23abf52d",
-            "chainId": 97,
-            "decimals": 18,
-            "symbol": "BA/USD",
-            "name": "BA/USD synthetic market"
-        },
-        {
-            "address": "0x0d78d3d7ed6f6da94c1ca2e34e7a3ddee9f42dc0",
-            "chainId": 97,
-            "decimals": 18,
-            "symbol": "SHLD/USD",
-            "name": "SHLD/USD synthetic market"
-        },
-        {
-            "address": "0x2320f30e4a76828b39316cd5df00a3c428dfaede",
-            "chainId": 97,
-            "decimals": 18,
-            "symbol": "XOM/USD",
-            "name": "XOM/USD synthetic market"
-        },
-        {
-            "address": "0xbdc8dcd0152568f718204bacc028be37b9bff103",
-            "chainId": 97,
-            "decimals": 18,
-            "symbol": "CVX/USD",
-            "name": "CVX/USD synthetic market"
-        },
-        {
-            "address": "0x24f7b13d94f2a92ec0106934371850567dd4cc89",
-            "chainId": 97,
-            "decimals": 18,
-            "symbol": "HAL/USD",
-            "name": "HAL/USD synthetic market"
-        },
-        {
-            "address": "0x45bfc5c62a97cde712e545fc3b946da34131ba3d",
-            "chainId": 97,
-            "decimals": 18,
-            "symbol": "XLE/USD",
-            "name": "XLE/USD synthetic market"
-        },
-        {
-            "address": "0x7686363c4a5538a550ae6243587079f71d2e0edf",
-            "chainId": 97,
-            "decimals": 18,
-            "symbol": "USO/USD",
-            "name": "USO/USD synthetic market"
-        },
-        {
-            "address": "0x3e481e5a3f2f531f96a5d59fd4b0a011d9fa9003",
-            "chainId": 97,
-            "decimals": 18,
-            "symbol": "TLT/USD",
-            "name": "TLT/USD synthetic market"
-        },
-        {
-            "address": "0xfff4053d685649efcc561a737adac2500a039fe8",
-            "chainId": 97,
-            "decimals": 18,
-            "symbol": "SHY/USD",
-            "name": "SHY/USD synthetic market"
-        },
-        {
-            "address": "0xac85b5177a7b83f0d1d6de149a6cbfc36ff42475",
-            "chainId": 97,
-            "decimals": 18,
-            "symbol": "IEF/USD",
-            "name": "IEF/USD synthetic market"
-        },
-        {
-            "address": "0x0ff8bab9197b689a00631fae94bf26a066da4d6a",
-            "chainId": 97,
-            "decimals": 18,
-            "symbol": "VXX/USD",
-            "name": "VXX/USD synthetic market"
-        },
-        {
             "address": "0x77e587a0dae01a49c35e656d481e177ec6d2d53d",
             "chainId": 97,
             "decimals": 18,
             "symbol": "USDXY/USD",
             "name": "USDXY/USD synthetic market"
-        },
-        {
-            "address": "0x8020f80c8309bd608884a27bdb7e8f42ae98aeb2",
-            "chainId": 97,
-            "decimals": 18,
-            "symbol": "USD/CNH",
-            "name": "USD/CNH synthetic market"
         },
         {
             "address": "0x8efb4bfa9a3a760884f56d4ad57bc6ade4d0b33c",
@@ -580,123 +349,11 @@
             "name": "0G/USD synthetic market"
         },
         {
-            "address": "0x16c4a39496953d9aa74d15214eaffa5c7170d98e",
-            "chainId": 97,
-            "decimals": 18,
-            "symbol": "AKT/USD",
-            "name": "AKT/USD synthetic market"
-        },
-        {
-            "address": "0xa3ac35993e1794aecc7fbcd10581da42541c692b",
-            "chainId": 97,
-            "decimals": 18,
-            "symbol": "ARC/USD",
-            "name": "ARC/USD synthetic market"
-        },
-        {
-            "address": "0x19bb29e6a6b04cb0c841f98157dd1bec07ef04f6",
-            "chainId": 97,
-            "decimals": 18,
-            "symbol": "F/USD",
-            "name": "F/USD synthetic market"
-        },
-        {
-            "address": "0x9571d752bd90caf086768f939bfcf52a02213a57",
-            "chainId": 97,
-            "decimals": 18,
-            "symbol": "H/USD",
-            "name": "H/USD synthetic market"
-        },
-        {
-            "address": "0xca5b8bd9300f885cb3f6c019753299974c0d40ff",
-            "chainId": 97,
-            "decimals": 18,
-            "symbol": "HEMI/USD",
-            "name": "HEMI/USD synthetic market"
-        },
-        {
-            "address": "0xf8b73d606cbf280eb4ee2971056c025b4656e25c",
-            "chainId": 97,
-            "decimals": 18,
-            "symbol": "HYPER/USD",
-            "name": "HYPER/USD synthetic market"
-        },
-        {
-            "address": "0xf97a83a0c6888bc7c53ddda5b2765ffb3e97e79c",
-            "chainId": 97,
-            "decimals": 18,
-            "symbol": "MMT/USD",
-            "name": "MMT/USD synthetic market"
-        },
-        {
             "address": "0xff2ffc2b201ad36046c1c2b7510dddc71058257b",
             "chainId": 97,
             "decimals": 18,
             "symbol": "MOODENG/USD",
             "name": "MOODENG/USD synthetic market"
-        },
-        {
-            "address": "0xdd008a74564d06b0b89602e6305606a646b38d5a",
-            "chainId": 97,
-            "decimals": 18,
-            "symbol": "PARTI/USD",
-            "name": "PARTI/USD synthetic market"
-        },
-        {
-            "address": "0xf1640754c6680c57fadc3877e593f6ac9e4e550a",
-            "chainId": 97,
-            "decimals": 18,
-            "symbol": "PROMPT/USD",
-            "name": "PROMPT/USD synthetic market"
-        },
-        {
-            "address": "0xfc8e0550f8d692ffc4f66d60b05a1104e39e2353",
-            "chainId": 97,
-            "decimals": 18,
-            "symbol": "SIGN/USD",
-            "name": "SIGN/USD synthetic market"
-        },
-        {
-            "address": "0x2c4c8dc5b0d85c3b5deaaa057d8e35b178d24f62",
-            "chainId": 97,
-            "decimals": 18,
-            "symbol": "SOON/USD",
-            "name": "SOON/USD synthetic market"
-        },
-        {
-            "address": "0x50da94eee4d0f500effe729c4938e97b77ba787a",
-            "chainId": 97,
-            "decimals": 18,
-            "symbol": "STBL/USD",
-            "name": "STBL/USD synthetic market"
-        },
-        {
-            "address": "0xad60a313357d2e861f4490422ce3ab68e49f7350",
-            "chainId": 97,
-            "decimals": 18,
-            "symbol": "SWARMS/USD",
-            "name": "SWARMS/USD synthetic market"
-        },
-        {
-            "address": "0xe83e3476cf737d4b5a34ae017c39406d2ca60971",
-            "chainId": 97,
-            "decimals": 18,
-            "symbol": "TAC/USD",
-            "name": "TAC/USD synthetic market"
-        },
-        {
-            "address": "0x33c0cfff25bef877eb23f72146b0b581b1cf9461",
-            "chainId": 97,
-            "decimals": 18,
-            "symbol": "VINE/USD",
-            "name": "VINE/USD synthetic market"
-        },
-        {
-            "address": "0x118bdf01862fff91ea153ecd98c5c0df940cf5b6",
-            "chainId": 97,
-            "decimals": 18,
-            "symbol": "ZEREBRO/USD",
-            "name": "ZEREBRO/USD synthetic market"
         },
         {
             "address": "0xfb681274bddc2f6889b1876bdbcbc84337393e94",
@@ -713,207 +370,11 @@
             "name": "AVGO/USD synthetic market"
         },
         {
-            "address": "0x7740a6c732e78568cce59385f0dae643206c6096",
-            "chainId": 97,
-            "decimals": 18,
-            "symbol": "CBRS/USD",
-            "name": "CBRS/USD synthetic market"
-        },
-        {
-            "address": "0x5eb18ff382f06beac30a9b888f91e47d333e7e94",
-            "chainId": 97,
-            "decimals": 18,
-            "symbol": "CRDO/USD",
-            "name": "CRDO/USD synthetic market"
-        },
-        {
-            "address": "0x03ac06cac0bf4b54c3dfc7b09c22bd7a770dbc3e",
-            "chainId": 97,
-            "decimals": 18,
-            "symbol": "MPWR/USD",
-            "name": "MPWR/USD synthetic market"
-        },
-        {
             "address": "0x663de62a4be589533b30b08a55009ce27c75c003",
             "chainId": 97,
             "decimals": 18,
             "symbol": "MRVL/USD",
             "name": "MRVL/USD synthetic market"
-        },
-        {
-            "address": "0x7a85d7692261878626d6dbf61b6e5718a741d53f",
-            "chainId": 97,
-            "decimals": 18,
-            "symbol": "QCOM/USD",
-            "name": "QCOM/USD synthetic market"
-        },
-        {
-            "address": "0xed765ae66767bff26741b7c5afa77a4012f938aa",
-            "chainId": 97,
-            "decimals": 18,
-            "symbol": "AMAT/USD",
-            "name": "AMAT/USD synthetic market"
-        },
-        {
-            "address": "0x810621d714930b939a2ad0a49a8de5e26f32b69c",
-            "chainId": 97,
-            "decimals": 18,
-            "symbol": "ASML/USD",
-            "name": "ASML/USD synthetic market"
-        },
-        {
-            "address": "0x6e92f4cff3a92b18289f9197e657dabcf5df5ac1",
-            "chainId": 97,
-            "decimals": 18,
-            "symbol": "KLAC/USD",
-            "name": "KLAC/USD synthetic market"
-        },
-        {
-            "address": "0x61659166a842ad0d1234efad3752f4939ea4a8cf",
-            "chainId": 97,
-            "decimals": 18,
-            "symbol": "LRCX/USD",
-            "name": "LRCX/USD synthetic market"
-        },
-        {
-            "address": "0xe5c042aff39acd47dd3d43184803badf2e24cbcc",
-            "chainId": 97,
-            "decimals": 18,
-            "symbol": "ALB/USD",
-            "name": "ALB/USD synthetic market"
-        },
-        {
-            "address": "0x4e4bc568f68893a23eba7f2d367f08bf89466a9a",
-            "chainId": 97,
-            "decimals": 18,
-            "symbol": "APD/USD",
-            "name": "APD/USD synthetic market"
-        },
-        {
-            "address": "0x628e06e20505379e62e9d0cbb0be23410a47d486",
-            "chainId": 97,
-            "decimals": 18,
-            "symbol": "LIN/USD",
-            "name": "LIN/USD synthetic market"
-        },
-        {
-            "address": "0x8f0ad734232a474ef5e45b893748730c609f003b",
-            "chainId": 97,
-            "decimals": 18,
-            "symbol": "NTAP/USD",
-            "name": "NTAP/USD synthetic market"
-        },
-        {
-            "address": "0x984d82147823f2171f286742670a06fcadb62bea",
-            "chainId": 97,
-            "decimals": 18,
-            "symbol": "SOXL/USD",
-            "name": "SOXL/USD synthetic market"
-        },
-        {
-            "address": "0x0e0031f8ecc60abae88f2e5699bfdad0d8436935",
-            "chainId": 97,
-            "decimals": 18,
-            "symbol": "STX/USD",
-            "name": "STX/USD synthetic market"
-        },
-        {
-            "address": "0xaa3715e2d4f955e338163dab97428e2c81a035d2",
-            "chainId": 97,
-            "decimals": 18,
-            "symbol": "WDC/USD",
-            "name": "WDC/USD synthetic market"
-        },
-        {
-            "address": "0xe0532233135933ab328eea1049257a085fdbfd87",
-            "chainId": 97,
-            "decimals": 18,
-            "symbol": "ANET/USD",
-            "name": "ANET/USD synthetic market"
-        },
-        {
-            "address": "0xe96040d855c4bfcb8dc70c206da38afae0e8ef2a",
-            "chainId": 97,
-            "decimals": 18,
-            "symbol": "COHR/USD",
-            "name": "COHR/USD synthetic market"
-        },
-        {
-            "address": "0xe0cd1d919e6ad477809707c003cd45ba6c343b88",
-            "chainId": 97,
-            "decimals": 18,
-            "symbol": "CSCO/USD",
-            "name": "CSCO/USD synthetic market"
-        },
-        {
-            "address": "0x90a9ae2e5ce67498fa56e14feeb213f7ebc13948",
-            "chainId": 97,
-            "decimals": 18,
-            "symbol": "IBM/USD",
-            "name": "IBM/USD synthetic market"
-        },
-        {
-            "address": "0x170be9847d1a952a0e72bc5f9e2ce567502ea52c",
-            "chainId": 97,
-            "decimals": 18,
-            "symbol": "ADBE/USD",
-            "name": "ADBE/USD synthetic market"
-        },
-        {
-            "address": "0x4fae932737fd541c5db4ac236f76af841c323a9c",
-            "chainId": 97,
-            "decimals": 18,
-            "symbol": "CRM/USD",
-            "name": "CRM/USD synthetic market"
-        },
-        {
-            "address": "0x2c45e21a5988293f49d5c55dd31a98b62c12ace6",
-            "chainId": 97,
-            "decimals": 18,
-            "symbol": "CRWD/USD",
-            "name": "CRWD/USD synthetic market"
-        },
-        {
-            "address": "0x01287f1d9567af5abd3529957110150fd6fae9f8",
-            "chainId": 97,
-            "decimals": 18,
-            "symbol": "DDOG/USD",
-            "name": "DDOG/USD synthetic market"
-        },
-        {
-            "address": "0x1387bc613ac3de2a28960b9b3c8d21ab400173b5",
-            "chainId": 97,
-            "decimals": 18,
-            "symbol": "MDB/USD",
-            "name": "MDB/USD synthetic market"
-        },
-        {
-            "address": "0x01e8adc097a20710ccdba76ffce11bfa297d747a",
-            "chainId": 97,
-            "decimals": 18,
-            "symbol": "NOW/USD",
-            "name": "NOW/USD synthetic market"
-        },
-        {
-            "address": "0xe89fa13c0ca2864e41c785d0b7fe0bda9641959e",
-            "chainId": 97,
-            "decimals": 18,
-            "symbol": "PANW/USD",
-            "name": "PANW/USD synthetic market"
-        },
-        {
-            "address": "0xeb6eae55469b7b93a507e957d2175db7b3d7a2fe",
-            "chainId": 97,
-            "decimals": 18,
-            "symbol": "SNOW/USD",
-            "name": "SNOW/USD synthetic market"
-        },
-        {
-            "address": "0x887c4fb86b6276ee17bb00ab9fc1f80c07d6348b",
-            "chainId": 97,
-            "decimals": 18,
-            "symbol": "DELL/USD",
-            "name": "DELL/USD synthetic market"
         },
         {
             "address": "0xcded8baaf2e2670cb3c3d0e3a5891436a7aa1c59",
@@ -930,221 +391,11 @@
             "name": "NBIS/USD synthetic market"
         },
         {
-            "address": "0xb0145745aec06becd860c8ae264add5f37bde783",
-            "chainId": 97,
-            "decimals": 18,
-            "symbol": "AEP/USD",
-            "name": "AEP/USD synthetic market"
-        },
-        {
-            "address": "0xfbe42e08a463303fc1b98122185047a3c16052c4",
-            "chainId": 97,
-            "decimals": 18,
-            "symbol": "AMT/USD",
-            "name": "AMT/USD synthetic market"
-        },
-        {
-            "address": "0x552776006534dfb016f1f10c1da91bbbc3ab7306",
-            "chainId": 97,
-            "decimals": 18,
-            "symbol": "BE/USD",
-            "name": "BE/USD synthetic market"
-        },
-        {
-            "address": "0x695434d635d1291ba92cb7151509ff900592487e",
-            "chainId": 97,
-            "decimals": 18,
-            "symbol": "CCI/USD",
-            "name": "CCI/USD synthetic market"
-        },
-        {
-            "address": "0x7a3b437bf127e89958a37b33946c93273e6967bb",
-            "chainId": 97,
-            "decimals": 18,
-            "symbol": "CCJ/USD",
-            "name": "CCJ/USD synthetic market"
-        },
-        {
-            "address": "0x51cd32d45d781539fd2c303b9ebd4b22d5340238",
-            "chainId": 97,
-            "decimals": 18,
-            "symbol": "CEG/USD",
-            "name": "CEG/USD synthetic market"
-        },
-        {
-            "address": "0x1bc843ee0773c09c67ea7108fd429c038e99c051",
-            "chainId": 97,
-            "decimals": 18,
-            "symbol": "D/USD",
-            "name": "D/USD synthetic market"
-        },
-        {
-            "address": "0xbab9b08b8c371575e9384b682271f7af40f186c8",
-            "chainId": 97,
-            "decimals": 18,
-            "symbol": "DIS/USD",
-            "name": "DIS/USD synthetic market"
-        },
-        {
-            "address": "0x01f9707a08bcd5690aed2e7bacab1e48810d337c",
-            "chainId": 97,
-            "decimals": 18,
-            "symbol": "DLR/USD",
-            "name": "DLR/USD synthetic market"
-        },
-        {
-            "address": "0xac93e9237040d831a4effa9da1c1ce6226c5f336",
-            "chainId": 97,
-            "decimals": 18,
-            "symbol": "DUK/USD",
-            "name": "DUK/USD synthetic market"
-        },
-        {
-            "address": "0x3914f36a68a408b15ab661eac33550c6bc5fd2e4",
-            "chainId": 97,
-            "decimals": 18,
-            "symbol": "EMR/USD",
-            "name": "EMR/USD synthetic market"
-        },
-        {
-            "address": "0xb0893c9c4bc35e6e8ef1d57a8d69e6e900b94f9b",
-            "chainId": 97,
-            "decimals": 18,
-            "symbol": "ENPH/USD",
-            "name": "ENPH/USD synthetic market"
-        },
-        {
-            "address": "0x6ea4bbec47062a8601e5ae80a0234f92d6c27fac",
-            "chainId": 97,
-            "decimals": 18,
-            "symbol": "EQIX/USD",
-            "name": "EQIX/USD synthetic market"
-        },
-        {
-            "address": "0xe97766aa9c2fb4870e443b2ee47e6f47d7764310",
-            "chainId": 97,
-            "decimals": 18,
-            "symbol": "ETN/USD",
-            "name": "ETN/USD synthetic market"
-        },
-        {
-            "address": "0xb8c1ea300d7e3353e3351097e8276381df3f2094",
-            "chainId": 97,
-            "decimals": 18,
-            "symbol": "ETR/USD",
-            "name": "ETR/USD synthetic market"
-        },
-        {
-            "address": "0x148f51397cf80f17ae6c56d77c208c6c20c8a8cd",
-            "chainId": 97,
-            "decimals": 18,
-            "symbol": "EWJ/USD",
-            "name": "EWJ/USD synthetic market"
-        },
-        {
-            "address": "0xbb3f2cb2353883bba41f9b6944d8d0d8c2f8b4a8",
-            "chainId": 97,
-            "decimals": 18,
-            "symbol": "EWY/USD",
-            "name": "EWY/USD synthetic market"
-        },
-        {
-            "address": "0xfbfbcfe817b631bd25401916583041d8e90e8615",
-            "chainId": 97,
-            "decimals": 18,
-            "symbol": "EXC/USD",
-            "name": "EXC/USD synthetic market"
-        },
-        {
-            "address": "0x2060ecbca39b0232ffe2d1ef34554745cc9ec395",
-            "chainId": 97,
-            "decimals": 18,
-            "symbol": "FSLR/USD",
-            "name": "FSLR/USD synthetic market"
-        },
-        {
-            "address": "0x8849c8d8cce32d84cfaba65666f3a6f7dc7cc8a6",
-            "chainId": 97,
-            "decimals": 18,
-            "symbol": "GE/USD",
-            "name": "GE/USD synthetic market"
-        },
-        {
-            "address": "0xd67c6bc6151f1e4638efbd17dfcc64089b77a019",
-            "chainId": 97,
-            "decimals": 18,
-            "symbol": "GEV/USD",
-            "name": "GEV/USD synthetic market"
-        },
-        {
-            "address": "0x8f89afb901948902d6040945dedd7bd1ab4d6f6e",
-            "chainId": 97,
-            "decimals": 18,
-            "symbol": "HD/USD",
-            "name": "HD/USD synthetic market"
-        },
-        {
-            "address": "0xc0631119797b6dabccb2b9274f9d0ce043290508",
-            "chainId": 97,
-            "decimals": 18,
-            "symbol": "HUBB/USD",
-            "name": "HUBB/USD synthetic market"
-        },
-        {
-            "address": "0xbe41e39ba1654c35eea84ce02baf97aca7015e0e",
-            "chainId": 97,
-            "decimals": 18,
-            "symbol": "IRM/USD",
-            "name": "IRM/USD synthetic market"
-        },
-        {
-            "address": "0x0096f1ef56fac4f7ac78bfb76d7ab806213b5ac4",
-            "chainId": 97,
-            "decimals": 18,
-            "symbol": "JPM/USD",
-            "name": "JPM/USD synthetic market"
-        },
-        {
-            "address": "0x97ae6f0f840c2580afbd36248285553b43ed7e3c",
-            "chainId": 97,
-            "decimals": 18,
-            "symbol": "NEE/USD",
-            "name": "NEE/USD synthetic market"
-        },
-        {
-            "address": "0x834a936cb150efa29082105d41d51bca92f568a7",
-            "chainId": 97,
-            "decimals": 18,
-            "symbol": "NVO/USD",
-            "name": "NVO/USD synthetic market"
-        },
-        {
             "address": "0xfa79d6b104e1bc1e96caa6e42488e27e89a59c9a",
             "chainId": 97,
             "decimals": 18,
             "symbol": "OKLO/USD",
             "name": "OKLO/USD synthetic market"
-        },
-        {
-            "address": "0xb0f8e8a427ded6ab386f24c6fdd9289493ded689",
-            "chainId": 97,
-            "decimals": 18,
-            "symbol": "PCG/USD",
-            "name": "PCG/USD synthetic market"
-        },
-        {
-            "address": "0xc22a3aaba371683bbb42203725a1573e595a2848",
-            "chainId": 97,
-            "decimals": 18,
-            "symbol": "PH/USD",
-            "name": "PH/USD synthetic market"
-        },
-        {
-            "address": "0xc617af23f23d1b9364710b7ce6d6d2272a862b13",
-            "chainId": 97,
-            "decimals": 18,
-            "symbol": "PWR/USD",
-            "name": "PWR/USD synthetic market"
         },
         {
             "address": "0x1056352e47551bbcb197da19d5aafbd0c300f14e",
@@ -1154,123 +405,11 @@
             "name": "RKLB/USD synthetic market"
         },
         {
-            "address": "0xab04f2870955095c4061051277756164265fda7c",
-            "chainId": 97,
-            "decimals": 18,
-            "symbol": "SMR/USD",
-            "name": "SMR/USD synthetic market"
-        },
-        {
-            "address": "0x7add3783c14433b61663ff3eff9f993f14fddbe5",
-            "chainId": 97,
-            "decimals": 18,
-            "symbol": "SO/USD",
-            "name": "SO/USD synthetic market"
-        },
-        {
-            "address": "0x2ea5895d64894d87eba6f6328c7514016404abfd",
-            "chainId": 97,
-            "decimals": 18,
-            "symbol": "UBER/USD",
-            "name": "UBER/USD synthetic market"
-        },
-        {
-            "address": "0x8cb5e085bb04691c37f71bf152048c768e3c96d4",
-            "chainId": 97,
-            "decimals": 18,
-            "symbol": "V/USD",
-            "name": "V/USD synthetic market"
-        },
-        {
-            "address": "0x86b78f16c8949c57c0886a92e58bc7b505eb687a",
-            "chainId": 97,
-            "decimals": 18,
-            "symbol": "VRT/USD",
-            "name": "VRT/USD synthetic market"
-        },
-        {
-            "address": "0x7b075b34fb3be279de35c802662fac061374aba2",
-            "chainId": 97,
-            "decimals": 18,
-            "symbol": "VST/USD",
-            "name": "VST/USD synthetic market"
-        },
-        {
-            "address": "0xadf87803522db6d4d05b88bfedde49b23f0c1145",
-            "chainId": 97,
-            "decimals": 18,
-            "symbol": "WMT/USD",
-            "name": "WMT/USD synthetic market"
-        },
-        {
-            "address": "0x4814b43419028cf8c1d9e1a376b59ea7e5ab5dfe",
-            "chainId": 97,
-            "decimals": 18,
-            "symbol": "DRAM/USD",
-            "name": "DRAM/USD synthetic market"
-        },
-        {
-            "address": "0x59edd8801a93f4b4460a8ccee19aae43c8df92d7",
-            "chainId": 97,
-            "decimals": 18,
-            "symbol": "LITE/USD",
-            "name": "LITE/USD synthetic market"
-        },
-        {
             "address": "0xa05e279103b2d59c628cdf6c11e30739746e23b6",
             "chainId": 97,
             "decimals": 18,
             "symbol": "ASTS/USD",
             "name": "ASTS/USD synthetic market"
-        },
-        {
-            "address": "0xf3b15ac7ac69be69bc4028fd6a781a20adac65c7",
-            "chainId": 97,
-            "decimals": 18,
-            "symbol": "EWT/USD",
-            "name": "EWT/USD synthetic market"
-        },
-        {
-            "address": "0xb924852428cbbdbd9564b51454a04d20ad2a3314",
-            "chainId": 97,
-            "decimals": 18,
-            "symbol": "FLNC/USD",
-            "name": "FLNC/USD synthetic market"
-        },
-        {
-            "address": "0x9ab30fee4f94e64475add209109afe0e3a368fb0",
-            "chainId": 97,
-            "decimals": 18,
-            "symbol": "NOK/USD",
-            "name": "NOK/USD synthetic market"
-        },
-        {
-            "address": "0xcb8118e9f70c56168cc4b3e345259e18918371e4",
-            "chainId": 97,
-            "decimals": 18,
-            "symbol": "ONDS/USD",
-            "name": "ONDS/USD synthetic market"
-        },
-        {
-            "address": "0xa52e6b619d370c45c11015c0168153971de02627",
-            "chainId": 97,
-            "decimals": 18,
-            "symbol": "PAYP/USD",
-            "name": "PAYP/USD synthetic market"
-        },
-        {
-            "address": "0x41f7b27c0e9f43297745569d98f958e786d08e6c",
-            "chainId": 97,
-            "decimals": 18,
-            "symbol": "URA/USD",
-            "name": "URA/USD synthetic market"
-        },
-        {
-            "address": "0x0100ea7ddac82929560de083eef245bdcabefb94",
-            "chainId": 97,
-            "decimals": 18,
-            "symbol": "URNM/USD",
-            "name": "URNM/USD synthetic market"
         },
         {
             "address": "0xb925add974ff578c86ab1077777d381690469d24",
@@ -1280,53 +419,11 @@
             "name": "AERO/USD synthetic market"
         },
         {
-            "address": "0x9d9490cba18ddd90288522a5751c0acd543bcd61",
-            "chainId": 97,
-            "decimals": 18,
-            "symbol": "BILL/USD",
-            "name": "BILL/USD synthetic market"
-        },
-        {
-            "address": "0x8bf6060eebfb4a2f6e05bf6f606cfaccff8de644",
-            "chainId": 97,
-            "decimals": 18,
-            "symbol": "CLANKER/USD",
-            "name": "CLANKER/USD synthetic market"
-        },
-        {
-            "address": "0xb1e8c15baf35ae79142a50db65ac8d3a35dd1a74",
-            "chainId": 97,
-            "decimals": 18,
-            "symbol": "DEGEN/USD",
-            "name": "DEGEN/USD synthetic market"
-        },
-        {
             "address": "0x933c831265efbc5b58d445647f758bd8d802d949",
             "chainId": 97,
             "decimals": 18,
             "symbol": "DRIFT/USD",
             "name": "DRIFT/USD synthetic market"
-        },
-        {
-            "address": "0x1cf88de92d7e8be9ba60e265f825f7632eecabab",
-            "chainId": 97,
-            "decimals": 18,
-            "symbol": "EDGE/USD",
-            "name": "EDGE/USD synthetic market"
-        },
-        {
-            "address": "0x2e101a20f58f874732d44d73d3c697e3fa1fe242",
-            "chainId": 97,
-            "decimals": 18,
-            "symbol": "ELIZAOS/USD",
-            "name": "ELIZAOS/USD synthetic market"
-        },
-        {
-            "address": "0xf2c334fa7cdb7087354ff20c1a8592bd6cbfef00",
-            "chainId": 97,
-            "decimals": 18,
-            "symbol": "GOAT/USD",
-            "name": "GOAT/USD synthetic market"
         },
         {
             "address": "0xc8aaac280edf0ba18d26a2386d50fc934c045b0b",
@@ -1336,39 +433,11 @@
             "name": "GRASS/USD synthetic market"
         },
         {
-            "address": "0x6912e5c4830f642bf258bcde6e7448954e6439d6",
-            "chainId": 97,
-            "decimals": 18,
-            "symbol": "INX/USD",
-            "name": "INX/USD synthetic market"
-        },
-        {
             "address": "0xb09bc8fa8de878936173212b3d7881aa5fbfd048",
             "chainId": 97,
             "decimals": 18,
             "symbol": "IP/USD",
             "name": "IP/USD synthetic market"
-        },
-        {
-            "address": "0xfe3dd7edccd803a06a0b5087bcc6ce406402f8dd",
-            "chainId": 97,
-            "decimals": 18,
-            "symbol": "MEW/USD",
-            "name": "MEW/USD synthetic market"
-        },
-        {
-            "address": "0x94b3746c5545b8c3ad8d9de164da79290c382e8e",
-            "chainId": 97,
-            "decimals": 18,
-            "symbol": "MOG/USD",
-            "name": "MOG/USD synthetic market"
-        },
-        {
-            "address": "0xbbf1e03a65d65aeb2bfdbc0614f38bcddbd11024",
-            "chainId": 97,
-            "decimals": 18,
-            "symbol": "PIPPIN/USD",
-            "name": "PIPPIN/USD synthetic market"
         },
         {
             "address": "0x5b913688886db19e01fc866c6b9fbced416bd4ed",
@@ -1378,53 +447,11 @@
             "name": "POPCAT/USD synthetic market"
         },
         {
-            "address": "0x37fdfd6f63d1de5056b1b42f7a145d2d6853d297",
-            "chainId": 97,
-            "decimals": 18,
-            "symbol": "PRL/USD",
-            "name": "PRL/USD synthetic market"
-        },
-        {
-            "address": "0xb44637975b8c7ed1b6ae808734097607525b947e",
-            "chainId": 97,
-            "decimals": 18,
-            "symbol": "RIVER/USD",
-            "name": "RIVER/USD synthetic market"
-        },
-        {
             "address": "0xff70661b9f0e210d6521aa84547804c5e23ecef3",
             "chainId": 97,
             "decimals": 18,
             "symbol": "SAFE/USD",
             "name": "SAFE/USD synthetic market"
-        },
-        {
-            "address": "0x714175c77b94fe74aad858e66c28ac23e02bbd4b",
-            "chainId": 97,
-            "decimals": 18,
-            "symbol": "SIREN/USD",
-            "name": "SIREN/USD synthetic market"
-        },
-        {
-            "address": "0x46391c6bbc81160593f7b95c1e20a135dc639553",
-            "chainId": 97,
-            "decimals": 18,
-            "symbol": "SKR/USD",
-            "name": "SKR/USD synthetic market"
-        },
-        {
-            "address": "0x16713c529b40957b1a8f03c56fe9f13282de362c",
-            "chainId": 97,
-            "decimals": 18,
-            "symbol": "TOSHI/USD",
-            "name": "TOSHI/USD synthetic market"
-        },
-        {
-            "address": "0xba07f301cccae0ef303cb7ed9af739755e681e3f",
-            "chainId": 97,
-            "decimals": 18,
-            "symbol": "VVV/USD",
-            "name": "VVV/USD synthetic market"
         },
         {
             "address": "0x3d98106f0911930a606ce5294f6a90f40964d989",
@@ -1434,25 +461,11 @@
             "name": "ZETA/USD synthetic market"
         },
         {
-            "address": "0x64c4136f8a34331e36c0e51439f8e45ba7dfcd82",
-            "chainId": 97,
-            "decimals": 18,
-            "symbol": "ZEUS/USD",
-            "name": "ZEUS/USD synthetic market"
-        },
-        {
             "address": "0xdf1f95fb50a02d8e045461a282e68d4b1b966d25",
             "chainId": 97,
             "decimals": 18,
             "symbol": "ZORA/USD",
             "name": "ZORA/USD synthetic market"
-        },
-        {
-            "address": "0x430a2d7ffc88060a927f45e31b8b569855a1de6e",
-            "chainId": 97,
-            "decimals": 18,
-            "symbol": "SPCX/USD",
-            "name": "SPCX/USD synthetic market"
         }
     ]
 }

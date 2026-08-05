@@ -14,6 +14,20 @@ The downstream files (kline/kline.<env>.json and all.<env>.json) are NOT written
 they are regenerated from aggr by the existing scripts/generate_kline.py and
 scripts/generate_all.py, which sop.py invokes after these fills succeed.
 
+Two modes are supported:
+
+  fill  (add-only)  `fill_pyth` / `fill_cex` / `fill_aggr`
+        Append symbols from the CSV that are not present yet. Existing records are
+        never touched. This is the historical behaviour.
+
+  sync  (overwrite)  `sync_pyth` / `sync_cex` / `sync_aggr`
+        Treat the CSV as the authoritative market list: add what is missing, drop
+        what is no longer requested, and bring the CSV-governed fields of existing
+        records up to date. An existing record ALWAYS keeps its `kp` (and its
+        already-derived `bsc_token_addr`) so partitioning and on-chain addresses
+        stay stable. Protected infra symbols are never dropped (see
+        SYNC_PROTECTED_SYMBOLS).
+
 Design notes (intentionally a fresh implementation, not an import of scripts/*):
   - feed_id is looked up from the Pyth Pro API by pyth_lazer_id (hermes_id, hex).
   - kp is assigned ONCE per symbol and written identically to pyth/cex/aggr, so a
@@ -71,6 +85,12 @@ MAX_KP = 6
 # aggr per-symbol defaults for a freshly added market (mirrors the existing records).
 AGGR_DEFAULT_PRECISION = 18
 AGGR_DEFAULT_ORACLE_TYPE = "one-percent-per-minute"
+
+# Symbols sync mode never removes, even when the request CSV omits them. These are
+# infrastructure/reference feeds rather than tradable markets: the kp=0 specials
+# (WETH/USD, CRV/USD) and the stablecoin references. The first two are also the
+# reserved kp=0 partition, and all four are blacklisted in scripts/generate_kline.py.
+SYNC_PROTECTED_SYMBOLS = frozenset({"WETH/USD", "CRV/USD", "USDT/USD", "USDC/USD"})
 
 
 # --------------------------------------------------------------------------- #
@@ -307,6 +327,211 @@ def fill_aggr(
         )
         existing.add(row.symbol)
         res.added.append(row.symbol)
+    return res
+
+
+# --------------------------------------------------------------------------- #
+# Config sync / overwrite (in-place on the loaded dict)
+#
+# Sync treats the request CSV as the authoritative market list for an env:
+#   - symbols in the CSV but not in the config  -> added
+#   - symbols in the config but not in the CSV  -> removed (except SYNC_PROTECTED_SYMBOLS)
+#   - symbols in both                           -> CSV-governed fields updated in place
+#
+# What sync NEVER changes on an existing record:
+#   kp                     partition key — rewriting it would move a live market
+#   bsc_token_addr         already-derived (or hand-set) synthetic address
+#   bsc_precision, bsc_token_addr_env_map, bsc_token_oracle_type, need_sign
+#   cex `enabled`          operational toggle, not present in the CSV
+#
+# Existing records keep their position in the file so the diff stays small; new
+# symbols are appended in CSV order.
+# --------------------------------------------------------------------------- #
+@dataclass
+class SyncResult:
+    file: str
+    added: list[str] = field(default_factory=list)
+    removed: list[str] = field(default_factory=list)
+    # symbol -> {field: (old, new)} for records whose CSV-governed fields changed
+    updated: dict[str, dict[str, tuple]] = field(default_factory=dict)
+    unchanged: list[str] = field(default_factory=list)
+    # symbols kept despite being absent from the CSV (SYNC_PROTECTED_SYMBOLS)
+    protected: list[str] = field(default_factory=list)
+    # symbols written with a null feed_id (lazer_id had no hermes feed) — pyth/aggr only
+    missing_feed: list[str] = field(default_factory=list)
+
+    @property
+    def changed(self) -> bool:
+        return bool(self.added or self.removed or self.updated)
+
+
+def _partition_existing(symbols: list[dict], wanted: set[str], protected: frozenset[str]):
+    """Split existing records into (kept, removed_symbols, protected_symbols).
+
+    `kept` preserves file order and holds the same dict objects, so callers can
+    mutate them in place. Records with no/blank symbol are kept untouched.
+    """
+    kept: list[dict] = []
+    removed: list[str] = []
+    kept_protected: list[str] = []
+    for rec in symbols:
+        sym = rec.get("symbol")
+        if not sym:
+            kept.append(rec)
+            continue
+        if sym in wanted:
+            kept.append(rec)
+        elif sym in protected:
+            kept.append(rec)
+            kept_protected.append(sym)
+        else:
+            removed.append(sym)
+    return kept, removed, kept_protected
+
+
+def _apply_updates(rec: dict, desired: dict, res: SyncResult, symbol: str) -> None:
+    """Set CSV-governed fields on an existing record, recording what changed."""
+    diff: dict[str, tuple] = {}
+    for key, new in desired.items():
+        old = rec.get(key)
+        if old != new:
+            diff[key] = (old, new)
+            rec[key] = new
+    if diff:
+        res.updated[symbol] = diff
+    else:
+        res.unchanged.append(symbol)
+
+
+def sync_pyth(pyth_cfg: dict, rows: list[MarketRow], lazer_to_feed: dict, kp_alloc: KpAllocator) -> SyncResult:
+    """Make oracle/pyth.<env>.json match the CSV. Existing records keep their kp."""
+    symbols = pyth_cfg.setdefault("symbols", [])
+    wanted = {row.symbol for row in rows}
+    res = SyncResult(file="pyth")
+
+    kept, res.removed, res.protected = _partition_existing(symbols, wanted, SYNC_PROTECTED_SYMBOLS)
+    by_symbol = {rec["symbol"]: rec for rec in kept if rec.get("symbol")}
+
+    for row in rows:
+        feed_id = lazer_to_feed.get(row.pyth_lazer_id)
+        if feed_id is None:
+            res.missing_feed.append(row.symbol)
+        rec = by_symbol.get(row.symbol)
+        if rec is None:
+            kept.append(
+                {
+                    "symbol": row.symbol,
+                    "feed_id": feed_id,
+                    "kp": kp_alloc.kp_for(row.symbol),
+                    "pyth_lazer_id": row.pyth_lazer_id,
+                }
+            )
+            res.added.append(row.symbol)
+            continue
+        # kp is deliberately absent from the desired dict — never rewritten.
+        _apply_updates(rec, {"feed_id": feed_id, "pyth_lazer_id": row.pyth_lazer_id}, res, row.symbol)
+
+    pyth_cfg["symbols"] = kept
+    return res
+
+
+def sync_cex(cex_cfg: dict, rows: list[MarketRow], kp_alloc: KpAllocator) -> SyncResult:
+    """Make oracle/cex.<env>.json match the CSV's rows that carry a binance_symbol.
+
+    A row that lost its binance_symbol (now pyth-only) has its cex record removed.
+    The `enabled` flag on an existing record is left alone — it is an operational
+    toggle the CSV has no column for.
+    """
+    symbols = cex_cfg.setdefault("symbols", [])
+    wanted = {row.symbol for row in rows if row.has_cex}
+    res = SyncResult(file="cex")
+
+    kept, res.removed, res.protected = _partition_existing(symbols, wanted, SYNC_PROTECTED_SYMBOLS)
+    by_symbol = {rec["symbol"]: rec for rec in kept if rec.get("symbol")}
+
+    for row in rows:
+        if not row.has_cex:
+            continue
+        rec = by_symbol.get(row.symbol)
+        if rec is None:
+            kept.append(
+                {
+                    "symbol": row.symbol,
+                    "binance": {"symbol": row.binance_symbol, "enabled": True},
+                    "kp": kp_alloc.kp_for(row.symbol),
+                }
+            )
+            res.added.append(row.symbol)
+            continue
+        binance = rec.setdefault("binance", {})
+        old_pair = binance.get("symbol")
+        if old_pair != row.binance_symbol:
+            binance["symbol"] = row.binance_symbol
+            binance.setdefault("enabled", True)
+            res.updated[row.symbol] = {"binance.symbol": (old_pair, row.binance_symbol)}
+        else:
+            res.unchanged.append(row.symbol)
+
+    cex_cfg["symbols"] = kept
+    return res
+
+
+def sync_aggr(
+    aggr_cfg: dict,
+    rows: list[MarketRow],
+    lazer_to_feed: dict,
+    kp_alloc: KpAllocator,
+    chain_id: int = SYNTHETIC_CHAIN_ID,
+) -> SyncResult:
+    """Make oracle/aggr.<env>.json match the CSV. `chain_id` selects the synthetic chain.
+
+    Existing records keep kp, bsc_token_addr and the other non-CSV fields; only
+    feed_id, pyth_lazer_id, pyth_only and cex_symbol_map are brought up to date.
+    """
+    symbols = aggr_cfg.setdefault("symbols", [])
+    wanted = {row.symbol for row in rows}
+    res = SyncResult(file="aggr")
+
+    kept, res.removed, res.protected = _partition_existing(symbols, wanted, SYNC_PROTECTED_SYMBOLS)
+    by_symbol = {rec["symbol"]: rec for rec in kept if rec.get("symbol")}
+
+    for row in rows:
+        feed_id = lazer_to_feed.get(row.pyth_lazer_id)
+        if feed_id is None:
+            res.missing_feed.append(row.symbol)
+        cex_symbol_map = {"binance": row.symbol} if row.has_cex else {}
+        rec = by_symbol.get(row.symbol)
+        if rec is None:
+            kept.append(
+                {
+                    "symbol": row.symbol,
+                    "kp": kp_alloc.kp_for(row.symbol),
+                    "bsc_precision": AGGR_DEFAULT_PRECISION,
+                    "bsc_token_addr": derive_synthetic_addr(row.symbol, chain_id),
+                    "bsc_token_addr_env_map": {},
+                    "bsc_token_oracle_type": AGGR_DEFAULT_ORACLE_TYPE,
+                    "pyth_only": not row.has_cex,
+                    "feed_id": feed_id,
+                    "cex_symbol_map": cex_symbol_map,
+                    "need_sign": True,
+                    "pyth_lazer_id": row.pyth_lazer_id,
+                }
+            )
+            res.added.append(row.symbol)
+            continue
+        _apply_updates(
+            rec,
+            {
+                "pyth_only": not row.has_cex,
+                "feed_id": feed_id,
+                "cex_symbol_map": cex_symbol_map,
+                "pyth_lazer_id": row.pyth_lazer_id,
+            },
+            res,
+            row.symbol,
+        )
+
+    aggr_cfg["symbols"] = kept
     return res
 
 

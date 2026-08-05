@@ -81,52 +81,12 @@
             "kp": 5
         },
         {
-            "symbol": "BILL/USD",
-            "binance": {
-                "symbol": "BILLUSDT",
-                "enabled": true
-            },
-            "kp": 6
-        },
-        {
-            "symbol": "CLANKER/USD",
-            "binance": {
-                "symbol": "CLANKERUSDT",
-                "enabled": true
-            },
-            "kp": 1
-        },
-        {
-            "symbol": "DEGEN/USD",
-            "binance": {
-                "symbol": "DEGENUSDT",
-                "enabled": true
-            },
-            "kp": 2
-        },
-        {
             "symbol": "DRIFT/USD",
             "binance": {
                 "symbol": "DRIFTUSDT",
                 "enabled": true
             },
             "kp": 3
-        },
-        {
-            "symbol": "EDGE/USD",
-            "binance": {
-                "symbol": "EDGEUSDT",
-                "enabled": true
-            },
-            "kp": 4
-        },
-        {
-            "symbol": "GOAT/USD",
-            "binance": {
-                "symbol": "GOATUSDT",
-                "enabled": true
-            },
-            "kp": 6
         },
         {
             "symbol": "GRASS/USD",
@@ -137,36 +97,12 @@
             "kp": 1
         },
         {
-            "symbol": "INX/USD",
-            "binance": {
-                "symbol": "INXUSDT",
-                "enabled": true
-            },
-            "kp": 2
-        },
-        {
             "symbol": "IP/USD",
             "binance": {
                 "symbol": "IPUSDT",
                 "enabled": true
             },
             "kp": 3
-        },
-        {
-            "symbol": "MEW/USD",
-            "binance": {
-                "symbol": "MEWUSDT",
-                "enabled": true
-            },
-            "kp": 4
-        },
-        {
-            "symbol": "PIPPIN/USD",
-            "binance": {
-                "symbol": "PIPPINUSDT",
-                "enabled": true
-            },
-            "kp": 6
         },
         {
             "symbol": "POPCAT/USD",
@@ -177,60 +113,12 @@
             "kp": 1
         },
         {
-            "symbol": "PRL/USD",
-            "binance": {
-                "symbol": "PRLUSDT",
-                "enabled": true
-            },
-            "kp": 2
-        },
-        {
-            "symbol": "RIVER/USD",
-            "binance": {
-                "symbol": "RIVERUSDT",
-                "enabled": true
-            },
-            "kp": 3
-        },
-        {
             "symbol": "SAFE/USD",
             "binance": {
                 "symbol": "SAFEUSDT",
                 "enabled": true
             },
             "kp": 4
-        },
-        {
-            "symbol": "SIREN/USD",
-            "binance": {
-                "symbol": "SIRENUSDT",
-                "enabled": true
-            },
-            "kp": 5
-        },
-        {
-            "symbol": "SKR/USD",
-            "binance": {
-                "symbol": "SKRUSDT",
-                "enabled": true
-            },
-            "kp": 6
-        },
-        {
-            "symbol": "TOSHI/USD",
-            "binance": {
-                "symbol": "TOSHIUSDT",
-                "enabled": true
-            },
-            "kp": 1
-        },
-        {
-            "symbol": "VVV/USD",
-            "binance": {
-                "symbol": "VVVUSDT",
-                "enabled": true
-            },
-            "kp": 2
         },
         {
             "symbol": "ZETA/USD",
@@ -249,12 +137,20 @@
             "kp": 5
         },
         {
-            "symbol": "SPCX/USD",
+            "symbol": "XAU/USD",
             "binance": {
-                "symbol": "SPCXUSDT",
+                "symbol": "XAUUSDT",
                 "enabled": true
             },
-            "kp": 6
+            "kp": 2
+        },
+        {
+            "symbol": "XAG/USD",
+            "binance": {
+                "symbol": "XAGUSDT",
+                "enabled": true
+            },
+            "kp": 3
         }
     ]
 }
