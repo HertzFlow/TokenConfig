@@ -1,12 +1,16 @@
 {
     "name": "HertzFlow",
-    "timestamp": "2026-08-04T07:30:43.114996+00:00",
+    "timestamp": "2026-08-07T11:54:18.987973+00:00",
     "version": {
         "major": 1,
-        "minor": 1,
+        "minor": 2,
         "patch": 0
     },
-    "keywords": ["HertzFlow", "default", "list"],
+    "keywords": [
+        "HertzFlow",
+        "default",
+        "list"
+    ],
     "tokens": [
         {
             "address": "0x8d0D000Ee44948FC98c9B98A4FA4921476f08B0d",
@@ -49,6 +53,13 @@
             "decimals": 18,
             "symbol": "DOGE/USD",
             "name": "DOGE/USD synthetic market"
+        },
+        {
+            "address": "0x049f148a11e00f8553de6728b6ee0b2cecbd5a8b",
+            "chainId": 56,
+            "decimals": 18,
+            "symbol": "U/USD",
+            "name": "U/USD synthetic market"
         }
     ]
 }

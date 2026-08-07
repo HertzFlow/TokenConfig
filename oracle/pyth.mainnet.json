@@ -35,6 +35,12 @@
             "feed_id": "dcef50dd0a4cd2dcc17e45df1676dcb336a11a61c69df7a0299b0150c672d25c",
             "kp": 6,
             "pyth_lazer_id": 13
+        },
+        {
+            "symbol": "U/USD",
+            "feed_id": "cb747cff3392f0bae4be594e8ec2466f723af1da7c81c61090b08d603f6c80e5",
+            "kp": 1,
+            "pyth_lazer_id": 3410
         }
     ]
 }

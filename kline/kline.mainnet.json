@@ -15,6 +15,10 @@
         {
             "symbol": "DOGE/USD",
             "kp": 0
+        },
+        {
+            "symbol": "U/USD",
+            "kp": 0
         }
     ]
 }

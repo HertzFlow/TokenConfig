@@ -1,22 +1,6 @@
 {
     "symbols": [
         {
-            "symbol": "USD1/USD",
-            "binance": {
-                "symbol": "USD1USDT",
-                "enabled": true
-            },
-            "kp": 1
-        },
-        {
-            "symbol": "USDT/USD",
-            "binance": {
-                "symbol": "USDTUSDT",
-                "enabled": true
-            },
-            "kp": 2
-        },
-        {
             "symbol": "BTC/USD",
             "binance": {
                 "symbol": "BTCUSDT",
