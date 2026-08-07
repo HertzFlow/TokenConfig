@@ -41,6 +41,36 @@
             "feed_id": "cb747cff3392f0bae4be594e8ec2466f723af1da7c81c61090b08d603f6c80e5",
             "kp": 1,
             "pyth_lazer_id": 3410
+        },
+        {
+            "symbol": "SOL/USD",
+            "feed_id": "ef0d8b6fda2ceba41da15d4095d1da392a0d2f8ed0c6c7bc0f4cfac8c280b56d",
+            "kp": 2,
+            "pyth_lazer_id": 6
+        },
+        {
+            "symbol": "XAU/USD",
+            "feed_id": "765d2ba906dbc32ca17cc11f5310a89e9ee1f6420508c63861f2f8ba4ee34bb2",
+            "kp": 3,
+            "pyth_lazer_id": 346
+        },
+        {
+            "symbol": "XAG/USD",
+            "feed_id": "f2fb02c32b055c805e7238d628e5e9dadef274376114eb1f012337cabe93871e",
+            "kp": 4,
+            "pyth_lazer_id": 345
+        },
+        {
+            "symbol": "USOILSPOT/USD",
+            "feed_id": "925ca92ff005ae943c158e3563f59698ce7e75c5a8c8dd43303a0a154887b3e6",
+            "kp": 5,
+            "pyth_lazer_id": 657
+        },
+        {
+            "symbol": "SPY/USD",
+            "feed_id": "19e09bb805456ada3979a7d1cbb4b6d63babc3a0f8e8a9509f68afa5c4c11cd5",
+            "kp": 6,
+            "pyth_lazer_id": 1398
         }
     ]
 }

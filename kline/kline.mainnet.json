@@ -19,6 +19,26 @@
         {
             "symbol": "U/USD",
             "kp": 0
+        },
+        {
+            "symbol": "SOL/USD",
+            "kp": 0
+        },
+        {
+            "symbol": "XAU/USD",
+            "kp": 1
+        },
+        {
+            "symbol": "XAG/USD",
+            "kp": 2
+        },
+        {
+            "symbol": "USOILSPOT/USD",
+            "kp": 0
+        },
+        {
+            "symbol": "SPY/USD",
+            "kp": 1
         }
     ]
 }

@@ -1,2 +1,6 @@
 # index,asset_type,symbol,pyth_lazer_id,binance_symbol
-1,Crypto,U/USD,3410,
+1,Crypto,SOL/USD,6,SOLUSDT
+2,Mental,XAU/USD,346,XAUUSDT
+3,Mental,XAG/USD,345,XAGUSDT
+4,Commodity,USOILSPOT/USD,657,CLUSDT
+5,Equity,SPY/USD,1398,SPYUSDT

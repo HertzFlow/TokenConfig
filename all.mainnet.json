@@ -1,9 +1,9 @@
 {
     "name": "HertzFlow",
-    "timestamp": "2026-08-07T11:54:18.987973+00:00",
+    "timestamp": "2026-08-07T13:48:16.167992+00:00",
     "version": {
         "major": 1,
-        "minor": 2,
+        "minor": 3,
         "patch": 0
     },
     "keywords": [
@@ -60,6 +60,41 @@
             "decimals": 18,
             "symbol": "U/USD",
             "name": "U/USD synthetic market"
+        },
+        {
+            "address": "0x6624f9f3e7f81b2f96d47087dac9a6d7d5e914bc",
+            "chainId": 56,
+            "decimals": 18,
+            "symbol": "SOL/USD",
+            "name": "SOL/USD synthetic market"
+        },
+        {
+            "address": "0x3ae39d7d9b52b6c424558d566bc2b213b6991164",
+            "chainId": 56,
+            "decimals": 18,
+            "symbol": "XAU/USD",
+            "name": "XAU/USD synthetic market"
+        },
+        {
+            "address": "0x5106648902b136ebdf98d66d518522eca335cb9e",
+            "chainId": 56,
+            "decimals": 18,
+            "symbol": "XAG/USD",
+            "name": "XAG/USD synthetic market"
+        },
+        {
+            "address": "0x67c640d3f50442e9caff3b3a2d91a46f1b16d8d7",
+            "chainId": 56,
+            "decimals": 18,
+            "symbol": "USOILSPOT/USD",
+            "name": "USOILSPOT/USD synthetic market"
+        },
+        {
+            "address": "0xc2bfa44759dc22cd72d5eb37e29d05a9d3d26f39",
+            "chainId": 56,
+            "decimals": 18,
+            "symbol": "SPY/USD",
+            "name": "SPY/USD synthetic market"
         }
     ]
 }

@@ -31,6 +31,46 @@
                 "enabled": true
             },
             "kp": 6
+        },
+        {
+            "symbol": "SOL/USD",
+            "binance": {
+                "symbol": "SOLUSDT",
+                "enabled": true
+            },
+            "kp": 2
+        },
+        {
+            "symbol": "XAU/USD",
+            "binance": {
+                "symbol": "XAUUSDT",
+                "enabled": true
+            },
+            "kp": 3
+        },
+        {
+            "symbol": "XAG/USD",
+            "binance": {
+                "symbol": "XAGUSDT",
+                "enabled": true
+            },
+            "kp": 4
+        },
+        {
+            "symbol": "USOILSPOT/USD",
+            "binance": {
+                "symbol": "CLUSDT",
+                "enabled": true
+            },
+            "kp": 5
+        },
+        {
+            "symbol": "SPY/USD",
+            "binance": {
+                "symbol": "SPYUSDT",
+                "enabled": true
+            },
+            "kp": 6
         }
     ]
 }

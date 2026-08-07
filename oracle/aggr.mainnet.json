@@ -98,6 +98,81 @@
             "cex_symbol_map": {},
             "need_sign": true,
             "pyth_lazer_id": 3410
+        },
+        {
+            "symbol": "SOL/USD",
+            "kp": 2,
+            "bsc_precision": 18,
+            "bsc_token_addr": "0x6624f9f3e7f81b2f96d47087dac9a6d7d5e914bc",
+            "bsc_token_addr_env_map": {},
+            "bsc_token_oracle_type": "one-percent-per-minute",
+            "pyth_only": false,
+            "feed_id": "ef0d8b6fda2ceba41da15d4095d1da392a0d2f8ed0c6c7bc0f4cfac8c280b56d",
+            "cex_symbol_map": {
+                "binance": "SOL/USD"
+            },
+            "need_sign": true,
+            "pyth_lazer_id": 6
+        },
+        {
+            "symbol": "XAU/USD",
+            "kp": 3,
+            "bsc_precision": 18,
+            "bsc_token_addr": "0x3ae39d7d9b52b6c424558d566bc2b213b6991164",
+            "bsc_token_addr_env_map": {},
+            "bsc_token_oracle_type": "one-percent-per-minute",
+            "pyth_only": false,
+            "feed_id": "765d2ba906dbc32ca17cc11f5310a89e9ee1f6420508c63861f2f8ba4ee34bb2",
+            "cex_symbol_map": {
+                "binance": "XAU/USD"
+            },
+            "need_sign": true,
+            "pyth_lazer_id": 346
+        },
+        {
+            "symbol": "XAG/USD",
+            "kp": 4,
+            "bsc_precision": 18,
+            "bsc_token_addr": "0x5106648902b136ebdf98d66d518522eca335cb9e",
+            "bsc_token_addr_env_map": {},
+            "bsc_token_oracle_type": "one-percent-per-minute",
+            "pyth_only": false,
+            "feed_id": "f2fb02c32b055c805e7238d628e5e9dadef274376114eb1f012337cabe93871e",
+            "cex_symbol_map": {
+                "binance": "XAG/USD"
+            },
+            "need_sign": true,
+            "pyth_lazer_id": 345
+        },
+        {
+            "symbol": "USOILSPOT/USD",
+            "kp": 5,
+            "bsc_precision": 18,
+            "bsc_token_addr": "0x67c640d3f50442e9caff3b3a2d91a46f1b16d8d7",
+            "bsc_token_addr_env_map": {},
+            "bsc_token_oracle_type": "one-percent-per-minute",
+            "pyth_only": false,
+            "feed_id": "925ca92ff005ae943c158e3563f59698ce7e75c5a8c8dd43303a0a154887b3e6",
+            "cex_symbol_map": {
+                "binance": "USOILSPOT/USD"
+            },
+            "need_sign": true,
+            "pyth_lazer_id": 657
+        },
+        {
+            "symbol": "SPY/USD",
+            "kp": 6,
+            "bsc_precision": 18,
+            "bsc_token_addr": "0xc2bfa44759dc22cd72d5eb37e29d05a9d3d26f39",
+            "bsc_token_addr_env_map": {},
+            "bsc_token_oracle_type": "one-percent-per-minute",
+            "pyth_only": false,
+            "feed_id": "19e09bb805456ada3979a7d1cbb4b6d63babc3a0f8e8a9509f68afa5c4c11cd5",
+            "cex_symbol_map": {
+                "binance": "SPY/USD"
+            },
+            "need_sign": true,
+            "pyth_lazer_id": 1398
         }
     ]
 }
