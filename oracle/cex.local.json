@@ -1,20 +1,76 @@
 {
     "symbols": [
         {
+            "symbol": "BTC/USD",
+            "binance": {
+                "symbol": "BTCUSDT",
+                "enabled": true
+            },
+            "kp": 3
+        },
+        {
             "symbol": "ETH/USD",
             "binance": {
                 "symbol": "ETHUSDT",
                 "enabled": true
             },
-            "kp": 1
+            "kp": 4
         },
         {
-            "symbol": "USDC/USD",
+            "symbol": "BNB/USD",
             "binance": {
-                "symbol": "USDCUSDT",
+                "symbol": "BNBUSDT",
+                "enabled": true
+            },
+            "kp": 5
+        },
+        {
+            "symbol": "DOGE/USD",
+            "binance": {
+                "symbol": "DOGEUSDT",
+                "enabled": true
+            },
+            "kp": 6
+        },
+        {
+            "symbol": "SOL/USD",
+            "binance": {
+                "symbol": "SOLUSDT",
                 "enabled": true
             },
             "kp": 2
+        },
+        {
+            "symbol": "XAU/USD",
+            "binance": {
+                "symbol": "XAUUSDT",
+                "enabled": true
+            },
+            "kp": 3
+        },
+        {
+            "symbol": "XAG/USD",
+            "binance": {
+                "symbol": "XAGUSDT",
+                "enabled": true
+            },
+            "kp": 4
+        },
+        {
+            "symbol": "USOILSPOT/USD",
+            "binance": {
+                "symbol": "CLUSDT",
+                "enabled": true
+            },
+            "kp": 5
+        },
+        {
+            "symbol": "SPY/USD",
+            "binance": {
+                "symbol": "SPYUSDT",
+                "enabled": true
+            },
+            "kp": 6
         }
     ]
 }
