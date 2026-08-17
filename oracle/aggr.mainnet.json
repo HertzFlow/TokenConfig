@@ -90,7 +90,7 @@
             "symbol": "U/USD",
             "kp": 1,
             "bsc_precision": 18,
-            "bsc_token_addr": "0x049f148a11e00f8553de6728b6ee0b2cecbd5a8b",
+            "bsc_token_addr": "0xcE24439F2D9C6a2289F741120FE202248B666666",
             "bsc_token_addr_env_map": {},
             "bsc_token_oracle_type": "one-percent-per-minute",
             "pyth_only": true,
