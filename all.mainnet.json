@@ -6,11 +6,7 @@
         "minor": 3,
         "patch": 0
     },
-    "keywords": [
-        "HertzFlow",
-        "default",
-        "list"
-    ],
+    "keywords": ["HertzFlow", "default", "list"],
     "tokens": [
         {
             "address": "0x8d0D000Ee44948FC98c9B98A4FA4921476f08B0d",
@@ -55,7 +51,7 @@
             "name": "DOGE/USD synthetic market"
         },
         {
-            "address": "0x049f148a11e00f8553de6728b6ee0b2cecbd5a8b",
+            "address": "0xcE24439F2D9C6a2289F741120FE202248B666666",
             "chainId": 56,
             "decimals": 18,
             "symbol": "U/USD",
