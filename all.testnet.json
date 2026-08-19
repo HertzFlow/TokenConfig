@@ -1,9 +1,9 @@
 {
     "name": "HertzFlow",
-    "timestamp": "2026-08-05T07:11:49.517316+00:00",
+    "timestamp": "2026-08-19T10:36:11.751224+00:00",
     "version": {
         "major": 1,
-        "minor": 6,
+        "minor": 7,
         "patch": 0
     },
     "keywords": [
@@ -466,6 +466,13 @@
             "decimals": 18,
             "symbol": "ZORA/USD",
             "name": "ZORA/USD synthetic market"
+        },
+        {
+            "address": "0xae19f0aadc3b69f366915b90b2908e0a31a8f131",
+            "chainId": 97,
+            "decimals": 18,
+            "symbol": "WLFI/USD",
+            "name": "WLFI/USD synthetic market"
         }
     ]
 }

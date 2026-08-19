@@ -71,6 +71,14 @@
                 "enabled": true
             },
             "kp": 6
+        },
+        {
+            "symbol": "WLFI/USD",
+            "binance": {
+                "symbol": "WLFIUSDT",
+                "enabled": true
+            },
+            "kp": 1
         }
     ]
 }

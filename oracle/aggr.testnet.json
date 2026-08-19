@@ -882,6 +882,21 @@
             },
             "need_sign": true,
             "pyth_lazer_id": 646
+        },
+        {
+            "symbol": "WLFI/USD",
+            "kp": 6,
+            "bsc_precision": 18,
+            "bsc_token_addr": "0xae19f0aadc3b69f366915b90b2908e0a31a8f131",
+            "bsc_token_addr_env_map": {},
+            "bsc_token_oracle_type": "one-percent-per-minute",
+            "pyth_only": false,
+            "feed_id": "d41369178d64f41d51ca95465c144a2c74d2fff30be69164835911943fa64c3e",
+            "cex_symbol_map": {
+                "binance": "WLFI/USD"
+            },
+            "need_sign": true,
+            "pyth_lazer_id": 1854
         }
     ]
 }

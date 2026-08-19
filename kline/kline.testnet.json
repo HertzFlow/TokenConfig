@@ -243,6 +243,10 @@
         {
             "symbol": "ZORA/USD",
             "kp": 0
+        },
+        {
+            "symbol": "WLFI/USD",
+            "kp": 1
         }
     ]
 }

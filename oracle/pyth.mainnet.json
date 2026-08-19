@@ -71,6 +71,12 @@
             "feed_id": "19e09bb805456ada3979a7d1cbb4b6d63babc3a0f8e8a9509f68afa5c4c11cd5",
             "kp": 6,
             "pyth_lazer_id": 1398
+        },
+        {
+            "symbol": "WLFI/USD",
+            "feed_id": "d41369178d64f41d51ca95465c144a2c74d2fff30be69164835911943fa64c3e",
+            "kp": 1,
+            "pyth_lazer_id": 1854
         }
     ]
 }

@@ -1,12 +1,16 @@
 {
     "name": "HertzFlow",
-    "timestamp": "2026-08-07T13:48:16.167992+00:00",
+    "timestamp": "2026-08-19T10:36:11.825703+00:00",
     "version": {
         "major": 1,
-        "minor": 3,
+        "minor": 4,
         "patch": 0
     },
-    "keywords": ["HertzFlow", "default", "list"],
+    "keywords": [
+        "HertzFlow",
+        "default",
+        "list"
+    ],
     "tokens": [
         {
             "address": "0x8d0D000Ee44948FC98c9B98A4FA4921476f08B0d",
@@ -91,6 +95,13 @@
             "decimals": 18,
             "symbol": "SPY/USD",
             "name": "SPY/USD synthetic market"
+        },
+        {
+            "address": "0x58fabddeb3b24977e2e28133e8101c1d3810cb0d",
+            "chainId": 56,
+            "decimals": 18,
+            "symbol": "WLFI/USD",
+            "name": "WLFI/USD synthetic market"
         }
     ]
 }
