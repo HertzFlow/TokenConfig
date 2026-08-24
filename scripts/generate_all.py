@@ -57,7 +57,7 @@ def convert_aggr_to_all(
         "timestamp": current_timestamp,
         "version": {
             "major": version_major,
-            "minor": version_minor + 1,  # Increment minor version by default
+            "minor": version_minor,
             "patch": version_patch,
         },
         "keywords": ["HertzFlow", "default", "list"],
@@ -110,8 +110,10 @@ def main():
             existing_version = read_version_from_file(args.output)
             if existing_version:
                 version_major, version_minor, version_patch = existing_version
+                version_minor += 1  # Regenerating from an existing file bumps minor
                 print(
-                    f"📖 Read version from existing file: {version_major}.{version_minor}.{version_patch}"
+                    f"📖 Read version from existing file, bumping minor: "
+                    f"{version_major}.{version_minor}.{version_patch}"
                 )
             else:
                 print(
