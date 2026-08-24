@@ -16,7 +16,7 @@ See [here](https://docs.github.com/en/rest/using-the-rest-api/rate-limits-for-th
 ## Go Demo
 
 ```go
-const URL = "https://api.github.com/repos/HertzFlow/TokenConfig/contents/oracle/aggr.local.json?ref=main"
+const URL = "https://api.github.com/repos/HertzFlow/TokenConfig/contents/oracle/aggr.mainnet.json?ref=main"
 const GITHUB_ACCESS_TOKEN = "Your access token"
 
 func fetch() (*model.RemoteTokenConfig, error) {
