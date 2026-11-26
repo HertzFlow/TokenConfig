@@ -22,7 +22,7 @@
             "bsc_token_addr": "0xd92f09fb5653d9759310da40d70aa2fadb74d983",
             "bsc_token_addr_env_map": {},
             "bsc_token_oracle_type": "one-percent-per-minute",
-            "pyth_only": true,
+            "pyth_only": false,
             "feed_id": "b1073854ed24cbc755dc527418f52b7d271f6cc967bbf8d8129112b18860a593",
             "cex_symbol_map": {},
             "need_sign": true,
