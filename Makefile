@@ -1,3 +1,9 @@
+# New-market SOP: interactive TUI that fills pyth/cex/aggr from a request CSV
+# and regenerates kline/all. Bootstraps its own ./.venv on first run.
+.PHONY: sop
+sop:
+	@./sop/sop.py
+
 .PHONY: gen-kline-local gen-kline-testnet gen-kline-mainnet
 gen-kline-local:
 	@./scripts/generate_kline.py --input ./oracle/aggr.local.json --output ./kline/kline.local.json
@@ -28,9 +34,3 @@ check-pyth-config-testnet:
 
 check-pyth-config-mainnet:
 	@./scripts/check_pyth_config.py --file oracle/pyth.mainnet.json
-
-# New-market SOP: interactive TUI that fills pyth/cex/aggr from a request CSV
-# and regenerates kline/all. Bootstraps its own ./.venv on first run.
-.PHONY: sop
-sop:
-	@./sop/sop.py

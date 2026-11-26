@@ -43,6 +43,10 @@
         {
             "symbol": "WLFI/USD",
             "kp": 2
+        },
+        {
+            "symbol": "NVDA/USD",
+            "kp": 0
         }
     ]
 }
