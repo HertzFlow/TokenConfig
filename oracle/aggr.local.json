@@ -24,7 +24,9 @@
             "bsc_token_oracle_type": "one-percent-per-minute",
             "pyth_only": false,
             "feed_id": "b1073854ed24cbc755dc527418f52b7d271f6cc967bbf8d8129112b18860a593",
-            "cex_symbol_map": {},
+            "cex_symbol_map": {
+                "binance": "NVDA/USD"
+            },
             "need_sign": true,
             "pyth_lazer_id": 1314
         }
