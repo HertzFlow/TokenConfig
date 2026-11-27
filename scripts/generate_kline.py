@@ -74,13 +74,13 @@ def convert_aggr_to_kline(
 def main():
     """Main function"""
     parser = argparse.ArgumentParser(
-        description="Generate all.testnet.json from aggr.testnet.json"
+        description="Generate kline.xxx.json from aggr.xxx.json"
     )
     parser.add_argument(
         "--input", type=str, default="oracle/aggr.testnet.json", help="Input file path"
     )
     parser.add_argument(
-        "--output", type=str, default="all.testnet.json", help="Output file path"
+        "--output", type=str, default="kline/kline.testnet.json", help="Output file path"
     )
 
     args = parser.parse_args()
