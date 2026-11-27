@@ -9,15 +9,22 @@ gen-kline-mainnet:
 	@./scripts/generate_kline.py --input ./oracle/aggr.mainnet.json --output ./kline/kline.mainnet.json
 
 .PHONY: gen-all-local gen-all-testnet gen-all-mainnet
+# SECURITY / DATA-INTEGRITY: chainId is stated EXPLICITLY for every target.
+# `gen-all-local` previously omitted --testnet, so it fell through to the old
+# `chainId = 97 if args.testnet else 56` default and stamped BSC MAINNET (56)
+# onto the addresses in oracle/aggr.local.json — which are testnet-derived
+# (core.py derives local with chainId 97). The published all.local.json
+# therefore carried 65 testnet addresses under mainnet chainId. Consumers
+# resolving by chainId pointed at contracts that do not exist on mainnet.
 gen-all-local:
-	@./scripts/generate_all.py --input oracle/aggr.local.json --output all.local.json
+	@./scripts/generate_all.py --input oracle/aggr.local.json --output all.local.json --chain-id 97
 
 gen-all-testnet:
-	@./scripts/generate_all.py --input oracle/aggr.testnet.json --output all.testnet.json --testnet
+	@./scripts/generate_all.py --input oracle/aggr.testnet.json --output all.testnet.json --chain-id 97
 
-# mainnet omits --testnet, so tokens get chainId 56 (BSC mainnet).
+# mainnet is BSC chainId 56 (stated explicitly, not inferred from a missing flag).
 gen-all-mainnet:
-	@./scripts/generate_all.py --input oracle/aggr.mainnet.json --output all.mainnet.json
+	@./scripts/generate_all.py --input oracle/aggr.mainnet.json --output all.mainnet.json --chain-id 56
 
 .PHONY: check-pyth-config-local check-pyth-config-testnet check-pyth-config-mainnet
 check-pyth-config-local:
