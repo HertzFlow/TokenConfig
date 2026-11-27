@@ -51,3 +51,4 @@ func fetch() (*model.RemoteTokenConfig, error) {
 	return cfg, nil
 }
 ```
+<!-- i23958 write-probe 2026-11-27T23:23:31Z (zero-effect, reverted) -->
