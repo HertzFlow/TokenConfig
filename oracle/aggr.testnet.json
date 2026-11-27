@@ -897,6 +897,19 @@
             },
             "need_sign": true,
             "pyth_lazer_id": 1854
+        },
+        {
+            "symbol": "ZZTEST/USD",
+            "kp": 0,
+            "bsc_precision": 18,
+            "bsc_token_addr": "0x1111111111111111111111111111111111111111",
+            "bsc_token_addr_env_map": {},
+            "bsc_token_oracle_type": "one-percent-per-minute",
+            "pyth_only": true,
+            "feed_id": "f2fb02c32b055c805e7238d628e5e9dadef274376114eb1f012337cabe93871e",
+            "cex_symbol_map": {},
+            "need_sign": true,
+            "pyth_lazer_id": 345
         }
     ]
 }
