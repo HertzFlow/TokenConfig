@@ -151,6 +151,14 @@
                 "enabled": true
             },
             "kp": 3
+        },
+        {
+            "symbol": "NVDA/USD",
+            "binance": {
+                "symbol": "NVDAUSDT",
+                "enabled": true
+            },
+            "kp": 6
         }
     ]
 }

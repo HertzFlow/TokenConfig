@@ -77,6 +77,12 @@
             "feed_id": "d41369178d64f41d51ca95465c144a2c74d2fff30be69164835911943fa64c3e",
             "kp": 1,
             "pyth_lazer_id": 1854
+        },
+        {
+            "symbol": "NVDA/USD",
+            "feed_id": "b1073854ed24cbc755dc527418f52b7d271f6cc967bbf8d8129112b18860a593",
+            "kp": 2,
+            "pyth_lazer_id": 1314
         }
     ]
 }
